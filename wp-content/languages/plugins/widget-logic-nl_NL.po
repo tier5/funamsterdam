@@ -1,0 +1,115 @@
+# Translation of Stable (latest release) in Dutch
+# This file is distributed under the same license as the Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-06-23 15:11:57+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Project-Id-Version: Stable (latest release)\n"
+
+#: widget_logic.php:18
+msgid "when plugin starts (default)"
+msgstr "als de plugin start (standaard)"
+
+#: widget_logic.php:19
+msgid "after theme loads"
+msgstr "nadat het thema laadt"
+
+#: widget_logic.php:20
+msgid "when all PHP loaded"
+msgstr "als alle PHP geladen is"
+
+#: widget_logic.php:21
+msgid "during page header"
+msgstr "gedurende de pagina header"
+
+#: widget_logic.php:96
+msgid "Success! Options file imported"
+msgstr "Success. Opties-bestand geïmporteerd"
+
+#: widget_logic.php:99
+msgid "Invalid options file"
+msgstr "Incorrect opties bestand"
+
+#: widget_logic.php:104
+msgid "No options file provided"
+msgstr "Geen opties bestand geselecteerd"
+
+#: widget_logic.php:173
+msgid "Widget Logic options"
+msgstr "Widget Logic opties"
+
+#: widget_logic.php:176
+msgid "Adds a new WP filter you can use in your own code. Not needed for main Widget Logic functionality."
+msgstr "Voegt een nieuw WP filter toe die je kan gebruiken in je eigen code. Deze is niet nodig voor de standaard functies van Widget Logic."
+
+#: widget_logic.php:178
+msgid "Add 'widget_content' filter"
+msgstr "'widget_content' filter toevoegen"
+
+#: widget_logic.php:181
+msgid "Resets a theme's custom queries before your Widget Logic is checked"
+msgstr "Herstelt een de aangepaste queries van het thema voordat de widget logica gecontroleerd wordt"
+
+#: widget_logic.php:183
+msgid "Use 'wp_reset_query' fix"
+msgstr "'wp_reset_query' oplossing gebruiken"
+
+#: widget_logic.php:186
+msgid "Delays widget logic code being evaluated til various points in the WP loading process"
+msgstr "Vertraagt de code voor de widget logica tot verschillende punten in het WP laad process"
+
+#: widget_logic.php:186
+msgid "Load logic"
+msgstr "Laad logica"
+
+#: widget_logic.php:199
+msgid "Save WL options"
+msgstr "WL opties opslaan"
+
+#: widget_logic.php:203
+msgid "Save all WL options to a plain text config file"
+msgstr "WL instellingen opslaan naar een platte tekst configuratie bestand"
+
+#: widget_logic.php:203
+msgid "Export options"
+msgstr "Exporteer instellingen"
+
+#: widget_logic.php:204
+msgid "Import options"
+msgstr "Importeer instellingen"
+
+#: widget_logic.php:204
+msgid "Load all WL options from a plain text config file"
+msgstr "Laad alle WL instellingen uit een platte tekst configuratie bestand"
+
+#: widget_logic.php:205
+msgid "Select file for importing"
+msgstr "Bestand selecteren om te importeren"
+
+#: widget_logic.php:241
+msgid "Widget logic:"
+msgstr "Widget logica:"
+
+#. Plugin Name of the plugin/theme
+msgid "Widget Logic"
+msgstr "Widget Logic"
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/extend/plugins/widget-logic/"
+msgstr "http://wordpress.org/extend/plugins/widget-logic/"
+
+#. Description of the plugin/theme
+msgid "Control widgets with WP's conditional tags is_home etc"
+msgstr "Configureer widget's met WP's conditionele tags: is_home, etc"
+
+#. Author of the plugin/theme
+msgid "Alan Trewartha"
+msgstr "Alan Trewartha"
+
+#. Author URI of the plugin/theme
+msgid "http://freakytrigger.co.uk/author/alan/"
+msgstr "http://freakytrigger.co.uk/author/alan/"

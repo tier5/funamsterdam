@@ -1,0 +1,132 @@
+.single-download,
+.content-grid-download {
+    .mejs-controls .mejs-button button {
+        background-image: url(images/controls.svg);
+    }
+
+    .wp-playlist .mejs-container,
+    .mejs-container .mejs-controls {
+        background: #fff;
+    }
+
+    .wp-playlist {
+        border: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    .wp-playlist-current-item {
+        display: none;
+    }
+}
+
+@include bp(md) {
+    .page-header .wp-playlist {
+        max-width: 80%;
+    }
+}
+
+.page-header .wp-playlist-tracks {
+    border-top: 1px solid #eee;
+}
+
+.single-download .content-area,
+.single-download .page-header {
+    .wp-playlist {
+        margin: 3em auto;
+
+        &:first-of-type {
+            margin-top: 0;
+        }
+    }
+
+    .wp-playlist-tracks {
+        background: #fff;
+        margin-top: 0;
+    }
+
+
+    .mejs-container .mejs-controls {
+        border-width: 1px;
+        height: 32px;
+    }
+
+    .mejs-controls .mejs-time-rail .mejs-time-float {
+        border:  0;
+    }
+
+    .mejs-controls .mejs-time-rail .mejs-time-total, 
+    .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
+        background-color: rgba(0, 0, 0, .08);
+    }
+
+    .mejs-controls .mejs-time-rail .mejs-time-current,
+    .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+        background-color: $body;
+    }
+
+    .mejs-container .mejs-controls .mejs-time {
+        color: $body;
+    }
+
+    .mejs-controls .mejs-time-rail .mejs-time-loaded {
+        background-color: rgba(0, 0, 0, .15);
+    }
+
+    .wp-playlist-item {
+        text-align: left;
+        padding: 12px 15px;
+        border-bottom: 1px solid #eee;
+
+        &:last-child {
+            border-bottom: 0;
+        }
+    }
+
+    .wp-playlist-item-length {
+        right: 15px;
+        top: 14px;
+        font-size: 13px;
+        opacity: 0.5;
+    }
+}
+
+.single-download .content-area {
+    .wp-playlist-tracks,
+    .mejs-controls {
+        border-color: $accent;
+        border-width: 0 1px 1px;
+        border-style: solid;
+    }
+}
+
+.content-grid-download {
+    .wp-playlist,
+    .wp-playlist .mejs-container {
+        width: 25px !important;
+        height: 25px !important;
+    }
+
+    .mejs-controls,
+    .mejs-controls div {
+        width: 24px !important;
+        height: 24px !important;
+    }
+
+    .wp-playlist {
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 5px;
+        margin-top: 2px;
+    }
+
+    .wp-playlist,
+    .wp-playlist .mejs-container {
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .mejs-controls .mejs-button button {
+        margin: 4px 5px;
+    }
+}

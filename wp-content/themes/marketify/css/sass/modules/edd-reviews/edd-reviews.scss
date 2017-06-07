@@ -1,0 +1,14 @@
+.single-download .comments-area {
+    .edd_reviews_breakdown {
+        margin: 0;
+    }
+
+    .edd-reviews-total-count {
+        @extend .item-title;
+        margin-bottom: 1em;
+    }
+
+    .comment-list + .edd_reviews_breakdown {
+        display: none;
+    }
+}

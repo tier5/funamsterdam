@@ -1,0 +1,12 @@
+#edd_checkout_cart {
+    // action buttons
+    input[type=submit][name=edd_update_cart_submit].edd-submit,
+    a.edd-cart-saving-button.button {
+        @extend .button--size-small;
+        font-weight: 700;
+    }
+}
+
+#edd-purchase-button {
+    @extend .button--size-full;
+}

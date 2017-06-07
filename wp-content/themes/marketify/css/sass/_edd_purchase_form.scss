@@ -1,0 +1,67 @@
+.download-actions {
+	.edd_download_quantity_wrapper,
+	.edd_purchase_submit_wrapper {
+		display: inline-block;
+		vertical-align: top;
+	}
+
+	.edd_download_quantity_wrapper input {
+		border: 0;
+		font-size: 18px;
+		padding: 17px 17px 16px;
+		vertical-align: top;
+		width: 100px;
+	}
+}
+
+.entry-content .edd_price_options {
+
+	li {
+		overflow: hidden;
+	}
+
+	label,
+	.edd_download_quantity_wrapper {
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	.edd_download_quantity_wrapper {
+		margin-left: 5px;
+
+		input {
+			width: 50px;
+		}
+	}
+}
+
+.entry-content {
+	.edd_download_quantity_wrapper {
+		text-align: center;
+		margin: 20px;
+
+		input {
+			@extend textarea;
+			width: auto;
+			margin: 0 auto;
+			padding: 0 10px;
+		}
+	}
+
+	.edd_price_options li .edd_download_quantity_wrapper {
+		margin: 10px 0 0 30px;
+
+		.edd_price_option_sep {
+			display: none;
+		}
+
+		.edd-item-quantity {
+			margin: 0;
+			width: 50px;
+		}
+	}
+}
+
+.entry-image .edd_download_quantity_wrapper {
+	display: none;
+}

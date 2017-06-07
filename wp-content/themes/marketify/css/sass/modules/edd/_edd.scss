@@ -1,0 +1,22 @@
+
+@import "button";
+@import "input";
+@import "section-title";
+@import "form";
+@import "purchase-form";
+@import "register-form";
+@import "login-form";
+@import "price";
+@import "checkout";
+@import "pagination";
+@import "cart";
+
+.edd_download_columns_0 .edd_download,
+.edd_download_columns_1 .edd_download,
+.edd_download_columns_2 .edd_download,
+.edd_download_columns_3 .edd_download,
+.edd_download_columns_4 .edd_download,
+.edd_download_columns_5 .edd_download,
+.edd_download_columns_6 .edd_download {
+    width: 100%;
+}

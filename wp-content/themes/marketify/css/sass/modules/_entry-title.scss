@@ -1,0 +1,10 @@
+.entry-title {
+
+}
+
+.entry-title--truncated {
+    height: 22px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

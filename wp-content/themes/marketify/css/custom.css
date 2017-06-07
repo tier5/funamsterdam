@@ -1,0 +1,18 @@
+.single .download-gallery.slick-initialized.slick-slider{display:none;}
+.page-header--download{background:none!important; position:relative; z-index:1;}
+/* .single-download .header-outer::before {
+    content: "";
+    background: rgba(0,0,0,0.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+	display:block!important;
+} */
+.single-download .header-outer::before{display:none !important;}
+.custom_language_select .lang_sel_list_horizontal{border-color:transparent;text-align:right;max-width: 1170px;margin:auto;}
+.lang_sel_list_horizontal ul li a,.wpml-ls-statics-shortcode_actions .wpml-ls-current-language>a{background-color:transparent;}
+@media screen and (min-width: 992px){
+.site-header{padding: 0px 0 2em 0 !important;}
+}

@@ -1,0 +1,1490 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Gravity Forms SMS Pro v1.0.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2016-09-24 00:07:31+0000\n"
+"Last-Translator: hannanstd <rafy_inter@yahoo.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Farsi\n"
+"X-Poedit-Country: IRAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#. translators: plugin header field 'Name'
+#: gravity_sms_pro.php:0
+#@ GF_SMS
+msgid "Gravity Forms SMS Pro"
+msgstr "پیامک حرفه ای گرویتی فرم"
+
+#. translators: plugin header field 'PluginURI'
+#. translators: plugin header field 'AuthorURI'
+#: gravity_sms_pro.php:0
+#@ GF_SMS
+msgid "http://hannan.pro"
+msgstr "http://hannan.pro"
+
+#. translators: plugin header field 'Description'
+#: gravity_sms_pro.php:0
+#@ GF_SMS
+msgid "The most comprehensive SMS plugin for Gravity Forms"
+msgstr "کاملترین پلاگین پیامکی برای گرویتی فرم"
+
+#. translators: plugin header field 'Author'
+#: gravity_sms_pro.php:0
+#@ GF_SMS
+msgid "Hannansoft"
+msgstr "حنان ابراهیمی ستوده"
+
+#: includes/bulk.php:52
+#@ gravityforms
+msgid "Please select at least one entry."
+msgstr ""
+
+#: includes/feeds.php:97
+#@ GF_SMS
+msgid "Apply"
+msgstr "اعمال کردن"
+
+#: includes/bulk.php:22
+#: includes/bulk.php:30
+#: includes/bulk.php:35
+#: includes/bulk.php:36
+#: includes/bulk.php:37
+#: includes/bulk.php:38
+#@ GF_SMS
+msgid "Send SMS to selected entries"
+msgstr "ارسال پیامک به موارد انتخاب شده"
+
+#: includes/bulk.php:90
+#@ GF_SMS
+msgid "Number of recievers (repeated numbers have been removed)"
+msgstr "شماره گیرنده ها (با حذف شماره های تکراری)"
+
+#: includes/bulk.php:98
+#@ GF_SMS
+msgid "Selected entries don\\'t have phone meta."
+msgstr "موارد انتخاب شده فاقد شماره موبایل ست شده برای پیامک می باشند"
+
+#: includes/bulk.php:144
+#: includes/send.php:202
+#: includes/send.php:286
+#: includes/send.php:320
+#: includes/sidebar.php:121
+#: includes/sidebar.php:188
+#@ GF_SMS
+msgid "SMS Pro"
+msgstr "پیامک گرویتی"
+
+#: includes/bulk.php:124
+#: includes/configurations.php:40
+#@ GF_SMS
+msgid "HANNANSMS"
+msgstr "HANNANSms"
+
+#: includes/bulk.php:127
+#: includes/bulk.php:205
+#: includes/feeds.php:81
+#@ GF_SMS
+msgid "Send SMS to custom numbers"
+msgstr "ارسال پیامک به شماره دلخواه"
+
+#: includes/bulk.php:130
+#: includes/configurations.php:57
+#: includes/feeds.php:100
+#: includes/sidebar.php:297
+#@ GF_SMS
+msgid "SMS General settings"
+msgstr "تنظیمات عمومی پیامک"
+
+#: includes/bulk.php:134
+#@ GF_SMS
+msgid "Back to enteries"
+msgstr "بازگشت به صندوق ورودی"
+
+#: includes/bulk.php:166
+#@ GF_SMS
+msgid "Message sent successfully"
+msgstr "پیامک ها با موفقیت ارسال شدند"
+
+#: includes/bulk.php:173
+#, php-format
+#@ GF_SMS
+msgid "Bulk Action : SMS sent to numbers successfully. Numbers : %s | Sender Number : %s | Message Body : %s."
+msgstr "ارسال پیامک از طریق اقدامات دسته جمعی : پیامک با موفقیت به شماره ها ارسال شد. شماره ها:%s | شماره فرستنده : %s | متن پیام : %s"
+
+#: includes/bulk.php:182
+#, php-format
+#@ GF_SMS
+msgid "The sending of the message encountered an error. Reason = %s"
+msgstr "ارسال پیامک با خطا مواجه شد. دلیل خطا : %s"
+
+#: includes/bulk.php:189
+#, php-format
+#@ GF_SMS
+msgid "Bulk Action : The sending of the message encountered an error. Numbers : %s | Sender Number : %s | Reason : %s | Message Body : %s."
+msgstr "ارسال پیامک از طریق اقدامات دسته جمعی : ارسال پیامک با خطا مواجه شد. شماره ها:%s | شماره فرستنده : %s | دلیل خطا : %s | متن پیام : %s"
+
+#: includes/bulk.php:197
+#@ GF_SMS
+msgid "The sending of the message encountered an error because number is empty."
+msgstr "ارسال پیامک با خطا مواجه شد زیرا شماره گیرنده خالی است."
+
+#: includes/bulk.php:215
+#@ GF_SMS
+msgid "SMS Sender Number"
+msgstr "شماره فرستنده پیامک"
+
+#: includes/bulk.php:218
+#: includes/configurations.php:260
+#: includes/sidebar.php:254
+#@ GF_SMS
+msgid "Select Sender Number"
+msgstr "شماره فرستنده پیامک را انتخاب کنید"
+
+#: includes/bulk.php:247
+#@ GF_SMS
+msgid "Reciever numbers. separate with commas (,). +16175551212,+16175551213"
+msgstr "شماره گیرنده ها. با کاما جدا کنید. مانند : +989112345678,+98912345987"
+
+#: includes/bulk.php:254
+#: includes/sent.php:66
+#@ GF_SMS
+msgid "Message"
+msgstr "پیام"
+
+#: includes/bulk.php:261
+#: includes/sidebar.php:284
+#@ GF_SMS
+msgid "Send"
+msgstr "ارسال"
+
+#: includes/bulk.php:272
+#@ GF_SMS
+msgid "Checkup SMS General settings."
+msgstr "تنظیمات عمومی پیامک را بررسی کنید."
+
+#: includes/configurations.php:45
+#@ GF_SMS
+msgid "SMS configuration for forms"
+msgstr "پیکربندی پیامک برای فرمها"
+
+#: includes/configurations.php:49
+#, php-format
+#@ GF_SMS
+msgid "Feed ID: %s"
+msgstr "شماره فید : %s"
+
+#: includes/configurations.php:51
+#, php-format
+#@ GF_SMS
+msgid "Form Name: %s"
+msgstr "عنوان فرم : %s"
+
+#: includes/configurations.php:124
+#: includes/configurations.php:136
+#, php-format
+#@ GF_SMS
+msgid "Feed Updated. %sback to list%s"
+msgstr "فید بروز رسانی شد . %sبازگشت به لیست%s"
+
+#: includes/configurations.php:151
+#@ GF_SMS
+msgid "Select a feed"
+msgstr "یک فید انتخاب کنید"
+
+#: includes/configurations.php:157
+#@ GF_SMS
+msgid "Switch SMS feed"
+msgstr "تغییر فید پیامک"
+
+#: includes/configurations.php:161
+#, php-format
+#@ GF_SMS
+msgid "Form:%s (Feed:%s)"
+msgstr "فرم: %s  (فید: %s)"
+
+#: includes/configurations.php:208
+#: includes/configurations.php:221
+#@ GF_SMS
+msgid "General configuration"
+msgstr "پیکربندی عمومی"
+
+#: includes/configurations.php:228
+#@ GF_SMS
+msgid "Select form"
+msgstr "انتخاب فرم"
+
+#: includes/configurations.php:234
+#@ GF_SMS
+msgid "Please select a form"
+msgstr "لطفا یک فرم انتخاب کنید"
+
+#: includes/configurations.php:256
+#: includes/feeds.php:120
+#: includes/feeds.php:135
+#@ GF_SMS
+msgid "Sender Number"
+msgstr "شماره فرستنده"
+
+#: includes/configurations.php:293
+#@ GF_SMS
+msgid "Payment Gateway integration"
+msgstr "سازگاری با درگاه های پرداخت"
+
+#: includes/configurations.php:300
+#@ GF_SMS
+msgid "Check if only your form is connected to payment gateways."
+msgstr "تنها زمانی که فرم شما به یک درگاه پرداخت متصل شده است تیک بزنید."
+
+#: includes/configurations.php:306
+#@ GF_SMS
+msgid "Sending time configuration : "
+msgstr "پیکربندی زمان ارسال پیامک "
+
+#: includes/configurations.php:309
+#@ GF_SMS
+msgid "Immediately after form submission"
+msgstr "بلافاصله بعد از ثبت شدن فرم"
+
+#: includes/configurations.php:313
+#@ GF_SMS
+msgid "After Successful Payment"
+msgstr "تنها بعد از پرداخت موفق"
+
+#: includes/configurations.php:315
+#@ GF_SMS
+msgid "<strong>Note : </strong>Your Payment gateway must be standard. it is required to use \"gform_post_payment_status\" action."
+msgstr "<strong>تذکر :</strong> درگاه پرداخت شما باید استاندارد باشد و از اکشن gform_post_payment_status استفاده کرده باشد."
+
+#: includes/configurations.php:325
+#@ GF_SMS
+msgid "Change Country Code"
+msgstr "تغییر کد کشور"
+
+#: includes/configurations.php:332
+#@ GF_SMS
+msgid "Check if you want to change default country code."
+msgstr "در صورتی که مایل به تغییر کد کشور پیشفرض می باشید این گزینه را تیک فعال کنید"
+
+#: includes/configurations.php:344
+#: includes/verification.php:495
+#: includes/wp-sms-intergrate.php:341
+#@ GF_SMS
+msgid "Static"
+msgstr "استاتیک"
+
+#: includes/configurations.php:351
+#: includes/verification.php:502
+#: includes/wp-sms-intergrate.php:348
+#@ GF_SMS
+msgid "Dynamic"
+msgstr "پویا"
+
+#: includes/configurations.php:368
+#@ GF_SMS
+msgid "<strong>Note : </strong>You can change the default country code. but If entered mobile phone number was international format, this country code will be effectless."
+msgstr "<strong>Note : </strong> شما میتوانید کد کشور را از حالت پیشفرض تغییر دهید ولی در نظر داشته باشید که اگه شماره موبایل وارد شده، خود به صورت فرمت بین المللی وارد شده باشد، کد کشور بی تاثیر خواهد بود."
+
+#: includes/configurations.php:381
+#@ GF_SMS
+msgid "Admin SMS Configuration : "
+msgstr "پیکربندی پیامک مدیر : "
+
+#: includes/configurations.php:382
+#@ GF_SMS
+msgid "Leave blank for unsending."
+msgstr "برای عدم ارسال پیامک خالی رها کنید."
+
+#: includes/configurations.php:389
+#@ GF_SMS
+msgid "Admin Numbers"
+msgstr "شماره موبایل مدیران"
+
+#: includes/configurations.php:396
+#: includes/configurations.php:504
+#@ GF_SMS
+msgid "Separate with commas (,). Format with a '+' and country code e.g., +16175551212"
+msgstr "با کاما جدا کنید (,) ."
+
+#: includes/configurations.php:402
+#@ GF_SMS
+msgid "Admin Message Body"
+msgstr "متن پیامک مدیر"
+
+#: includes/configurations.php:420
+#@ GF_SMS
+msgid "Conditional Logic"
+msgstr "منطق شرطی"
+
+#: includes/configurations.php:427
+#@ GF_SMS
+msgid "Enable Condition for admin"
+msgstr "فعالسازی منطق شرطی برای مدیر"
+
+#: includes/configurations.php:435
+#@ GF_SMS
+msgid "Send SMS to Admin if :"
+msgstr "ارسال پیامک به مدیر اگر :"
+
+#: includes/configurations.php:445
+#: includes/configurations.php:554
+#@ GF_SMS
+msgid "is"
+msgstr "هست"
+
+#: includes/configurations.php:447
+#: includes/configurations.php:556
+#@ GF_SMS
+msgid "is not"
+msgstr "نیست"
+
+#: includes/configurations.php:449
+#: includes/configurations.php:558
+#@ GF_SMS
+msgid "greater than"
+msgstr "بزرگتر از"
+
+#: includes/configurations.php:451
+#: includes/configurations.php:560
+#@ GF_SMS
+msgid "less than"
+msgstr "کوچکتر از"
+
+#: includes/configurations.php:453
+#: includes/configurations.php:562
+#@ GF_SMS
+msgid "contains"
+msgstr "شامل میشود"
+
+#: includes/configurations.php:455
+#: includes/configurations.php:564
+#@ GF_SMS
+msgid "starts with"
+msgstr "شروع میشود"
+
+#: includes/configurations.php:457
+#: includes/configurations.php:566
+#@ GF_SMS
+msgid "ends with"
+msgstr "تمام میشود"
+
+#: includes/configurations.php:465
+#: includes/configurations.php:575
+#@ GF_SMS
+msgid "To create a registration condition, your form must have a field supported by conditional logic."
+msgstr "برای استفاده از منطق شرطی فرم شما باید شامل فیلدهای شرطی باشد."
+
+#: includes/configurations.php:476
+#@ GF_SMS
+msgid "User SMS Configuration :"
+msgstr "پیکربندی پیامک کاربر : "
+
+#: includes/configurations.php:477
+#@ GF_SMS
+msgid "Leave them blank for unsending."
+msgstr "برای عدم ارسال پیامک خالی رها کنید"
+
+#: includes/configurations.php:483
+#@ GF_SMS
+msgid "Phone Number Mapping"
+msgstr "فیلد شماره موبایل"
+
+#: includes/configurations.php:496
+#@ GF_SMS
+msgid "Extra Numbers"
+msgstr "شماره های اضافی"
+
+#: includes/configurations.php:510
+#@ GF_SMS
+msgid "User SMS Body"
+msgstr "متن پیامک کاربر"
+
+#: includes/configurations.php:529
+#@ GF_SMS
+msgid "Condition Logic"
+msgstr "منطق شرطی"
+
+#: includes/configurations.php:536
+#@ GF_SMS
+msgid "Enable Condition for users"
+msgstr "فعالسازی منطق شرطی برای کاربر"
+
+#: includes/configurations.php:544
+#@ GF_SMS
+msgid "Send SMS to Users if : "
+msgstr "ارسال پیامک به کاربر اگر : "
+
+#: includes/configurations.php:588
+#@ GF_SMS
+msgid "Save"
+msgstr "ذخیره"
+
+#: includes/configurations.php:809
+#: includes/configurations.php:879
+#@ GF_SMS
+msgid "Enter value"
+msgstr "یک مقدار وارد کنید"
+
+#: includes/configurations.php:977
+#@ gravityforms
+msgid "Merge Tags"
+msgstr ""
+
+#: includes/configurations.php:1010
+#@ gravityforms
+msgid "Required form fields"
+msgstr ""
+
+#: includes/configurations.php:1017
+#@ gravityforms
+msgid "Optional form fields"
+msgstr ""
+
+#: includes/configurations.php:1024
+#@ gravityforms
+msgid "Pricing form fields"
+msgstr ""
+
+#: includes/configurations.php:1030
+#@ gravityforms
+msgid "Other"
+msgstr ""
+
+#: includes/configurations.php:1031
+#@ GF_SMS
+msgid "Payment Gateway / Method"
+msgstr "درگاه پرداخت"
+
+#: includes/configurations.php:1032
+#@ gravityforms
+msgid "Payment Status"
+msgstr ""
+
+#: includes/configurations.php:1033
+#@ gravityforms
+msgid "Transaction Id"
+msgstr ""
+
+#: includes/configurations.php:1034
+#@ gravityforms
+msgid "IP"
+msgstr ""
+
+#: includes/configurations.php:1035
+#: includes/configurations.php:1036
+#: includes/sent.php:61
+#@ gravityforms
+#@ GF_SMS
+msgid "Date"
+msgstr "تاریخ"
+
+#: includes/configurations.php:1037
+#@ gravityforms
+msgid "Embed Post/Page Id"
+msgstr ""
+
+#: includes/configurations.php:1038
+#@ gravityforms
+msgid "Embed Post/Page Title"
+msgstr ""
+
+#: includes/configurations.php:1039
+#@ gravityforms
+msgid "Embed URL"
+msgstr ""
+
+#: includes/configurations.php:1040
+#@ gravityforms
+msgid "Entry Id"
+msgstr ""
+
+#: includes/configurations.php:1041
+#@ gravityforms
+msgid "Entry URL"
+msgstr ""
+
+#: includes/configurations.php:1042
+#@ gravityforms
+msgid "Form Id"
+msgstr ""
+
+#: includes/configurations.php:1043
+#@ gravityforms
+msgid "Form Title"
+msgstr ""
+
+#: includes/configurations.php:1044
+#@ gravityforms
+msgid "HTTP User Agent"
+msgstr ""
+
+#: includes/configurations.php:1046
+#@ gravityforms
+msgid "Post Id"
+msgstr ""
+
+#: includes/configurations.php:1047
+#@ gravityforms
+msgid "Post Edit URL"
+msgstr ""
+
+#: includes/configurations.php:1049
+#@ gravityforms
+msgid "User Display Name"
+msgstr ""
+
+#: includes/configurations.php:1050
+#@ gravityforms
+msgid "User Email"
+msgstr ""
+
+#: includes/configurations.php:1051
+#@ gravityforms
+msgid "User Login"
+msgstr ""
+
+#: includes/feeds.php:46
+#@ GF_SMS
+msgid "Feed deleted."
+msgstr "فید حذف شد"
+
+#: includes/feeds.php:57
+#@ GF_SMS
+msgid "Feeds deleted."
+msgstr "فید ها حذف شدند."
+
+#: includes/feeds.php:68
+#@ GF_SMS
+msgid "HANNANStd"
+msgstr "HANNANStd"
+
+#: includes/feeds.php:71
+#@ GF_SMS
+msgid "SMS Pro Feeds - All Forms"
+msgstr "فیدهای پیامکی تمام فرم ها"
+
+#: includes/feeds.php:79
+#: includes/feeds.php:320
+#@ GF_SMS
+msgid "Add New"
+msgstr "افزودن جدید"
+
+#: includes/feeds.php:92
+#: includes/feeds.php:94
+#@ GF_SMS
+msgid "Bulk action"
+msgstr "اقدامات دسته جمعی"
+
+#: includes/feeds.php:95
+#: includes/feeds.php:182
+#: includes/feeds.php:212
+#: includes/sent.php:77
+#: includes/sent.php:86
+#@ GF_SMS
+msgid "Delete"
+msgstr "حذف"
+
+#: includes/feeds.php:98
+#@ GF_SMS
+msgid "Delete selected feeds? \\'Cancel\\' to stop, \\'OK\\' to delete."
+msgstr "آیا این فید ها حذف شوند؟ OK را برای حذف و Cancel برای انصراف انتخاب کنید "
+
+#: includes/feeds.php:102
+#: includes/main.php:175
+#: includes/sent.php:232
+#@ GF_SMS
+msgid "Sent Messages"
+msgstr "پیامک های ارسال شده"
+
+#: includes/feeds.php:113
+#: includes/feeds.php:129
+#@ GF_SMS
+msgid "Feed ID"
+msgstr "آیدی فید"
+
+#: includes/feeds.php:116
+#: includes/feeds.php:131
+#: includes/sent.php:62
+#@ GF_SMS
+msgid "Form ID"
+msgstr "آیدی فرم"
+
+#: includes/feeds.php:117
+#: includes/feeds.php:132
+#@ GF_SMS
+msgid "Form title"
+msgstr "عنوان فرم"
+
+#: includes/feeds.php:118
+#: includes/feeds.php:133
+#: includes/feeds.php:207
+#: includes/feeds.php:208
+#@ GF_SMS
+msgid "Entries"
+msgstr "پیام های ورودی"
+
+#: includes/feeds.php:121
+#: includes/feeds.php:136
+#: includes/sent.php:65
+#@ GF_SMS
+msgid "Recievers"
+msgstr "گیرنده ها"
+
+#: includes/feeds.php:164
+#: includes/feeds.php:165
+#: includes/feeds.php:288
+#@ GF_SMS
+msgid "Active"
+msgstr "فعال"
+
+#: includes/feeds.php:164
+#: includes/feeds.php:165
+#: includes/feeds.php:284
+#@ GF_SMS
+msgid "Inactive"
+msgstr "غیرفعال"
+
+#: includes/feeds.php:173
+#: includes/feeds.php:193
+#@ GF_SMS
+msgid "Edit Config"
+msgstr "ویرایش پیکربندی"
+
+#: includes/feeds.php:177
+#: includes/feeds.php:178
+#: includes/feeds.php:197
+#: includes/feeds.php:198
+#@ GF_SMS
+msgid "Configuration"
+msgstr "پیکربندی"
+
+#: includes/feeds.php:183
+#: includes/feeds.php:213
+#@ GF_SMS
+msgid "Delete this feed? "
+msgstr "آیا فید حذف شود؟ "
+
+#: includes/feeds.php:183
+#: includes/feeds.php:213
+#@ GF_SMS
+msgid "\\'Cancel\\' to stop, \\'OK\\' to delete."
+msgstr "OK را برای حذف و Cancel را برای انصراف انتخاب کنید."
+
+#: includes/feeds.php:183
+#: includes/feeds.php:213
+#@ GF_SMS
+msgid "delete"
+msgstr "حذف"
+
+#: includes/feeds.php:202
+#@ GF_SMS
+msgid "Edit Form"
+msgstr "ویرایش فرم"
+
+#: includes/feeds.php:203
+#@ GF_SMS
+msgid "Edit form"
+msgstr "ویرایش فرم"
+
+#: includes/feeds.php:217
+#: includes/main.php:181
+#@ GF_SMS
+msgid "Feed"
+msgstr "فید"
+
+#: includes/feeds.php:218
+#@ GF_SMS
+msgid "Form Feeds"
+msgstr "فید های فرم"
+
+#: includes/feeds.php:222
+#@ GF_SMS
+msgid "Outbox"
+msgstr "ارسالی ها"
+
+#: includes/feeds.php:223
+#@ GF_SMS
+msgid "Form Outbox"
+msgstr "پیامک های ارسالی فرم"
+
+#: includes/feeds.php:249
+#, php-format
+#@ GF_SMS
+msgid "Reciever field label: %s"
+msgstr "عنوان فیلد گیرنده : %s"
+
+#: includes/feeds.php:308
+#: includes/feeds.php:318
+#: includes/sent.php:14
+#: includes/sent.php:15
+#@ GF_SMS
+msgid "SMS"
+msgstr "پیامک"
+
+#: includes/gateways.php:10
+#@ GF_SMS
+msgid "Select a Gateway"
+msgstr "یک وبسرویس پیامکی انتخاب کنید"
+
+#: includes/gateways.php:19
+#: includes/gateways.php:33
+#: includes/send.php:202
+#@ GF_SMS
+msgid "No Gateway found."
+msgstr "وبسرویس پیامکی ست نشده است."
+
+#: includes/main.php:60
+#@ GF_SMS
+msgid "SMS Settings"
+msgstr "تنظیمات پیامک"
+
+#: includes/main.php:61
+#@ GF_SMS
+msgid "Gravityforms SMS Pro"
+msgstr "پیامک حرفه ای گرویتی فرم"
+
+#: includes/main.php:119
+#@ GF_SMS
+msgid "SMS Notification"
+msgstr "اطلاع رسانی پیامکی"
+
+#: includes/main.php:170
+#@ GF_SMS
+msgid "GF SMS"
+msgstr "پیامک گرویتی فرم"
+
+#: includes/main.php:171
+#@ GF_SMS
+msgid "General Settings"
+msgstr "تنظیمات همگانی"
+
+#: includes/main.php:172
+#@ GF_SMS
+msgid "Feeds"
+msgstr "فید ها"
+
+#: includes/main.php:173
+#@ GF_SMS
+msgid "New Feed"
+msgstr "فید جدید"
+
+#: includes/main.php:174
+#@ GF_SMS
+msgid "Send Message"
+msgstr "ارسال پیامک جدید"
+
+#: includes/main.php:231
+#@ GF_SMS
+msgid "Your Credit : "
+msgstr "اعتبار پیامک : "
+
+#: includes/send.php:272
+#, php-format
+#@ GF_SMS
+msgid "Feed %s => SMS sent to Admin successfully. Admin Number : %s | Sender Number : %s %s | Message Body : %s"
+msgstr "فید شماره %s => پیامک با موفقیت به مدیر ارسال شد. شماره مدیر : %s | شماره فرستنده : %s%s | متن پیامک : %s"
+
+#: includes/send.php:277
+#, php-format
+#@ GF_SMS
+msgid "Feed %s => The sending of the message to Admin encountered an error. Admin Number : %s | Sender Number : %s | Reason : %s | Message Body : %s"
+msgstr "فید شماره %s => ارسال پیامک به مدیر با خطا مواجد شد. شماره مدیر : %s | شماره فرستنده : %s | علت خطا : %s | متن پیامک : %s"
+
+#: includes/send.php:284
+#, php-format
+#@ GF_SMS
+msgid "Feed %s => Admin SMS is disabled or Admin number is empty.%s%s%s%s"
+msgstr "فید شماره %s => ارسال پیامک به مدیر غیر فعال است یا شماره موبایل مدیر خالی است.%s%s%s%s"
+
+#: includes/send.php:305
+#, php-format
+#@ GF_SMS
+msgid "Feed %s => SMS sent to user successfully. User Number : %s | Sender Number : %s %s | Message Body : %s"
+msgstr "فید شماره %s => پیامک با موفقیت به کاربر ارسال شد. شماره کاربر : %s | شماره فرستنده : %s%s | متن پیامک : %s"
+
+#: includes/send.php:310
+#, php-format
+#@ GF_SMS
+msgid "Feed %s => The sending of the message to user encountered an error. User Number : %s | Sender Number : %s | Reason : %s | Message Body : %s"
+msgstr "فید شماره %s => ارسال پیامک به کاربر با خطا مواجد شد. شماره کاربر : %s | شماره فرستنده : %s | علت خطا : %s | متن پیامک : %s"
+
+#: includes/send.php:317
+#, php-format
+#@ GF_SMS
+msgid "Feed %s => User SMS is disabled or user number is empty.%s%s%s%s"
+msgstr "فید شماره %s => ارسال پیامک به کاربر غیر فعال است یا شماره موبایل کاربر خالی است.%s%s%s%s"
+
+#: includes/sent.php:22
+#@ GF_SMS
+msgid "No items found, dude."
+msgstr "هیچ موردی وجود ندارد."
+
+#: includes/sent.php:63
+#@ GF_SMS
+msgid "Entry ID"
+msgstr "آیدی پیام ورودی"
+
+#: includes/sent.php:64
+#@ GF_SMS
+msgid "From"
+msgstr "فرستنده"
+
+#: includes/sent.php:148
+#: includes/sent.php:157
+#@ GF_SMS
+msgid "Go get a life script kiddies"
+msgstr "دسترسی به این قسمت امکان پذیر نیست "
+
+#: includes/sent.php:153
+#@ GF_SMS
+msgid "Item removed."
+msgstr "مورد حذف شد."
+
+#: includes/sent.php:165
+#@ GF_SMS
+msgid "Items removed."
+msgstr "آیتم ها حذف شدند."
+
+#: includes/sent.php:255
+#@ GF_SMS
+msgid "Search"
+msgstr "جستجو"
+
+#: includes/settings.php:18
+#@ GF_SMS
+msgid "You can set several numbers. Separate with commas(,). for example : +16175551212,+16175551213. this numbers is default and you can change them later."
+msgstr "شما میتوانید چندین شماره ست نمایید . شماره ها را با کاما (,) جدا کنید . برای مثال :+989112345678,+98912345987 . توجه کنید که این شماره ها پیشفرض هستند و در زمان استفاده میتوانید آن ها ویرایش نمایید."
+
+#: includes/settings.php:19
+#@ GF_SMS
+msgid "Activating this section is not recommended; since you must connect to the webservice provider every time you wish to check your credit’s status and this might cause the wordpress admin to reduce in speed."
+msgstr "فعالسازی این قسمت توصیه نمیشود. زیرا برای اطلاع از وضعیت اعتبار باید هر بار به سایت ارائه دهنده وب سرویس متصل گردید که ممکن است باعث افت سرعت مدیریت وردپرس شود ."
+
+#: includes/settings.php:20
+#@ GF_SMS
+msgid "Your Mobile Country code. like : +1"
+msgstr "کد کشور پیشفرض. مثل : +98"
+
+#: includes/settings.php:21
+#@ GF_SMS
+msgid "Separate with commas (,)"
+msgstr "با کاما (,) جدا کنید "
+
+#: includes/settings.php:22
+#@ GF_SMS
+msgid "Show Gravity forms SMS menu in adminbar?"
+msgstr "نمایش منوی پیامک گرویتی فرم در ادمین بار وردپرس؟"
+
+#: includes/settings.php:47
+#@ GF_SMS
+msgid "You don't have adequate permission to uninstall Gravity SMS Pro."
+msgstr "شما دسترسی لازم برای حذف پیامک گرویتی فرم را ندارید."
+
+#: includes/settings.php:118
+#@ GF_SMS
+msgid "Settings updated."
+msgstr "تنظیمات بروز شدند."
+
+#: includes/settings.php:127
+#@ GF_SMS
+msgid "Gravity SMS Pro settings"
+msgstr "تنظیمات پیامک گرویتی فرم"
+
+#: includes/settings.php:153
+#@ GF_SMS
+msgid "Your SMS Credit : "
+msgstr "اعتبار پیامک : "
+
+#: includes/settings.php:167
+#@ GF_SMS
+msgid "SMS Gateway"
+msgstr "وبسرویس های پیامکی"
+
+#: includes/settings.php:221
+#@ GF_SMS
+msgid "Show Credit/Balance"
+msgstr "نمایش اعتبار پیامک"
+
+#: includes/settings.php:236
+#@ GF_SMS
+msgid "No ( Recommended )"
+msgstr "خیر ( پیشنهادی )"
+
+#: includes/settings.php:231
+#: includes/settings.php:310
+#: includes/settings.php:335
+#@ GF_SMS
+msgid "Yes"
+msgstr "بله"
+
+#: includes/settings.php:253
+#@ GF_SMS
+msgid "Sender"
+msgstr "فرستنده"
+
+#: includes/settings.php:269
+#@ GF_SMS
+msgid "Your Default Numbers"
+msgstr "شماره پیشفرض شما"
+
+#: includes/settings.php:285
+#@ GF_SMS
+msgid "Your Default Country Code"
+msgstr "کد کشور پیشفرض"
+
+#: includes/settings.php:301
+#@ GF_SMS
+msgid "Admin Bar Menu"
+msgstr "منو در ادمین بار"
+
+#: includes/settings.php:315
+#: includes/settings.php:339
+#@ GF_SMS
+msgid "No"
+msgstr "خیر"
+
+#: includes/settings.php:350
+#@ GF_SMS
+msgid "Save Settings"
+msgstr "تنظیمات ذخیره شدند"
+
+#: includes/settings.php:364
+#: includes/settings.php:368
+#@ GF_SMS
+msgid "Uninstall Gravity Forms SMS Pro"
+msgstr "حذف پیامک گرویتی فرم"
+
+#: includes/settings.php:366
+#@ GF_SMS
+msgid "<strong>Warning!</strong> This operation deletes ALL Gravity SMS Pro Informations."
+msgstr "<strong>اخطار!</strong> تمامی اطلاعات افزونه حذف خواهند شد و قابل بازگشت نمی باشند."
+
+#: includes/settings.php:369
+#@ GF_SMS
+msgid "Warning! ALL Gravity SMS Pro informations will be deleted. This cannot be undone. \\'OK\\' to delete, \\'Cancel\\' to stop"
+msgstr "اخطار! تمام اطلاعات پیامک حذف خواهند شد . برای ادامه عملیات حذف OK و برای انصراف Cancel را انتخاب نمایید ."
+
+#: includes/sidebar.php:94
+#@ GF_SMS
+msgid "Mobile number: "
+msgstr "شماره موبایل : "
+
+#: includes/sidebar.php:99
+#, php-format
+#@ GF_SMS
+msgid "Mobile number: %s"
+msgstr "شماره موبایل : %s"
+
+#: includes/sidebar.php:101
+#@ GF_SMS
+msgid "Mobile number: -"
+msgstr "شماره موبایل : -"
+
+#: includes/sidebar.php:127
+#, php-format
+#@ GF_SMS
+msgid "User mobile number changed from %s to %s ."
+msgstr "شماره موبایل کاربر از %s به %s تغییر یافت ."
+
+#: includes/sidebar.php:195
+#@ GF_SMS
+msgid "No Gateway found ."
+msgstr "وبسرویس پیامکی یافت نشد."
+
+#: includes/sidebar.php:203
+#, php-format
+#@ GF_SMS
+msgid "SMS sent to number successfully. Number : %s | Sender Number : %s | Message Body : %s ."
+msgstr "ارسال پیامک با موفقیت انجام شد . شماره : %s | شماره فرستنده : %s | متن پیامک : %s"
+
+#: includes/sidebar.php:204
+#, php-format
+#@ GF_SMS
+msgid "SMS sent to number successfully. Number : %s . see details in Notes ."
+msgstr "ارسال پیامک با موفقیت انجام شد . شماره : %s . جزییات در یادداشت ها ثبت شدند."
+
+#: includes/sidebar.php:206
+#, php-format
+#@ GF_SMS
+msgid "The sending of the message encountered an error. Number : %s | Sender Number : %s | Reason : %s | Message Body : %s."
+msgstr "ارسال پیامک با خطا مواجه شد . شماره : %s | شماره فرستنده : %s | دلیل خطا : %s | متن پیامک : %s"
+
+#: includes/sidebar.php:207
+#, php-format
+#@ GF_SMS
+msgid "The sending of the message encountered an error. Number :%s - Reason :%s . see details in Notes ."
+msgstr "ارسال پیامک با خطا مواجه شد . شماره : %s - دلیل خطا : %s . جزییات در یادداشت ها ثبت شدند."
+
+#: includes/sidebar.php:210
+#@ GF_SMS
+msgid "The sending of the message encountered an error because number is empty ."
+msgstr "ارسال پیامک با موفقیت انجام نشد زیرا شماره موبایل خالی است."
+
+#: includes/sidebar.php:144
+#: includes/sidebar.php:217
+#@ GF_SMS
+msgid " Send SMS "
+msgstr "ارسال پیامک "
+
+#: includes/sidebar.php:228
+#@ GF_SMS
+msgid "Reciever numbers : "
+msgstr "شماره گیرنده : "
+
+#: includes/sidebar.php:239
+#@ GF_SMS
+msgid "Message : "
+msgstr "پیام : "
+
+#: includes/sidebar.php:295
+#@ GF_SMS
+msgid "Checkup SMS General settings ."
+msgstr "تنظیمات همگانی پیامک را بررسی کنید."
+
+#: includes/verification.php:31
+#@ GF_SMS
+msgid "SMS Fields"
+msgstr "فیلد های پیامک"
+
+#: includes/verification.php:35
+#@ GF_SMS
+msgid "Verification"
+msgstr "تایید شماره"
+
+#: includes/verification.php:47
+#: includes/verification.php:54
+#@ GF_SMS
+msgid "Mobile Verification"
+msgstr "تایید شماره موبایل"
+
+#: includes/verification.php:104
+#@ GF_SMS
+msgid "By adding this field, the user must first verify his phone number through SMS in order proceed into the next stages of filling out the form. Please be aware that normally no filed will be added to the form. However, the field will appear whenever you wish to complete or register the form."
+msgstr "با اضافه شدن این فیلد کاربر می بایست برای ادامه مراحل تکمیل فرم ابتدا شماره موبایل خود را از طریق پیامک تایید نماید . دقت کنید که در حالت عادی هیچ فیلدی به فرم اضافه نخواهد شد . ولی زمانیکه قصد تکمیل و ثبت فرم را داشته باشد فیلد لازم ضاهر خواهد شد شد ."
+
+#: includes/verification.php:140
+#@ GF_SMS
+msgid "Resend"
+msgstr "ارسال مجدد"
+
+#: includes/verification.php:177
+#@ GF_SMS
+msgid "Please enter your mobile number for verification purposes in the field assigned for mobile numbers."
+msgstr "لطفا شماره موبایل خود را جهت تایید در فیلد مربوط به شماره موبایل وارد نمایید ."
+
+#: includes/verification.php:236
+#@ GF_SMS
+msgid "Enter the code you have received by SMS in above field to verify your mobile number."
+msgstr "کد دریافتی از طریق پیامک را برای تایید شماره موبایل در کادر بالا وارد نمایید ."
+
+#: includes/verification.php:249
+#: includes/verification.php:272
+#@ GF_SMS
+msgid "Sending the message encountered an error."
+msgstr "ارسال پیامک با خطا مواجه شد ."
+
+#: includes/verification.php:257
+#@ GF_SMS
+msgid "The activation code was sent again via SMS."
+msgstr "کد فعالسازی مجددا از طریق پیامک ارسال شد ."
+
+#: includes/verification.php:264
+#@ GF_SMS
+msgid "The entered code is incorrect."
+msgstr "کد وارد شده صحیح نمی باشد ."
+
+#: includes/verification.php:282
+#@ GF_SMS
+msgid "You have maxed out of the number of times you are allowed to verify your mobile number for this form."
+msgstr "تعداد دفعات مجاز برای تایید شماره موبایل شما برای این فرم به پایان رسیده است ."
+
+#: includes/verification.php:453
+#@ GF_SMS
+msgid "<h6>Gravity SMS</h6>Gravity SMS Pro fields"
+msgstr "<h6>پیامک گرویتی فرم</h6>فیلدهای افزونه پیامک"
+
+#: includes/verification.php:454
+#@ GF_SMS
+msgid "You can determine how you would like your activation codes to be considered. Note that in the manual type each code might be sent to several people."
+msgstr "میتوانید مشخص کنید کد های فعالسازی وارد شده توسط شما به چه صورتی لحاظ شوند . توجه کنید در نوع دستی ممکن است هر کدام از کد ها به چند نفر ارسال گردند ."
+
+#: includes/verification.php:455
+#@ GF_SMS
+msgid "<h6>Mobile Field</h6>Select the mobile number field to verify."
+msgstr "<h6>فید موبایل</h6>از بین سایر فیلدهای این فرم، فیلد مربوط به شماره موبایل را جهت تایید انتخاب نمایید."
+
+#: includes/verification.php:456
+#@ GF_SMS
+msgid "<h6>SMS Text</h6>Enter the SMS text containing the activation code. Also for the activation code, use the given short-code."
+msgstr "<h6>متن پیامک</h6>متن پیامک حاوی کد فعالسازی را وارد نمایید . برای کد فعالسازی هم از شورت کد گفته شده استفاده کنید ."
+
+#: includes/verification.php:457
+#@ GF_SMS
+msgid "Define how many time a number is allowed to enter the wrong code in this form."
+msgstr "مشخص کنید هر شماره در این فرم چند بار میتواند کد اشتباه وارد کند ."
+
+#: includes/verification.php:458
+#@ GF_SMS
+msgid "Define how many time a number is allowed to request to get the activation code in this form."
+msgstr "مشخص کنید هر شماره در این فرم چند بار میتواند درخواست دریافت پیامک حاوی کد فعالسازی نماید ."
+
+#: includes/verification.php:459
+#@ GF_SMS
+msgid "By activating this part, the contents of this field will be concealed from the ‘all_fields” tag."
+msgstr "با فعالسازی این گزینه محتوای این فیلد از برچسب all_fields مخفی می ماند ."
+
+#: includes/verification.php:460
+#: includes/wp-sms-intergrate.php:105
+#@ GF_SMS
+msgid "<h6>Country code</h6>You can change the default country code. but If entered mobile phone number was international format, this country code will be effectless."
+msgstr "<h6>کد کشور</h6>شما میتوانید کد کشور را از حالت پیشفرض تغییر دهید ولی در نظر داشته باشید که اگه شماره موبایل وارد شده، خود به صورت فرمت بین المللی وارد شده باشد، کد کشور بی تاثیر خواهد بود."
+
+#: includes/verification.php:461
+#@ GF_SMS
+msgid "<h6>White list</h6>Enter the numbers that do not need verification. "
+msgstr "<h6>لیست سفید</h6>شماره هایی که نیاز به تایید ندارند را وارد کنید . "
+
+#: includes/verification.php:477
+#: includes/wp-sms-intergrate.php:464
+#@ GF_SMS
+msgid "Mobile number field"
+msgstr "فیلد شماره موبایل"
+
+#: includes/verification.php:487
+#@ GF_SMS
+msgid "Country Code"
+msgstr "کد کشور"
+
+#: includes/verification.php:521
+#@ GF_SMS
+msgid "How to enter the verification codes?"
+msgstr "نحوه وارد کردن کدهای فعالسازی"
+
+#: includes/verification.php:529
+#@ GF_SMS
+msgid "Random"
+msgstr "رندم"
+
+#: includes/verification.php:536
+#@ GF_SMS
+msgid "Manual"
+msgstr "دستی"
+
+#: includes/verification.php:545
+#@ gravityforms
+msgid "Enter a custom mask"
+msgstr ""
+
+#: includes/verification.php:546
+#@ gravityforms
+msgid "Custom Mask Instructions"
+msgstr ""
+
+#: includes/verification.php:547
+#@ gravityforms
+msgid "Help"
+msgstr ""
+
+#: includes/verification.php:557
+#@ GF_SMS
+msgid "Please separate the codes using commas."
+msgstr "کد ها را توسط کاما (,) جدا کنید."
+
+#: includes/verification.php:564
+#@ GF_SMS
+msgid "The SMS text"
+msgstr "متن پیامک"
+
+#: includes/verification.php:569
+#@ GF_SMS
+msgid "Verification Code"
+msgstr "کد فعالسازی"
+
+#: includes/verification.php:575
+#@ GF_SMS
+msgid "Maximum number of retries allowed"
+msgstr "حداکثر تعداد دفعات مجاز تلاش"
+
+#: includes/verification.php:585
+#@ GF_SMS
+msgid "Maximum number of resending the code"
+msgstr "حداکثر تعداد دفعات ارسال مجدد کد"
+
+#: includes/verification.php:597
+#@ GF_SMS
+msgid "Hide from the {all_fields} merge tag"
+msgstr "مخفی سازی از برچسب {all_fields}"
+
+#: includes/verification.php:605
+#@ GF_SMS
+msgid "Exceptional mobile numbers"
+msgstr "شماره های استثتنا"
+
+#: includes/verification.php:611
+#@ GF_SMS
+msgid "Separate the numbers using commas."
+msgstr "شماره ها را توسط کاما (,) جدا کنید."
+
+#: includes/verification.php:698
+#: includes/verification.php:708
+#@ GF_SMS
+msgid "Verify Mobile Number"
+msgstr "تایید شماره موبایل"
+
+#: includes/verification.php:718
+#@ GF_SMS
+msgid "In order to continue, you must verify your mobile number."
+msgstr "جهت ادامه مراحل فرم می بایست کد فعالسازی را وارد نمایید."
+
+#: includes/wp-sms-intergrate.php:42
+#@ GF_SMS
+msgid "The WP SMS plugin is not installed."
+msgstr "افزونه WP SMS نصب نمی باشد . ابتدا آن را نصب و پیکربندی نمایید."
+
+#: includes/wp-sms-intergrate.php:57
+#@ GF_SMS
+msgid "WP SMS"
+msgstr "افزونه WP SMS"
+
+#: includes/wp-sms-intergrate.php:70
+#: includes/wp-sms-intergrate.php:80
+#@ GF_SMS
+msgid "Subscribers Group"
+msgstr "گروه های اشتراک"
+
+#: includes/wp-sms-intergrate.php:97
+#@ GF_SMS
+msgid "<h6>Subscription operations</h6>Please select the intended operation."
+msgstr "<h6>عملیات اشتراک</h6> میتوانید نوع عملیات اشتراک یا لغو اشتراک را مشخص نمایید."
+
+#: includes/wp-sms-intergrate.php:98
+#@ GF_SMS
+msgid "<h6>Name filed</h6>Please choose the field equivalent to the Name field in the WP SMS plugin."
+msgstr "<h6>فیلد نام</h6>میتوانید از بین سایر فیلد های این فرم، یک فیلد را معادل با فیلد نام مشترک WP SMS انتخاب نمایید."
+
+#: includes/wp-sms-intergrate.php:99
+#@ GF_SMS
+msgid "<h6>Mobile filed</h6>Please choose the field equivalent to the Mobile field in the WP SMS plugin."
+msgstr "<h6>فیلد موبایل</h6>میتوانید از بین سایر فیلد های این فرم، یک فیلد را معادل با فیلد نام موبایل WP SMS انتخاب نمایید."
+
+#: includes/wp-sms-intergrate.php:100
+#@ GF_SMS
+msgid "You can choose whether users may optionally select a Subscribers Group or be forced to subscribe to the group you determine."
+msgstr "می توانید انتخاب کنید که کاربر به دلخواه خود یک گروه برای اشتراک انتخاب نمایید یا به اجبار در گروه مد نظر شما عضو شود."
+
+#: includes/wp-sms-intergrate.php:101
+#@ GF_SMS
+msgid "Displaying the Subscribers Group is possible in either a drop-down or a radio-button manner."
+msgstr "نمایش گروه های اشتراک به یکی از دو صورت دراپ دان یا دکمه رادیویی امکان پذیر است"
+
+#: includes/wp-sms-intergrate.php:102
+#@ GF_SMS
+msgid "<h6>Mandatory group</h6>If you would like the user to subscribe to a certain SMS Subscribers Group, please select the desired group."
+msgstr "<h6>گروه اجباری</h6>در صورتی که میخواهید کاربر در یکی از گروه های اشتراک پیامکی مد نظر شما عضو گردد ، گروه مد نظر را انتخاب نمایید"
+
+#: includes/wp-sms-intergrate.php:103
+#@ GF_SMS
+msgid "<h6>Welcome message</h6>Check the checkbox if you wish to deactivate sending a Welcome message after subscription activation in the WP SMS settings."
+msgstr "<h6>پیامک خوش آمد گویی</h6>در صورتی که داخل تنظیمات پیامک وردپرس ارسال پیامک خوش آمد گویی بعد از عضویت فعال باشد و مایل به غیر فعال کردن آن هستید کافیست چک باکس را تیک بزنید."
+
+#: includes/wp-sms-intergrate.php:104
+#@ GF_SMS
+msgid "If the entered mobile number has already been registered in the WP SMS newsletter, prevent filling out the form and show the laid message."
+msgstr "در صورتی که شماره موبایل وارد شده قبلا در خبرنامه پیامکی ثبت شده بود از پر کردن فرم جلوگیری شود و پیغام تنظیم شده نمایش داده شود."
+
+#: includes/wp-sms-intergrate.php:299
+#@ GF_SMS
+msgid "Subscription operations"
+msgstr "عملیات اشتراک"
+
+#: includes/wp-sms-intergrate.php:306
+#@ GF_SMS
+msgid "Subscription"
+msgstr "اشتراک"
+
+#: includes/wp-sms-intergrate.php:312
+#@ GF_SMS
+msgid "Unsubscribe"
+msgstr "لغو اشتراک"
+
+#: includes/wp-sms-intergrate.php:333
+#@ GF_SMS
+msgid "Country code"
+msgstr "کد کشور"
+
+#: includes/wp-sms-intergrate.php:369
+#@ GF_SMS
+msgid "How to subscribe to a Subscribers Group"
+msgstr "نحوه عضویت در گروه های اشتراک"
+
+#: includes/wp-sms-intergrate.php:374
+#@ GF_SMS
+msgid "Must be chosen by user"
+msgstr "انتخاب توسط کاربر"
+
+#: includes/wp-sms-intergrate.php:376
+#@ GF_SMS
+msgid "Force to subscribe to the determination group"
+msgstr "اجبار به عضویت در گروه تعیین شده"
+
+#: includes/wp-sms-intergrate.php:385
+#@ GF_SMS
+msgid "Display-type for Subscribers Group"
+msgstr "نحوه نمایش گروه های اشتراک"
+
+#: includes/wp-sms-intergrate.php:393
+#@ GF_SMS
+msgid "Radio Buttons"
+msgstr "دکمه رادیویی"
+
+#: includes/wp-sms-intergrate.php:399
+#@ GF_SMS
+msgid "Drop Down"
+msgstr "لیست بازشو"
+
+#: includes/wp-sms-intergrate.php:409
+#@ GF_SMS
+msgid "Please select the intended group"
+msgstr "گروه مورد نظر را انتخاب نمایید"
+
+#: includes/wp-sms-intergrate.php:429
+#@ GF_SMS
+msgid "The same-number message"
+msgstr "پیغام تکراری بودن شماره"
+
+#: includes/wp-sms-intergrate.php:448
+#@ GF_SMS
+msgid "Send welcome message"
+msgstr "ارسال پیامک خوش آمد گویی"
+
+#: includes/wp-sms-intergrate.php:463
+#@ GF_SMS
+msgid "Name field"
+msgstr "فیلد نام"
+
+#: includes/wp-sms-intergrate.php:509
+#@ GF_SMS
+msgid "It’s not possible to edit WP SMS field on unsubscribe mode."
+msgstr "امکان ویرایش فیلد اشتراک پیامک وردپرس در حالت لغو اشتراک وجود ندارد"
+
+#: includes/wp-sms-intergrate.php:533
+#@ gravityforms
+msgid "No results matched"
+msgstr ""
+
+#: includes/wp-sms-intergrate.php:571
+#: includes/wp-sms-intergrate.php:594
+#@ GF_SMS
+msgid "First you need to create some Subscription Groups in the WP SMS plugin."
+msgstr "شما باید ابتدا چند گروه اشتراک داخل افزونه WP SMS ایجاد کنید."
+
+#: includes/wp-sms-intergrate.php:618
+#@ GF_SMS
+msgid "When the “unsubscribe” is activated, nothing will be shown for this field in the form output but the unsubscription will be done anyhow."
+msgstr "در صورتی که حالت لغو اشتراک فعال باشد در خروجی فرم برای این فیلد چیزی نمایش داده نمیشود ولی عملیات لغو اشتراک انجام خواهد شد."
+
+#: includes/wp-sms-intergrate.php:624
+#@ GF_SMS
+msgid "When the “mandatory group” is activated, nothing will be shown for this field in the form output but the subscription will be done anyhow."
+msgstr "در صورتی که حالت گروه اجباری فعال باشد در خروجی فرم برای این فیلد چیزی نمایش داده نمیشود ولی عملیات اشتراک انجام خواهد شد ."
+
+#: includes/wp-sms-intergrate.php:757
+#@ GF_SMS
+msgid "The entered mobile number has previously been used in this form."
+msgstr "شماره موبایل وارد شده قبلا در خبرنامه ثبت شده است ."
+
+#: includes/wp-sms-intergrate.php:824
+#@ GF_SMS
+msgid "GF SMS - WP SMS"
+msgstr "پیامک گرویتی فرم - WP SMS"
+
+#: includes/wp-sms-intergrate.php:849
+#@ GF_SMS
+msgid "The mobile number value is empty."
+msgstr "مقدار شماره موبایل خالی است."
+
+#: includes/wp-sms-intergrate.php:875
+#@ GF_SMS
+msgid "Subscription to the SMS newsletter has been successfully done."
+msgstr "عضویت در خبرنامه پیامکی با موفقیت انجام شده است."
+
+#: includes/wp-sms-intergrate.php:877
+#@ GF_SMS
+msgid "Subscription to the SMS newsletter failed."
+msgstr "عضویت در خبرنامه پیامکی با شکست مواجه شد."
+
+#: includes/wp-sms-intergrate.php:888
+#@ GF_SMS
+msgid "Unsubscription to the SMS newsletter has been successfully done."
+msgstr "عملیات لغو اشتراک در خبرنامه پیامکی با موفقیت انجام شد."
+
+#: includes/wp-sms-intergrate.php:890
+#@ GF_SMS
+msgid "Unsubscription to the SMS newsletter failed."
+msgstr "عملیات لغو اشتراک در خبرنامه پیامکی با شکست مواجه شد."
+
+#: includes/wp-sms-intergrate.php:893
+#@ GF_SMS
+msgid "The entered number was not subscribed to the SMS newsletter and the unsubscription did not take place."
+msgstr "شماره موبایل وارد شده عضو خبرنامه پیامکی نبوده است و عملیات لغو اشتراک انجام نشد."
+
+#: includes/wp-sms-intergrate.php:898
+#@ GF_SMS
+msgid "The entered mobile number has previously been used in the newsletter."
+msgstr "شماره موبایل وارد شده قبلا در خبرنامه ثبت شده است ."
+
+#: includes/feeds.php:40
+#, php-format
+#@ GF_SMS
+msgid "Gravity forms SMS Pro requires Gravity Forms %s. Upgrade automatically on the %sPlugin page%s."
+msgstr "پلاگین پیامک گرویتی فرم نیاز مند هسته گرویتی فرم با نسخه %s می باشد . لطفا آن را از طریق  %sصفحه افزونه ها%s بروز رسانی کنید."
+
+#: includes/feeds.php:150
+#, php-format
+#@ GF_SMS
+msgid "To get started, please configure your %sGravity SMS Pro Settings%s and set Gateway ."
+msgstr "برای شروع باید %sتنظیمات همگانی پیامک%s را پیکربندی کنید و وبسرویس پیامکی خود را تنظیم کنید ."
+
+#: includes/feeds.php:263
+#, php-format
+#@ GF_SMS
+msgid "You don't have any SMS feeds configured. Let's go %screate one%s!"
+msgstr "شما هیچ فید پیامکی ندارید . %sیکی بسازید.%s "
+
+#: includes/settings.php:70
+#, php-format
+#@ GF_SMS
+msgid "Gravity Forms SMS Pro have been successfully uninstalled. It can be re-activated from the %splugins page%s."
+msgstr "پیامک گرویتی فرم با موفقیت حذف شد و تمام اطلاعات آن پاک شد . میتوانید مجدد از طریق %sصفحه افزونه ها%s اقدام نمایید."
+
+#: includes/configurations.php:311
+#@ GF_SMS
+msgid "After Payment(All payment statuses)"
+msgstr "بعد از بازگشت از پرداخت (موفق ،ناموفق،انصرافی)"
+
+#. translators: plugin header field 'Version'
+#: gravity_sms_pro.php:0
+#@ GF_SMS
+msgid "1.0.5"
+msgstr ""
+
+#: includes/settings.php:23
+#@ GF_SMS
+msgid "Activate this option to replace merge tags value in SMS Sidebar via ajax (Entry details)"
+msgstr "با فعالسازی این گزینه مقادیر برچسب های ادغام به صورت آیجکس در فیلد سایدبار ارسال پیامک که داخل هرپیام ورودی اضافه میشود جایگزین میشوند. پیشنهاد میشود که این گزینه فعال شود."
+
+#: includes/settings.php:326
+#@ GF_SMS
+msgid "Replace merge tags value in SMS Sidebar"
+msgstr "جایگزینی مقادیر برچسب های ادغام در سایدبار پیامک"
+

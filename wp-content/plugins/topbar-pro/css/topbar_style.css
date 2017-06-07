@@ -1,0 +1,28 @@
+#tpbr_calltoaction {
+  -webkit-transition: all 100ms ease-in-out;
+  -moz-transition: all 100ms ease-in-out;
+  -o-transition: all 100ms ease-in-out;
+  transition: all 100ms ease-in-out;
+}
+#tpbr_calltoaction:hover {opacity:0.9;}
+
+#tpbr_topbar {
+padding:0px !important;
+}
+
+#tpbr_box {
+width:80% !important
+}
+    
+.tpbr_cleaner {
+visibility:hidden;
+}
+
+.tpbr_opening {
+height:30px; width:30px;
+position:absolute; right:16px;
+top:0px;
+background:url(../images/open.png);
+cursor:pointer;
+z-index:9999999;
+}

@@ -1,0 +1,106 @@
+.accordion-container {
+	border: 1px solid #dfdfdf;
+	border-width: 1px 1px 0;
+}
+
+.accordion-section-title:before {
+	font-family: 'dashicons';
+	display: inline-block;
+	font-size: 18px;
+	vertical-align: middle;
+	margin-top: -1px;
+}
+
+.install-plugins .accordion-section-title:before {
+	content: "\f106";
+}
+
+.import-content .accordion-section-title:before {
+	content: "\f109";
+}
+
+.import-widgets .accordion-section-title:before {
+	content: "\f116";
+}
+
+.setup-menus .accordion-section-title:before {
+	content: "\f333";
+}
+
+.setup-homepage .accordion-section-title:before {
+	content: "\f102";
+}
+
+.setup-widgets .accordion-section-title:before {
+	content: "\f180";
+}
+
+.customize-theme .accordion-section-title:before {
+	content: "\f108";
+}
+
+.support-us .accordion-section-title:before {
+	content: "\f155";
+}
+
+.setup-edd .accordion-section-title:before {
+    content: "\f316";
+}
+
+.setup-fes .accordion-section-title:before {
+    content: "\f513";
+}
+
+.is-completed,
+.not-completed {
+	color: green;
+	font-size: 24px;
+	margin: 0.5em 0 1em;
+}
+
+.is-completed:before,
+.not-completed:before {
+	margin: -4px 10px 0 0;
+	font-family: 'dashicons';
+	content: "\f328";
+	border: 3px solid green;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 30px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.not-completed {
+	color: red;
+}
+
+.not-completed:before {
+	content: "\f158";
+	border-color: red;
+}
+
+.marketify-badge {
+	position: absolute;
+	top: 0;
+	right: 0;
+	border-radius: 4px;
+	box-shadow: 0 1px 3px rgba(0,0,0,.2);
+	overflow: hidden;
+}
+
+.accordion-section-content ul {
+	margin-bottom: 20px;
+}
+
+.accordion-section-content li {
+	list-style: disc;
+	list-style-position: inside;
+	margin-left: 15px;
+}
+
+.marketify-steps p.alignleft:first-of-type {
+    margin: 0 1.5em 1.5em 0;
+}

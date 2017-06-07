@@ -1,0 +1,342 @@
+
+/* =Download Grid
+----------------------------------------------- */
+
+.download-grid-wrapper[data-columns]::before,
+.download-grid-wrapper.columns-1[data-columns]::before,
+.features[data-columns]::before {
+	content: '1 .col-xs-12';
+}
+
+@media (min-width: 768px) {
+	.download-grid-wrapper.columns-2[data-columns]::before,
+	.features.columns-2[data-columns]::before {
+		content: '2 .col-sm-6';
+	}
+}
+
+@media (min-width: 992px) {
+	.download-grid-wrapper.columns-3[data-columns]::before,
+	.features.columns-3[data-columns]::before {
+		content: '3 .col-md-4';
+	}
+}
+
+@media (min-width: 1200px) {
+	.download-grid-wrapper.columns-4[data-columns]::before,
+	.features.columns-4[data-columns]::before {
+		content: '4 .col-md-3';
+	}
+
+	.features.columns-5[data-columns]::before {
+		content: '6 .col-md-2';
+	}
+}
+
+.content-grid-download {
+	margin-bottom: 30px;
+
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	backface-visibility:         hidden;
+	
+	.edd_download_quantity_wrapper {
+		display: none;
+	}
+}
+
+.content-grid-download .entry-image {
+	position: relative;
+}
+
+.content-grid-download .entry-image a,
+.content-grid-download .entry-image img,
+.content-grid-download .entry-image .image-placeholder {
+	display: block;
+}
+
+.content-grid-download .entry-image img {
+	min-width: 100%;
+}
+
+.content-grid-download .entry-image .image-placeholder {
+	min-height: 200px;
+	background: #eee;
+	position: relative;
+}
+
+.content-grid-download .entry-image .image-placeholder:before {
+	color: #bbb;
+	content: '\e69c';
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	margin-top: -10px;
+	margin-left: -10px;
+	position: absolute;
+}
+
+.content-grid-download .entry-image .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	z-index: 10;
+	background: transparent;
+	opacity: 0;
+	border: 1px solid transparent;
+
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	backface-visibility:         hidden;
+
+	-webkit-transition: all 0.3s;
+	-moz-transition:    all 0.3s;
+	transition:         all 0.3s;
+}
+
+.content-grid-download .entry-image .actions {
+	width: 100%;
+	height: 42px;
+	position: absolute;
+	top: 50%;
+	bottom: 10%;
+
+	-webkit-transition: all 0.3s;
+	-moz-transition:    all 0.3s;
+	transition:         all 0.3s;
+
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	backface-visibility:         hidden;
+}
+
+.content-grid-download .entry-image:hover .actions,
+.content-grid-download .entry-image.hover .actions {
+	top: 35%;
+	bottom: auto;
+}
+
+.content-grid-download.type-project.no-client .entry-image:hover .actions,
+.content-grid-download.type-project.no-client .entry-image.hover .actions {
+	top: 45%;
+}
+
+.content-grid-download .entry-image .button {
+	margin: 0 6px;
+	padding: 10px 15px;
+	border-width: 3px;
+	display: inline-block;
+}
+
+.content-grid-download .entry-image .edd_download_purchase_form,
+.download-actions .edd_download_purchase_form {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.download-actions .edd_download_purchase_form {
+
+}
+
+.download-actions .edd_download_purchase_form .edd_errors {
+	width: 100%;
+	max-width: 100%;
+}
+
+.content-grid-download .entry-image .edd-cart-ajax-alert {
+	display: none !important;
+}
+
+.content-grid-download .entry-image .item-price {
+	display: block;
+	width: 100%;
+
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	backface-visibility:         hidden;
+
+	-webkit-transition: all 0.25s;
+	-moz-transition:    all 0.25s;
+	transition:         all 0.25s;
+}
+
+.content-grid-download .entry-image:hover .item-price,
+.content-grid-download .entry-image.hover .item-price {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.content-grid-download .entry-image .item-price span {
+	font: 400 13px 'Montserrat', sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #fff;
+}
+
+.content-grid-download .entry-image .star-rating {
+	display: block;
+	width: 100%;
+
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	backface-visibility:         hidden;
+
+	-webkit-transition: all 0.3s;
+	-moz-transition:    all 0.3s;
+	transition:         all 0.3s;
+}
+
+.content-grid-download .entry-image .star-rating i {
+	color: #fff;
+}
+
+.content-grid-download .entry-image:hover .star-rating,
+.content-grid-download .entry-image.hover .star-rating {
+	top: 80%;
+}
+
+.content-grid-download .entry-image:hover .overlay,
+.content-grid-download .entry-image.hover .overlay {
+	opacity: 1;
+}
+
+.content-grid-download .entry-header {
+	padding: 15px 20px;
+	background: #fff;
+	border: 1px solid #bdc3c7;
+	z-index: 10;
+	position: relative;
+	overflow: hidden;
+}
+
+.content-grid-download .entry-title,
+.widget-download-title {
+	font: 400 16px/normal 'Source Sans Pro', serif;
+	text-transform: none;
+	letter-spacing: 0;
+	margin: 0;
+}
+
+.content-grid-download.truncate-title .entry-title {
+	height: 20px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.content-grid-download .entry-title a {
+	text-decoration: none;
+}
+
+.content-grid-download .entry-excerpt {
+	margin-top: 1.5em;
+	font-size: 90%;
+}
+
+.content-grid-download .entry-meta {
+	color: #bdc3c7;
+	font-size: 13px;
+	margin-top: 10px;
+}
+
+.content-grid-download .entry-meta a {
+	color: #82878e;
+	text-decoration: none;
+}
+
+.content-grid-download .entry-meta .byline {
+	float: left;
+}
+
+.byline img {
+	display: inline-block;
+	vertical-align: middle;
+	border-radius: 50%;
+	margin: -4px 0 0 6px;
+	width: 25px;
+	height: 25px;
+}
+
+.content-grid-download .entry-header .jp-audio {
+	float: left;
+	width: auto;
+	margin: -3px 5px 0 0;
+	border-radius: 50%;
+}
+
+.content-grid-download .entry-header .jp-playlist,
+.content-grid-download .entry-header .jp-progress,
+.content-grid-download .entry-header .jp-volume-bar,
+.content-grid-download .entry-header .jp-controls li:first-child,
+.content-grid-download .entry-header .jp-controls li:last-child {
+	display: none !important;
+}
+
+.content-grid-download .entry-header .jp-controls {
+	margin-top: 2px;
+	width: auto;
+}
+
+.content-grid-download .entry-header div.jp-interface {
+	border-radius: 50%;
+	padding: 0;
+	width: 25px;
+	height: 25px;
+}
+
+.content-grid-download .entry-header div.jp-interface ul.jp-controls li {
+	float: left;
+}
+
+.single-download div.jp-interface ul.jp-controls {
+	margin-top: 2px;
+	margin-bottom: -2px;
+}
+
+.content-grid-download .entry-header div.jp-interface ul.jp-controls a {
+	font-size: 20px;
+}
+
+.content-grid-download .entry-header div.jp-interface ul.jp-controls a i {
+	vertical-align: top;
+}
+
+.content-grid-download .entry-header div.jp-interface ul.jp-controls a.jp-play i {
+	margin-left: 2px;
+	vertical-align: middle;
+}
+
+.content-grid-download .entry-header div.jp-interface ul.jp-controls a.jp-pause {
+	margin: 2px 0 0 1px;
+	font-size: 16px;
+}
+
+.content-grid-download .entry-header div.jp-interface ul.jp-controls a.jp-pause i {
+	vertical-align: middle;
+	margin-left: 3px;
+	line-height: 1;
+}
+
+.content-grid-download.force-info .entry-header {
+	display: block;
+}
+
+.content-grid-download.hide-info .entry-header {
+	display: none;
+}
+
+.content-grid-download .entry-meta .star-rating {
+	float: right;
+}
+
+.content-grid-download .edd_purchase_tax_rate,
+.content-grid-download .edd-cp-container,
+.content-grid-download .edd-cp-container + .edd_purchase_submit_wrapper > .edd-add-to-cart {
+	display: none;
+}

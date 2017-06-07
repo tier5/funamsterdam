@@ -1,0 +1,866 @@
+# Copyright (C) 2017 Easy Digital Downloads - Sales Recovery
+# This file is distributed under the same license as the Easy Digital Downloads - Sales Recovery package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Digital Downloads - Sales Recovery 1.4.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/edd-sales-recovery\n"
+"POT-Creation-Date: 2017-04-30 09:32:44+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: edd-sales-recovery.php:78
+msgid "EDD SR Test Recovery"
+msgstr ""
+
+#: edd-sales-recovery.php:85
+msgid "EDD SR Test Purge"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:98
+msgid "Settings"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:99
+msgid "Emails"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:171
+#: includes/class-edd-sales-recovery.php:210
+msgid "In Recovery"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:176
+#: includes/class-edd-sales-recovery.php:211
+msgid "Recovered"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:186
+msgctxt "In recovery payment status"
+msgid "In Recovery"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:191
+msgid "In Recovery <span class=\"count\">(%s)</span>"
+msgid_plural "In Recovery <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-edd-sales-recovery.php:198
+msgctxt "Recovered payment status"
+msgid "Recovered"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:203
+msgid "Recovered <span class=\"count\">(%s)</span>"
+msgid_plural "Recovered <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-edd-sales-recovery.php:413
+msgid "Deleted unused, expired discount code \"%1$s\""
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:457
+msgid "Resend Recovery Email"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:468
+msgid "Stop Recovery"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:474
+msgid "Initiate Sale Recovery"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:482
+#: includes/class-edd-sales-recovery.php:489
+#: includes/class-edd-sales-recovery.php:498
+#: includes/class-edd-sales-recovery.php:659
+msgid "Sales Recovery"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:512
+msgid "Contact Page Link"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:513
+msgid "This is a feedback page for users to contact you."
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:520
+msgid "Unsubscribe Page Link"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:521
+msgid "This is the sales recovery unsubscribe or user profile page."
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:528
+msgid "Exclude processing of sales before"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:529
+msgid "( YYYY-MM-DD ) Sales which are older than inputed date will be excluded while processing sales recovery attempt."
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:536
+msgid "Purge Expired Discounts"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:537
+msgid "If enabled, a daily cron will delete unused, expired EDD Sales Recovery generated discount codes."
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:543
+msgid "Reset Recovery Status"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:544
+msgid "If enabled, checkouts with `ignored` recovery status will be reset for potential recovery actions."
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:550
+#: includes/class-edd-sales-recovery.php:679
+msgid "Initial Attempt"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:556
+#: includes/class-edd-sales-recovery.php:586
+#: includes/class-edd-sales-recovery.php:615
+msgid "Enabled?"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:557
+msgid "Check this to enable initial sales recovery attempt."
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:563
+msgid "Hours to Wait"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:564
+msgid "Number of hours to wait before first sales recovery attempt."
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:572
+#: includes/class-edd-sales-recovery.php:601
+#: includes/class-edd-sales-recovery.php:631
+msgid "Discount Percentage"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:573
+msgid "Incentive offer to complete transaction. Number is converted to percentage. Expires at beginning of first interim period. Ex: 10 becomes 10%. Leave blank for none."
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:580
+#: includes/class-edd-sales-recovery.php:707
+msgid "Interim Attempts"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:587
+msgid "Check this to enable interim sales recovery attempts."
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:593
+msgid "Days to Send"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:594
+msgid "Age in days, since abandoned sale, of when to send sales recovery attempts. Format as CSV."
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:602
+msgid "Incentive offer to complete transaction. Number is converted to percentage. Expires at beginning of final offer. Ex: 10 becomes 10%. Leave blank for none."
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:609
+#: includes/class-edd-sales-recovery.php:735
+msgid "Final Attempt"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:616
+msgid "Check this to enable final sales recovery attempts."
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:622
+msgid "Days to Wait"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:623
+msgid "Number of days to wait, since abandoned sale, before sending the final sales recovery attempt."
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:632
+msgid "Incentive offer to complete transaction. Number is converted to percentage. Ex: 10 becomes 10%. Leave blank for none."
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:639
+msgid "Discount Period"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:640
+msgid "Number of days final discount offer is valid for."
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:665
+msgid "Email Only To:?"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:666
+msgid "Check this box if you're integrated with Mandrill or other third party APIs or SMTPs that have mail sending issues."
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:672
+msgid "Disable Recovery Notifications"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:673
+msgid "Check this box if you do not want to receive emails when sales recovery attempts are made."
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:685
+#: includes/class-edd-sales-recovery.php:713
+#: includes/class-edd-sales-recovery.php:741
+msgid "Recovery Subject"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:687
+msgid "{sitename}: Did you have checkout trouble?"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:692
+#: includes/class-edd-sales-recovery.php:720
+#: includes/class-edd-sales-recovery.php:748
+msgid "Recovery Content"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:700
+#: includes/class-edd-sales-recovery.php:728
+#: includes/class-edd-sales-recovery.php:756
+msgid "Recovery Notification Subject"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:702
+#: includes/class-edd-sales-recovery.php:730
+#: includes/class-edd-sales-recovery.php:758
+msgid "{sitename}: Sale Recovery Attempt: {stage}"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:715
+msgid "{sitename}: We want your business!"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:743
+msgid "{sitename}: Final Offer!"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:800
+msgid ""
+"Hello {name},\n"
+"\n"
+"We're following up with you, because we noticed that on {date} you attempted to purchase the following products via {payment_method} on {sitename}.\n"
+"\n"
+"{cart_items}\n"
+"\n"
+"If you had any purchase troubles, could you please {contact} to share them?\n"
+"\n"
+"Otherwise, how about giving us another chance? Shop <a href=\"{store_url}\">{sitename}</a>."
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:814
+msgid ""
+"\n"
+"\n"
+"As a thank you for coming back, here's a single-use coupon for {discount}, that expires {discount_expiration}. You can use discount code \"{discount_code}\" during {recovery_url}."
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:822
+msgid ""
+"\n"
+"<hr />\n"
+"You may <a href=\"{unsubscribe_url}\">unsubscribe</a> to stop receiving these emails.\n"
+"\n"
+"<a href=\"{site_url}\">{sitename}</a> appreciates your business."
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:837
+msgid "Enter the email contents that is sent for sales recovery attempts. HTML is accepted. Additional EDD template tags:"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:838
+msgid "Admin order details URL"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:839
+msgid "Admin order details tag - Automatically prepended to admin notifications"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:840
+msgid "Cart contents"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:841
+msgid "Checkout page URL"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:842
+msgid "Checkout page tag"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:843
+msgid "Contact page URL"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:844
+msgid "Contact page tag"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:845
+msgid "The discount code"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:846
+msgid "The discount code expiration date"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:847
+msgid "The discount percentage"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:848
+msgid "Recovery URL"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:849
+msgid "Site URL"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:850
+msgid "Sales recovery stage"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:851
+msgid "Store URL"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:852
+msgid "Unsubscribe page URL"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:853
+msgid "Unsubscribe page tag"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:854
+msgid "User's orders URL"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:855
+msgid "User's orders tag - Automatically prepended to admin notifications"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:1106
+msgid "Sales recovery state changed to %1$s"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:1140
+#: includes/class-edd-sales-recovery.php:1167
+msgid "Empty purchase ID"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:1142
+#: includes/class-edd-sales-recovery.php:1169
+msgid "Empty confirmation key"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:1144
+#: includes/class-edd-sales-recovery.php:1171
+msgid "Confirmation key failed"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:1198
+msgid "Sales recovery manually stopped"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:1211
+msgid "Sales recovery process has been stopped. %1$s"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:1234
+msgid "Sale is not recoverable"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:1252
+msgid "Latest recovery email failed to be resent because \"%1$s\"."
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:1264
+msgid "View <a href=\"%1$s\">order details</a>."
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:1275
+msgid "Latest recovery email was resent. %1$s"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:1285
+msgid "Sales recovery process started. %1$s"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:1311
+msgid "Sales recovery process failed for \"%1$s\"."
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:1405
+msgid "Sales recovery ended automatically"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:1439
+msgid "Sales recovery stage changed to %2$s"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:1441
+msgid "Sales recovery stage changed from %1$s to %2$s"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:1465
+msgid "Transaction status changed from %1$s to %2$s"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:1492
+msgid "Sales recovery %2$s email sent: \"%1$s\""
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:1506
+msgid "Sales recovery %2$s email \"%1$s\" failed due to mail sending problems."
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:1508
+msgid "`EDD()->emails->send` failed to send"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:1636
+msgid "View <a href=\"%1$s\">user's orders</a>."
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:1697
+msgid "% off"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:1737
+msgid "Sales recovery created discount code \"%1$s\" for %2$s expiring %3$s"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:1779
+msgid "Sales recovery succeeded. %1$s"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:1795
+msgid "Stop"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:1806
+msgid "Resend"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:1816
+msgid "Start"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:1830
+msgid "Recovery Process"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:1840
+msgid "EDD Sales Recovery"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:1845
+msgid "Sales Recovery Unsubscribe"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:1849
+msgid "Unsubscribe from current and future sales recovery attempts?"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:1894
+msgid "Sales recovery process stopped per user unsubscribe"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:1931
+msgid "Failed version check"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:1998
+msgid "%s Sales Recovery"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:2031
+msgid "Preview Initial Sales Recovery"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:2032
+msgid "This will send a demo initial sales recovery to the EDD From Email emails listed above."
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:2032
+msgid "Send Initial Sales Recovery Test Email"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:2056
+msgid "Preview Interim Sales Recovery"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:2057
+msgid "This will send a demo interim sales recovery to the EDD From Email emails listed above."
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:2057
+msgid "Send Interim Sales Recovery Test Email"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:2081
+msgid "Preview Final Sales Recovery"
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:2082
+msgid "This will send a demo final sales recovery to the EDD From Email emails listed above."
+msgstr ""
+
+#: includes/class-edd-sales-recovery.php:2082
+msgid "Send Final Sales Recovery Test Email"
+msgstr ""
+
+#: includes/libraries/EDD_License_Handler.php:126
+msgid "%1$s License Key"
+msgstr ""
+
+#: includes/libraries/EDD_License_Handler.php:258
+msgid "Deactivate License"
+msgstr ""
+
+#: includes/libraries/aihrus-framework/aihrus-framework.php:47
+msgid "`aihr_check_aihrus_framework` requires $file argument"
+msgstr ""
+
+#: includes/libraries/aihrus-framework/aihrus-framework.php:90
+msgid "<a href=\"%1$s\">Update plugins</a>. <a href=\"%2$s\" target=\"_blank\">More information</a>."
+msgstr ""
+
+#: includes/libraries/aihrus-framework/aihrus-framework.php:101
+msgid "Plugin \"%1$s\" is causing the out of date issue."
+msgstr ""
+
+#: includes/libraries/aihrus-framework/aihrus-framework.php:106
+msgid "Plugin \"%1$s\" has been deactivated as it requires Aihrus Framework %2$s or newer. You're running Aihrus Framework %4$s. Once corrected, \"%1$s\" can be activated. %5$s %3$s"
+msgstr ""
+
+#: includes/libraries/aihrus-framework/aihrus-framework.php:115
+msgid "`aihr_check_php` requires $file argument"
+msgstr ""
+
+#: includes/libraries/aihrus-framework/aihrus-framework.php:154
+msgid "Plugin \"%1$s\" has been deactivated as it requires PHP %2$s or newer. You're running PHP %4$s. Once corrected, \"%1$s\" can be activated. <a href=\"%3$s\" target=\"_blank\">More information</a>."
+msgstr ""
+
+#: includes/libraries/aihrus-framework/aihrus-framework.php:163
+msgid "`aihr_check_wp` requires $file argument"
+msgstr ""
+
+#: includes/libraries/aihrus-framework/aihrus-framework.php:206
+msgid "Plugin \"%1$s\" has been deactivated as it requires WordPress %2$s or newer. You're running WordPress %4$s. Once corrected, \"%1$s\" can be activated. <a href=\"%3$s\">Update WordPress</a>."
+msgstr ""
+
+#: includes/libraries/aihrus-framework/aihrus-framework.php:236
+msgid "Plugin \"%2$s\" has been deactivated. Please install and activate \"%3$s\" version %1$s or newer before activating \"%2$s\"."
+msgstr ""
+
+#: includes/libraries/aihrus-framework/aihrus-framework.php:250
+msgid "<a href=\"%1$s\">%2$s &gt; Settings</a>, <em>Premium</em> tab, <em>License Key</em>"
+msgstr ""
+
+#: includes/libraries/aihrus-framework/aihrus-framework.php:255
+msgid "<a href=\"%s\" target=\"_blank\">Where's my license key?</a>"
+msgstr ""
+
+#: includes/libraries/aihrus-framework/aihrus-framework.php:260
+msgid "<a href=\"%1$s\">Purchase</a>"
+msgstr ""
+
+#: includes/libraries/aihrus-framework/aihrus-framework.php:268
+msgid "%1$s/checkout/?edd_license_key=%2$s&download_id=%3$s"
+msgstr ""
+
+#: includes/libraries/aihrus-framework/aihrus-framework.php:272
+msgid "<a href=\"%1$s\">Renew</a> or "
+msgstr ""
+
+#: includes/libraries/aihrus-framework/aihrus-framework.php:277
+msgid "Plugin \"%1$s\" requires license activation for software updates and support. Please activate the license via %2$s. See %3$s for help. Alternately, %5$s%4$s a %1$s license."
+msgstr ""
+
+#: includes/libraries/aihrus-framework/aihrus-framework.php:287
+msgid "`aihr_deactivate_plugin` requires $file argument"
+msgstr ""
+
+#: includes/libraries/aihrus-framework/aihrus-framework.php:326
+msgid "Unknown"
+msgstr ""
+
+#: includes/libraries/aihrus-framework/aihrus-framework.php:333
+msgid "Plugin \"%1$s\" has been deactivated due to \"%2$s\". Once corrected, \"%1$s\" can be activated.</p><p>If you want to revert \"%1$s\", look for <a href=\"%3$s\">older versions on WordPress</a> or <a href=\"mailto:support@axelerant.com?subject=Old+Plugin+Version+Request\">email Axelerant support</a> if this is a premium plugin."
+msgstr ""
+
+#: includes/libraries/aihrus-framework/aihrus-framework.php:344
+msgid "`aihr_deactivate_plugin_do` requires $file argument"
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-common.php:160
+msgid "Please donate $5 towards ongoing free support and development of the \"%1$s\" plugin. %2$s"
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-common.php:341
+msgid "cURL is not installed and file_get_contents is not accessible. Unable to retrieve URL %1$s."
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-common.php:664
+msgid "<a href=\"http://codex.wordpress.org/Function_Reference/absint\">absint</a>."
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-common.php:665
+msgid "Digit-only characters to make a multiple or single entries. Regex <code>#^\\d+(,\\s?\\d+)*$#</code>."
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-common.php:666
+msgid "<a href=\"php.net/manual/en/function.intval.php\">intval</a>."
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-common.php:667
+msgid "Values like true, 'true', 1, 'on', and 'yes' are <strong>true</strong>; otherwise <strong>false</strong>."
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-common.php:668
+msgid "An <a href=\"php.net/manual/en/function.intval.php\">intval</a> greater than zero."
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-common.php:669
+msgid "A non-zero <a href=\"php.net/manual/en/function.intval.php\">intval</a>."
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-common.php:670
+msgid "SQL ordering \"ASC\" or \"DESC\". Regex <code>#^desc|asc$#i</code>."
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-common.php:671
+msgid "<a href=\"http://codex.wordpress.org/Function_Reference/sanitize_title\">sanitize_title</a>."
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-common.php:672
+msgid "Word-only characters including a hyphen to make a single term. Regex <code>#^[\\w-]+$#</code>."
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-common.php:673
+msgid "Word-only characters to make a single term. Regex <code>#^\\w+$#</code>."
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-common.php:674
+msgid "Word-only characters including hyphens and spaces to make a multiple or single terms. Regex <code>#^(([\\w- ]+)(,\\s?)?)+$#</code>."
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-common.php:675
+msgid "Current license."
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-common.php:676
+msgid "<a href=\"http://php.net/manual/en/filter.filters.validate.php\">filter_var( $url, FILTER_VALIDATE_URL )</a>."
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-common.php:677
+msgid "<a href=\"http://codex.wordpress.org/Function_Reference/wp_kses_data\">wp_kses_data</a>."
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-common.php:678
+msgid "<a href=\"http://codex.wordpress.org/Function_Reference/wp_kses_post\">wp_kses_post</a>."
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-common.php:683
+msgid "Validatation: "
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-common.php:732
+msgid "TBD empty "
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-common.php:738
+msgid "Pick an option"
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-common.php:761
+msgid "Category A, Another category, 123"
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-common.php:763
+msgid "Tag A, Another tag, 123"
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-common.php:766
+msgid "You decide…"
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-licensing.php:80
+msgid "%s license saved."
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-licensing.php:84
+msgid "%s license not saved."
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-licensing.php:175
+msgid "%s license deactivated."
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-settings.php:65
+msgid "Reset"
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-settings.php:66
+msgid "About"
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-settings.php:84
+msgid "Export Settings"
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-settings.php:86
+msgid "These are your current settings in a serialized format. Copy the contents to make a backup of your settings."
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-settings.php:95
+msgid "Import Settings"
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-settings.php:97
+msgid "Paste new serialized settings here to overwrite your current configuration."
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-settings.php:102
+msgid "Delete all %s data and options from database on plugin deletion. Even if this option isn't checked, WordPress will still give a data deletion warning."
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-settings.php:106
+msgid "Remove Plugin Data on Deletion?"
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-settings.php:116
+msgid "Reset to Defaults?"
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-settings.php:119
+msgid "Check this box to reset options to their defaults."
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-settings.php:251
+msgid "<img class=\"size-medium\" src=\"%5$s\" alt=\"Axelerant 2015 Retreat in Goa\" width=\"640\" height=\"327\" /><p>Axelerant is a full-service software development company that focuses on open-source technologies. Top technical talent who are passionate, giving, and communicative demonstrates our backbone. We provide high-end Strategy, Implementation, and Support services for our clients and agencies with whom we partner.</p><p>Our team members span the world, and we follow agile delivery and working processes. Further, we’re actively giving back to many open-source communities and have fostered an innovative, incubator culture to give ideas a chance to succeed.</p><h2>Foundations of Axelerant</h2><ul><li><b>Passion</b> – Our passion is so strong, we’re self­directed to make the difficult easy.</li><li><b>Openness</b> – We’re so honest and painstaking in our discussions that there are no questions left, and standards are created.</li><li><b>Giving</b> – We’re excited to share our results to inspire all to surpass them.</li></ul><h3>Learn More About Axelerant</h3><ul><li><a href=\"%1$s\">Axelerant Team</a></li><li><a href=\"%2$s\">Giving Back</a></li><li><a href=\"%7$s\">Inside Axelerant</a></li><li><a href=\"%3$s\">Our Services</a></li><li><a href=\"%4$s\">Testimonials</a></li><li><a href=\"%6$s\">Careers</a></li></ul>"
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-settings.php:290
+msgid "Save Changes"
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-settings.php:298
+msgid "If you like this plugin, please <a href=\"%1$s\" title=\"Donate for Good Karma\"><img src=\"%2$s\" border=\"0\" alt=\"Donate for Good Karma\" /></a> or <a href=\"%3$s\" title=\"purchase premium WordPress plugins from Axelerant \">purchase the Premium version</a> to help fund further development and <a href=\"%4$s\" title=\"Support forums\">support</a>."
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-settings.php:309
+msgid "Copyright &copy;%1$s <a href=\"%2$s\">Axlerant</a>."
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-settings.php:616
+msgid "Settings saved."
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-settings.php:680
+msgid "Required"
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-widget.php:166
+msgid "Expand All Options"
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-widget.php:167
+msgid "Collapse All Options"
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-widget.php:178
+msgid "Expand"
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-widget.php:179
+msgid "Collapse"
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-widget.php:340
+msgid "Title"
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-widget.php:344
+msgid "Title Link"
+msgstr ""
+
+#: includes/libraries/aihrus-framework/includes/class-aihrus-widget.php:345
+msgid "URL, path, or post ID to link widget title to. Ex: http://example.com/stuff, /testimonials, or 123"
+msgstr ""
+
+#: includes/requirements.php:30
+msgid "Missing Aihrus Framework"
+msgstr ""
+
+#: includes/requirements.php:33
+msgid "Old Aihrus Framework version detected"
+msgstr ""
+
+#: includes/requirements.php:37
+msgid "Old PHP version detected"
+msgstr ""
+
+#: includes/requirements.php:41
+msgid "Old WordPress version detected"
+msgstr ""
+
+#: includes/requirements.php:45
+msgid "%1$s not activated"
+msgstr ""
+
+#: includes/requirements.php:70
+msgid "<a href=\"%1$s\">Update plugins</a>. <a href=\"%2$s\">More information</a>."
+msgstr ""
+
+#: includes/requirements.php:72
+msgid "Plugin \"%1$s\" has been deactivated as it requires a current Aihrus Framework. Once corrected, \"%1$s\" can be activated. %2$s"
+msgstr ""
+
+#: includes/requirements.php:81
+msgid "%1$s isn't possible until at least one attempt type, like \"Initial Attempt\", is enabled in %2$s."
+msgstr ""
+#. Plugin Name of the plugin/theme
+msgid "Easy Digital Downloads - Sales Recovery"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://store.axelerant.com/downloads/sales-recovery-easy-digital-downloads/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Increase cash flow by following up on users with abandoned shopping carts via automated reminders and discounts for Easy Digital Downloads transactions."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Axelerant"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://axelerant.com/"
+msgstr ""

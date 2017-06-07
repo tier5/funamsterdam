@@ -1,0 +1,126 @@
+[08-Mar-2016 10:46:29 Etc/GMT] PHP Fatal error:  Uncaught exception 'Stripe\Error\ApiConnection' with message 'Could not connect to Stripe (https://api.stripe.com/v1/customers/cus_82a18ilnnkJ8w0).  Please check your internet connection and try again.  If this problem persists, you should check Stripe's service status at https://twitter.com/stripestatus, or let us know at support@stripe.com.
+
+(Network error [errno 28]: Connection timed out after 30000 milliseconds)' in /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php:182
+Stack trace:
+#0 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php(144): Stripe\HttpClient\CurlClient->handleCurlError('https://api.str...', 28, 'Connection time...')
+#1 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/ApiRequestor.php(184): Stripe\HttpClient\CurlClient->request('get', 'https://api.str...', Array, Array, false)
+#2 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/ApiRequestor.php(59): Stripe\ApiRequestor-> in /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php on line 182
+[08-Mar-2016 10:48:34 Etc/GMT] PHP Fatal error:  Uncaught exception 'Stripe\Error\ApiConnection' with message 'Could not connect to Stripe (https://api.stripe.com/v1/customers/cus_82a18ilnnkJ8w0).  Please check your internet connection and try again.  If this problem persists, you should check Stripe's service status at https://twitter.com/stripestatus, or let us know at support@stripe.com.
+
+(Network error [errno 28]: Connection timed out after 30000 milliseconds)' in /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php:182
+Stack trace:
+#0 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php(144): Stripe\HttpClient\CurlClient->handleCurlError('https://api.str...', 28, 'Connection time...')
+#1 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/ApiRequestor.php(184): Stripe\HttpClient\CurlClient->request('get', 'https://api.str...', Array, Array, false)
+#2 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/ApiRequestor.php(59): Stripe\ApiRequestor-> in /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php on line 182
+[08-Mar-2016 10:50:59 Etc/GMT] PHP Fatal error:  Uncaught exception 'Stripe\Error\ApiConnection' with message 'Could not connect to Stripe (https://api.stripe.com/v1/customers/cus_82a18ilnnkJ8w0).  Please check your internet connection and try again.  If this problem persists, you should check Stripe's service status at https://twitter.com/stripestatus, or let us know at support@stripe.com.
+
+(Network error [errno 28]: Connection timed out after 30000 milliseconds)' in /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php:182
+Stack trace:
+#0 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php(144): Stripe\HttpClient\CurlClient->handleCurlError('https://api.str...', 28, 'Connection time...')
+#1 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/ApiRequestor.php(184): Stripe\HttpClient\CurlClient->request('get', 'https://api.str...', Array, Array, false)
+#2 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/ApiRequestor.php(59): Stripe\ApiRequestor-> in /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php on line 182
+[08-Mar-2016 10:52:01 Etc/GMT] PHP Fatal error:  Uncaught exception 'Stripe\Error\ApiConnection' with message 'Could not connect to Stripe (https://api.stripe.com/v1/customers/cus_82a18ilnnkJ8w0).  Please check your internet connection and try again.  If this problem persists, you should check Stripe's service status at https://twitter.com/stripestatus, or let us know at support@stripe.com.
+
+(Network error [errno 28]: Connection timed out after 30001 milliseconds)' in /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php:182
+Stack trace:
+#0 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php(144): Stripe\HttpClient\CurlClient->handleCurlError('https://api.str...', 28, 'Connection time...')
+#1 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/ApiRequestor.php(184): Stripe\HttpClient\CurlClient->request('get', 'https://api.str...', Array, Array, false)
+#2 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/ApiRequestor.php(59): Stripe\ApiRequestor-> in /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php on line 182
+[08-Mar-2016 10:53:13 Etc/GMT] PHP Fatal error:  Uncaught exception 'Stripe\Error\ApiConnection' with message 'Could not connect to Stripe (https://api.stripe.com/v1/customers/cus_82a18ilnnkJ8w0).  Please check your internet connection and try again.  If this problem persists, you should check Stripe's service status at https://twitter.com/stripestatus, or let us know at support@stripe.com.
+
+(Network error [errno 28]: Connection timed out after 30001 milliseconds)' in /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php:182
+Stack trace:
+#0 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php(144): Stripe\HttpClient\CurlClient->handleCurlError('https://api.str...', 28, 'Connection time...')
+#1 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/ApiRequestor.php(184): Stripe\HttpClient\CurlClient->request('get', 'https://api.str...', Array, Array, false)
+#2 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/ApiRequestor.php(59): Stripe\ApiRequestor-> in /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php on line 182
+[08-Mar-2016 10:54:59 Etc/GMT] PHP Fatal error:  Uncaught exception 'Stripe\Error\ApiConnection' with message 'Could not connect to Stripe (https://api.stripe.com/v1/customers/cus_82a18ilnnkJ8w0).  Please check your internet connection and try again.  If this problem persists, you should check Stripe's service status at https://twitter.com/stripestatus, or let us know at support@stripe.com.
+
+(Network error [errno 28]: Connection timed out after 30000 milliseconds)' in /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php:182
+Stack trace:
+#0 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php(144): Stripe\HttpClient\CurlClient->handleCurlError('https://api.str...', 28, 'Connection time...')
+#1 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/ApiRequestor.php(184): Stripe\HttpClient\CurlClient->request('get', 'https://api.str...', Array, Array, false)
+#2 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/ApiRequestor.php(59): Stripe\ApiRequestor-> in /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php on line 182
+[08-Mar-2016 11:06:17 Etc/GMT] PHP Fatal error:  Uncaught exception 'Stripe\Error\ApiConnection' with message 'Could not connect to Stripe (https://api.stripe.com/v1/customers/cus_82a18ilnnkJ8w0).  Please check your internet connection and try again.  If this problem persists, you should check Stripe's service status at https://twitter.com/stripestatus, or let us know at support@stripe.com.
+
+(Network error [errno 28]: Connection timed out after 30000 milliseconds)' in /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php:182
+Stack trace:
+#0 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php(144): Stripe\HttpClient\CurlClient->handleCurlError('https://api.str...', 28, 'Connection time...')
+#1 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/ApiRequestor.php(184): Stripe\HttpClient\CurlClient->request('get', 'https://api.str...', Array, Array, false)
+#2 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/ApiRequestor.php(59): Stripe\ApiRequestor-> in /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php on line 182
+[08-Mar-2016 11:11:40 Etc/GMT] PHP Fatal error:  Uncaught exception 'Stripe\Error\ApiConnection' with message 'Could not connect to Stripe (https://api.stripe.com/v1/customers/cus_82a18ilnnkJ8w0).  Please check your internet connection and try again.  If this problem persists, you should check Stripe's service status at https://twitter.com/stripestatus, or let us know at support@stripe.com.
+
+(Network error [errno 28]: Connection timed out after 30000 milliseconds)' in /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php:182
+Stack trace:
+#0 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php(144): Stripe\HttpClient\CurlClient->handleCurlError('https://api.str...', 28, 'Connection time...')
+#1 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/ApiRequestor.php(184): Stripe\HttpClient\CurlClient->request('get', 'https://api.str...', Array, Array, false)
+#2 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/ApiRequestor.php(59): Stripe\ApiRequestor-> in /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php on line 182
+[08-Mar-2016 11:14:17 Etc/GMT] PHP Fatal error:  Uncaught exception 'Stripe\Error\ApiConnection' with message 'Could not connect to Stripe (https://api.stripe.com/v1/customers/cus_82a18ilnnkJ8w0).  Please check your internet connection and try again.  If this problem persists, you should check Stripe's service status at https://twitter.com/stripestatus, or let us know at support@stripe.com.
+
+(Network error [errno 28]: Connection timed out after 30000 milliseconds)' in /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php:182
+Stack trace:
+#0 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php(144): Stripe\HttpClient\CurlClient->handleCurlError('https://api.str...', 28, 'Connection time...')
+#1 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/ApiRequestor.php(184): Stripe\HttpClient\CurlClient->request('get', 'https://api.str...', Array, Array, false)
+#2 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/ApiRequestor.php(59): Stripe\ApiRequestor-> in /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php on line 182
+[08-Mar-2016 11:15:55 Etc/GMT] PHP Fatal error:  Uncaught exception 'Stripe\Error\ApiConnection' with message 'Could not connect to Stripe (https://api.stripe.com/v1/customers/cus_82a18ilnnkJ8w0).  Please check your internet connection and try again.  If this problem persists, you should check Stripe's service status at https://twitter.com/stripestatus, or let us know at support@stripe.com.
+
+(Network error [errno 28]: Connection timed out after 30000 milliseconds)' in /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php:182
+Stack trace:
+#0 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php(144): Stripe\HttpClient\CurlClient->handleCurlError('https://api.str...', 28, 'Connection time...')
+#1 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/ApiRequestor.php(184): Stripe\HttpClient\CurlClient->request('get', 'https://api.str...', Array, Array, false)
+#2 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/ApiRequestor.php(59): Stripe\ApiRequestor-> in /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php on line 182
+[08-Mar-2016 11:16:28 Etc/GMT] PHP Fatal error:  Uncaught exception 'Stripe\Error\ApiConnection' with message 'Could not connect to Stripe (https://api.stripe.com/v1/customers/cus_82a18ilnnkJ8w0).  Please check your internet connection and try again.  If this problem persists, you should check Stripe's service status at https://twitter.com/stripestatus, or let us know at support@stripe.com.
+
+(Network error [errno 28]: Connection timed out after 30000 milliseconds)' in /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php:182
+Stack trace:
+#0 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php(144): Stripe\HttpClient\CurlClient->handleCurlError('https://api.str...', 28, 'Connection time...')
+#1 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/ApiRequestor.php(184): Stripe\HttpClient\CurlClient->request('get', 'https://api.str...', Array, Array, false)
+#2 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/ApiRequestor.php(59): Stripe\ApiRequestor-> in /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php on line 182
+[08-Mar-2016 11:18:28 Etc/GMT] PHP Fatal error:  Uncaught exception 'Stripe\Error\ApiConnection' with message 'Could not connect to Stripe (https://api.stripe.com/v1/customers/cus_82a18ilnnkJ8w0).  Please check your internet connection and try again.  If this problem persists, you should check Stripe's service status at https://twitter.com/stripestatus, or let us know at support@stripe.com.
+
+(Network error [errno 28]: Connection timed out after 30000 milliseconds)' in /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php:182
+Stack trace:
+#0 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php(144): Stripe\HttpClient\CurlClient->handleCurlError('https://api.str...', 28, 'Connection time...')
+#1 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/ApiRequestor.php(184): Stripe\HttpClient\CurlClient->request('get', 'https://api.str...', Array, Array, false)
+#2 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/ApiRequestor.php(59): Stripe\ApiRequestor-> in /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php on line 182
+[08-Mar-2016 11:19:34 Etc/GMT] PHP Fatal error:  Uncaught exception 'Stripe\Error\ApiConnection' with message 'Could not connect to Stripe (https://api.stripe.com/v1/customers?limit=3).  Please check your internet connection and try again.  If this problem persists, you should check Stripe's service status at https://twitter.com/stripestatus, or let us know at support@stripe.com.
+
+(Network error [errno 28]: Connection timed out after 30000 milliseconds)' in /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php:182
+Stack trace:
+#0 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php(144): Stripe\HttpClient\CurlClient->handleCurlError('https://api.str...', 28, 'Connection time...')
+#1 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/ApiRequestor.php(184): Stripe\HttpClient\CurlClient->request('get', 'https://api.str...', Array, Array, false)
+#2 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/ApiRequestor.php(59): Stripe\ApiRequestor->_requestRaw in /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php on line 182
+[08-Mar-2016 11:20:27 Etc/GMT] PHP Fatal error:  Uncaught exception 'Stripe\Error\ApiConnection' with message 'Could not connect to Stripe (https://api.stripe.com/v1/customers?limit=3).  Please check your internet connection and try again.  If this problem persists, you should check Stripe's service status at https://twitter.com/stripestatus, or let us know at support@stripe.com.
+
+(Network error [errno 28]: Connection timed out after 30000 milliseconds)' in /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php:182
+Stack trace:
+#0 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php(144): Stripe\HttpClient\CurlClient->handleCurlError('https://api.str...', 28, 'Connection time...')
+#1 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/ApiRequestor.php(184): Stripe\HttpClient\CurlClient->request('get', 'https://api.str...', Array, Array, false)
+#2 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/ApiRequestor.php(59): Stripe\ApiRequestor->_requestRaw in /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php on line 182
+[08-Mar-2016 11:22:07 Etc/GMT] PHP Fatal error:  Uncaught exception 'Stripe\Error\ApiConnection' with message 'Could not connect to Stripe (https://api.stripe.com/v1/customers?limit=3).  Please check your internet connection and try again.  If this problem persists, you should check Stripe's service status at https://twitter.com/stripestatus, or let us know at support@stripe.com.
+
+(Network error [errno 28]: Connection timed out after 30000 milliseconds)' in /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php:182
+Stack trace:
+#0 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php(144): Stripe\HttpClient\CurlClient->handleCurlError('https://api.str...', 28, 'Connection time...')
+#1 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/ApiRequestor.php(184): Stripe\HttpClient\CurlClient->request('get', 'https://api.str...', Array, Array, false)
+#2 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/ApiRequestor.php(59): Stripe\ApiRequestor->_requestRaw in /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php on line 182
+[18-Mar-2016 02:19:18 Etc/GMT] PHP Fatal error:  Uncaught exception 'Stripe\Error\ApiConnection' with message 'Could not connect to Stripe (https://api.stripe.com/v1/customers?limit=3).  Please check your internet connection and try again.  If this problem persists, you should check Stripe's service status at https://twitter.com/stripestatus, or let us know at support@stripe.com.
+
+(Network error [errno 28]: Connection timed out after 30000 milliseconds)' in /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php:182
+Stack trace:
+#0 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php(144): Stripe\HttpClient\CurlClient->handleCurlError('https://api.str...', 28, 'Connection time...')
+#1 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/ApiRequestor.php(184): Stripe\HttpClient\CurlClient->request('get', 'https://api.str...', Array, Array, false)
+#2 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/ApiRequestor.php(59): Stripe\ApiRequestor->_requestRaw in /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php on line 182
+[18-Mar-2016 15:35:16 Etc/GMT] PHP Fatal error:  Uncaught exception 'Stripe\Error\ApiConnection' with message 'Could not connect to Stripe (https://api.stripe.com/v1/customers?limit=100).  Please check your internet connection and try again.  If this problem persists, you should check Stripe's service status at https://twitter.com/stripestatus, or let us know at support@stripe.com.
+
+(Network error [errno 28]: Connection timed out after 30000 milliseconds)' in /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php:182
+Stack trace:
+#0 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php(144): Stripe\HttpClient\CurlClient->handleCurlError('https://api.str...', 28, 'Connection time...')
+#1 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/ApiRequestor.php(184): Stripe\HttpClient\CurlClient->request('get', 'https://api.str...', Array, Array, false)
+#2 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/ApiRequestor.php(59): Stripe\ApiRequestor->_requestR in /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php on line 182
+[24-Mar-2016 19:34:57 Etc/GMT] PHP Fatal error:  Uncaught exception 'Stripe\Error\ApiConnection' with message 'Could not connect to Stripe (https://api.stripe.com/v1/customers?limit=100).  Please check your internet connection and try again.  If this problem persists, you should check Stripe's service status at https://twitter.com/stripestatus, or let us know at support@stripe.com.
+
+(Network error [errno 28]: Connection timed out after 30000 milliseconds)' in /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php:182
+Stack trace:
+#0 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php(144): Stripe\HttpClient\CurlClient->handleCurlError('https://api.str...', 28, 'Connection time...')
+#1 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/ApiRequestor.php(184): Stripe\HttpClient\CurlClient->request('get', 'https://api.str...', Array, Array, false)
+#2 /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/ApiRequestor.php(59): Stripe\ApiRequestor->_requestR in /home/techlwoj/public_html/projects/stripe_cancel_subscription/lib/HttpClient/CurlClient.php on line 182

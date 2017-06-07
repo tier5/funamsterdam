@@ -1,0 +1,1717 @@
+# Copyright (C) 2016 Astoundify
+# This file is distributed under the GNU General Public License.
+msgid ""
+msgstr ""
+"Project-Id-Version: Marketify 2.3.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/style\n"
+"POT-Creation-Date: 2016-01-14 13:56:24+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.4.9\n"
+
+#: 404.php:20
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the "
+"links below or a search?"
+msgstr ""
+
+#: 404.php:31
+msgid "Most Used Categories"
+msgstr ""
+
+#: bbpress/form-search.php:15 inc/template/class-template-navigation.php:19
+#: searchform-header.php:11 searchform-header.php:14 searchform.php:27
+msgid "Search"
+msgstr ""
+
+#: bbpress/form-search.php:15 searchform-header.php:11 searchform.php:27
+msgid "Search for:"
+msgstr ""
+
+#: comments.php:29
+msgid "Reviews"
+msgstr ""
+
+#: comments.php:29
+msgid "Comments"
+msgstr ""
+
+#: comments.php:43
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:44
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:45
+msgid "Newer Comments"
+msgstr ""
+
+#: content-entry-meta.php:9
+msgid "<span class=\"byline\">%1$s</span>"
+msgstr ""
+
+#: content-entry-meta.php:12 page-templates/team.php:57
+msgid "View all posts by %s"
+msgstr ""
+
+#: content-entry-meta.php:22 content-grid.php:16
+msgid "0 Comments"
+msgstr ""
+
+#: content-entry-meta.php:22 content-grid.php:16
+msgid "1 Comment"
+msgstr ""
+
+#: content-entry-meta.php:22 content-grid.php:16
+msgid "% Comments"
+msgstr ""
+
+#: content-entry-meta.php:25 content-single.php:21
+#: inc/template/class-template-comments.php:51
+msgid "Edit"
+msgstr ""
+
+#: content-grid.php:15
+msgid "Read More"
+msgstr ""
+
+#: content-page.php:14 content-single-download.php:23 content-single.php:13
+msgid "Pages:"
+msgstr ""
+
+#: content-single-download.php:10
+msgid "About the %s"
+msgstr ""
+
+#: edd_templates/shortcode-content-image.php:18
+msgid "Details"
+msgstr ""
+
+#: edd_templates/shortcode-content-image.php:20
+msgid "Item Price: %s"
+msgstr ""
+
+#: header.php:41
+msgid "Menu"
+msgstr ""
+
+#: inc/customizer/class-customizer-panels.php:16
+msgid "General"
+msgstr ""
+
+#: inc/customizer/class-customizer-panels.php:22
+msgid "Appearance"
+msgstr ""
+
+#: inc/customizer/class-customizer-panels.php:25
+msgid "Colors"
+msgstr ""
+
+#: inc/customizer/class-customizer-panels.php:28
+#: inc/customizer/class-customizer-panels.php:58
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer/class-customizer-panels.php:39
+msgid "Labels & Behavior"
+msgstr ""
+
+#: inc/customizer/class-customizer-panels.php:42
+#: inc/integrations/edd/widgets/class-widget-download-archive-sorting.php:13
+msgid "Shop"
+msgstr ""
+
+#: inc/customizer/class-customizer-panels.php:45
+msgid "Standard %s"
+msgstr ""
+
+#: inc/customizer/class-customizer-panels.php:48
+msgid "Audio %s"
+msgstr ""
+
+#: inc/customizer/class-customizer-panels.php:51
+msgid "Video %s"
+msgstr ""
+
+#: inc/customizer/class-customizer-panels.php:61
+msgid "Contact Us"
+msgstr ""
+
+#: inc/customizer/class-customizer-panels.php:64
+#: inc/customizer/controls/class-controls-copyright.php:29
+msgid "Copyright"
+msgstr ""
+
+#: inc/customizer/class-customizer-panels.php:112
+msgid "Site Logo"
+msgstr ""
+
+#: inc/customizer/class-customizer-panels.php:113
+msgid "Header & Navigation Text Color"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-colors.php:20
+msgid "Page Header Background Color"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-colors.php:25
+msgid "Primary Color"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-colors.php:30
+msgid "Accent Color"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-colors.php:35
+msgid "Footer Background Color"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-contact-us.php:20
+msgid "Display \"Contact Us\" Section"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-contact-us.php:25
+#: inc/integrations/edd/class-edd-sorting.php:21
+msgid "Title"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-contact-us.php:30
+msgid "Contact Address/Information"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-copyright.php:20
+msgid "Display \"Copyright\" Section"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-copyright.php:24
+msgid "Logo"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-download-archives.php:20
+msgid "%s Per Page"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-download-archives.php:22
+msgid ""
+"Can be overwritten by passing <code>number</code> to the "
+"<code>[downloads]</code> shortcode"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-download-archives.php:26
+msgid "Number of Columns"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-download-archives.php:29
+msgid ""
+"Can be overwritten by passing <code>columns</code> to the "
+"<code>[downloads]</code> shortcode. Max 4"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-download-archives.php:33
+msgid "Display \"Popular Items\" above results"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-download-archives.php:37
+msgid "Display excerpt below title"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-download-archives.php:41
+msgid "Truncate item titles"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-download-archives.php:45
+msgid "Display Titles & Meta"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-download-archives.php:47
+msgid "<strong>Always</strong> will display on featured and popular sliders."
+msgstr ""
+
+#: inc/customizer/controls/class-controls-download-archives.php:49
+msgid "Auto"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-download-archives.php:50
+msgid "Always"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-download-archives.php:51
+msgid "Never"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-download-single-audio.php:20
+msgid "Audio Player Location"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-download-single-audio.php:23
+#: inc/customizer/controls/class-controls-download-single-standard.php:23
+#: inc/customizer/controls/class-controls-download-single-video.php:23
+msgid "Page Header"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-download-single-audio.php:24
+#: inc/customizer/controls/class-controls-download-single-standard.php:24
+#: inc/customizer/controls/class-controls-download-single-video.php:24
+msgid "Page Content"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-download-single-audio.php:29
+#: inc/customizer/controls/class-controls-download-single-standard.php:29
+#: inc/customizer/controls/class-controls-download-single-video.php:29
+msgid "Featured Image Display"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-download-single-audio.php:32
+#: inc/customizer/controls/class-controls-download-single-standard.php:32
+#: inc/customizer/controls/class-controls-download-single-video.php:32
+msgid "Header Background"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-download-single-audio.php:33
+msgid "Below Audio Player"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-download-single-audio.php:34
+#: inc/customizer/controls/class-controls-download-single-standard.php:33
+#: inc/customizer/controls/class-controls-download-single-video.php:34
+msgid "None"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-download-single-standard.php:20
+msgid "Image Gallery Location"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-download-single-video.php:20
+msgid "Video Location"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-download-single-video.php:33
+msgid "Below Video Player"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-downloads-behavior.php:20
+msgid "Singular Download Label"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-downloads-behavior.php:25
+msgid "Plural Download Label"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-downloads-behavior.php:30
+msgid "Generate Permalinks"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-downloads-behavior.php:32
+msgid ""
+"Use these labels to create updated permalinks. Visit <a "
+"href=\"%s\">Settings &rarr; Permalinks</a> once saved."
+msgstr ""
+
+#: inc/customizer/controls/class-controls-footer.php:20
+msgid "Background"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-footer.php:23
+msgid "Transparent"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-footer.php:24
+msgid "Color"
+msgstr ""
+
+#: inc/customizer/controls/class-controls-footer.php:27
+msgid "Set a color in \"Appearance &rarr; Colors\""
+msgstr ""
+
+#: inc/integrations/bbpress/class-bbpress.php:14
+#: inc/integrations/edd/widgets/class-widget-downloads-curated.php:13
+#: inc/integrations/edd/widgets/class-widget-downloads-featured-popular.php:54
+#: inc/integrations/edd/widgets/class-widget-downloads-recent.php:13
+#: inc/integrations/edd/widgets/class-widget-downloads-taxonomy-stylized.php:20
+#: inc/widgets/_widgets/class-widget-blog-posts.php:13
+#: inc/widgets/_widgets/class-widget-price-table.php:13
+#: inc/widgets/class-widgets.php:41
+msgid "Home"
+msgstr ""
+
+#: inc/integrations/edd/class-edd-metaboxes.php:14
+msgid "%s Video URL"
+msgstr ""
+
+#: inc/integrations/edd/class-edd-metaboxes.php:15
+msgid "%s Demo URL"
+msgstr ""
+
+#: inc/integrations/edd/class-edd-popular.php:86
+#: inc/integrations/edd/class-edd-popular.php:96
+msgid "Popular in %s"
+msgstr ""
+
+#: inc/integrations/edd/class-edd-popular.php:88
+msgid "Popular %s"
+msgstr ""
+
+#: inc/integrations/edd/class-edd-shortcode.php:80
+#: inc/template/class-template-pagination.php:11
+msgid "Previous"
+msgstr ""
+
+#: inc/integrations/edd/class-edd-shortcode.php:81
+#: inc/template/class-template-pagination.php:12
+msgid "Next"
+msgstr ""
+
+#: inc/integrations/edd/class-edd-sorting.php:20
+msgid "Date"
+msgstr ""
+
+#: inc/integrations/edd/class-edd-sorting.php:22
+msgid "Price"
+msgstr ""
+
+#: inc/integrations/edd/class-edd-sorting.php:23
+msgid "Sales"
+msgstr ""
+
+#: inc/integrations/edd/class-edd-template-download.php:75
+msgid "Demo"
+msgstr ""
+
+#: inc/integrations/edd/class-edd-template-navigation.php:30
+msgid "Checkout"
+msgstr ""
+
+#: inc/integrations/edd/class-edd-template-purchase-form.php:32
+#: inc/integrations/edd/widgets/class-widget-download-details.php:78
+msgid "Purchase"
+msgstr ""
+
+#: inc/integrations/edd/class-edd-widgets.php:28
+msgid "Shop Sidebar"
+msgstr ""
+
+#: inc/integrations/edd/class-edd-widgets.php:37
+#: inc/integrations/edd/widgets/class-widget-download-details.php:13
+#: inc/integrations/edd/widgets/class-widget-download-share.php:13
+#: inc/integrations/edd-fes/widgets/class-widget-product-details.php:13
+msgid "%s Sidebar"
+msgstr ""
+
+#: inc/integrations/edd/class-edd-widgets.php:46
+msgid "%s Comments Sidebar"
+msgstr ""
+
+#: inc/integrations/edd/widgets/class-widget-download-archive-sorting.php:7
+msgid "Display a way to sort the current product archives."
+msgstr ""
+
+#: inc/integrations/edd/widgets/class-widget-download-archive-sorting.php:9
+msgid "Marketify - Shop: Download Sorting"
+msgstr ""
+
+#: inc/integrations/edd/widgets/class-widget-download-archive-sorting.php:18
+#: inc/integrations/edd/widgets/class-widget-download-details.php:18
+#: inc/integrations/edd/widgets/class-widget-download-share.php:18
+#: inc/integrations/edd/widgets/class-widget-downloads-curated.php:18
+#: inc/integrations/edd/widgets/class-widget-downloads-recent.php:18
+#: inc/integrations/edd-fes/widgets/class-widget-product-details.php:18
+#: inc/integrations/edd-product-reviews/widgets/class-widget-download-review-details.php:14
+#: inc/widgets/_widgets/class-widget-blog-posts.php:18
+#: inc/widgets/_widgets/class-widget-feature-callout.php:79
+#: inc/widgets/_widgets/class-widget-price-table.php:18
+msgid "Title:"
+msgstr ""
+
+#: inc/integrations/edd/widgets/class-widget-download-archive-sorting.php:44
+msgid "Sort by"
+msgstr ""
+
+#: inc/integrations/edd/widgets/class-widget-download-archive-sorting.php:58
+msgid "ASC"
+msgstr ""
+
+#: inc/integrations/edd/widgets/class-widget-download-archive-sorting.php:63
+msgid "DESC"
+msgstr ""
+
+#: inc/integrations/edd/widgets/class-widget-download-details.php:7
+msgid "Display information related to the current download"
+msgstr ""
+
+#: inc/integrations/edd/widgets/class-widget-download-details.php:9
+msgid "Marketify - %1$s: About"
+msgstr ""
+
+#: inc/integrations/edd/widgets/class-widget-download-details.php:23
+msgid "Hide purchase count"
+msgstr ""
+
+#: inc/integrations/edd/widgets/class-widget-download-details.php:68
+#: inc/integrations/edd-fes/widgets/class-widget-vendor.php:40
+msgid "Author since: %s"
+msgstr ""
+
+#: inc/integrations/edd/widgets/class-widget-download-details.php:84
+msgid "Comment"
+msgid_plural "Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/integrations/edd/widgets/class-widget-download-share.php:7
+msgid "Display sharing options for this product."
+msgstr ""
+
+#: inc/integrations/edd/widgets/class-widget-download-share.php:9
+msgid "Marketify - %s Sidebar: Sharing"
+msgstr ""
+
+#: inc/integrations/edd/widgets/class-widget-download-share.php:23
+#: inc/widgets/_widgets/class-widget-price-option.php:20
+msgid "Description:"
+msgstr ""
+
+#: inc/integrations/edd/widgets/class-widget-downloads-curated.php:7
+msgid "Display curated %s in a grid."
+msgstr ""
+
+#: inc/integrations/edd/widgets/class-widget-downloads-curated.php:9
+msgid "Marketify - Home: Curated %s"
+msgstr ""
+
+#: inc/integrations/edd/widgets/class-widget-downloads-curated.php:23
+msgid "%s IDs: (comma separated)"
+msgstr ""
+
+#: inc/integrations/edd/widgets/class-widget-downloads-curated.php:28
+#: inc/integrations/edd/widgets/class-widget-downloads-recent.php:31
+msgid "Columns:"
+msgstr ""
+
+#: inc/integrations/edd/widgets/class-widget-downloads-featured-popular.php:9
+msgid "Display featured and popular %s in sliding grid."
+msgstr ""
+
+#: inc/integrations/edd/widgets/class-widget-downloads-featured-popular.php:11
+msgid "Marketify - Home:  Featured &amp; Popular %s"
+msgstr ""
+
+#: inc/integrations/edd/widgets/class-widget-downloads-featured-popular.php:16
+msgid "Popular Title:"
+msgstr ""
+
+#: inc/integrations/edd/widgets/class-widget-downloads-featured-popular.php:24
+#: inc/integrations/edd/widgets/class-widget-downloads-recent.php:26
+#: inc/widgets/_widgets/class-widget-blog-posts.php:26
+msgid "Number to display:"
+msgstr ""
+
+#: inc/integrations/edd/widgets/class-widget-downloads-featured-popular.php:29
+msgid "Automatically scroll items"
+msgstr ""
+
+#: inc/integrations/edd/widgets/class-widget-downloads-featured-popular.php:34
+msgid "Slideshow Speed (ms)"
+msgstr ""
+
+#: inc/integrations/edd/widgets/class-widget-downloads-featured-popular.php:43
+msgid "Featured Title:"
+msgstr ""
+
+#: inc/integrations/edd/widgets/class-widget-downloads-featured-popular.php:68
+msgid "Featured"
+msgstr ""
+
+#: inc/integrations/edd/widgets/class-widget-downloads-featured-popular.php:69
+msgid "Popular"
+msgstr ""
+
+#: inc/integrations/edd/widgets/class-widget-downloads-recent.php:7
+msgid "Display recent %s in a grid."
+msgstr ""
+
+#: inc/integrations/edd/widgets/class-widget-downloads-recent.php:9
+msgid "Marketify - Home: Recent %s"
+msgstr ""
+
+#: inc/integrations/edd/widgets/class-widget-downloads-taxonomy-stylized.php:14
+msgid "Display a taxonomy in a styled way."
+msgstr ""
+
+#: inc/integrations/edd/widgets/class-widget-downloads-taxonomy-stylized.php:16
+msgid "Marketify - Home: Taxonomy"
+msgstr ""
+
+#: inc/integrations/edd/widgets/class-widget-downloads-taxonomy-stylized.php:25
+msgid "Taxonomy:"
+msgstr ""
+
+#: inc/integrations/edd/widgets/class-widget-downloads-taxonomy-stylized.php:27
+msgid "Category"
+msgstr ""
+
+#: inc/integrations/edd/widgets/class-widget-downloads-taxonomy-stylized.php:28
+msgid "Tag"
+msgstr ""
+
+#: inc/integrations/edd-fes/class-edd-fes-vendors.php:28
+msgid "<span class=\"byline\"> by %1$s</span>"
+msgstr ""
+
+#: inc/integrations/edd-fes/class-edd-fes-vendors.php:31
+msgid "View all %s by %s"
+msgstr ""
+
+#: inc/integrations/edd-fes/class-edd-fes-widgets.php:19
+#: inc/integrations/edd-fes/widgets/class-widget-vendor-contact.php:13
+#: inc/integrations/edd-fes/widgets/class-widget-vendor-description.php:13
+#: inc/integrations/edd-fes/widgets/class-widget-vendor.php:13
+msgid "Vendor Sidebar"
+msgstr ""
+
+#: inc/integrations/edd-fes/widgets/class-widget-product-details.php:7
+msgid "Output specificed submission form fields."
+msgstr ""
+
+#: inc/integrations/edd-fes/widgets/class-widget-product-details.php:9
+msgid "Marketify - %1$s: Meta"
+msgstr ""
+
+#: inc/integrations/edd-fes/widgets/class-widget-vendor-contact.php:7
+msgid "Display the vendor contact form."
+msgstr ""
+
+#: inc/integrations/edd-fes/widgets/class-widget-vendor-contact.php:9
+msgid "Marketify - Vendor: Contact"
+msgstr ""
+
+#: inc/integrations/edd-fes/widgets/class-widget-vendor-contact.php:17
+msgid "This widget has no options."
+msgstr ""
+
+#: inc/integrations/edd-fes/widgets/class-widget-vendor-description.php:7
+msgid "Display the vendor description."
+msgstr ""
+
+#: inc/integrations/edd-fes/widgets/class-widget-vendor-description.php:9
+msgid "Marketify - Vendor: Biography"
+msgstr ""
+
+#: inc/integrations/edd-fes/widgets/class-widget-vendor-description.php:17
+#: inc/integrations/edd-fes/widgets/class-widget-vendor.php:17
+msgid "This widget has no options"
+msgstr ""
+
+#: inc/integrations/edd-fes/widgets/class-widget-vendor.php:7
+msgid "Display the vendor avatar and extra information."
+msgstr ""
+
+#: inc/integrations/edd-fes/widgets/class-widget-vendor.php:9
+msgid "Marketify - Vendor: Name + Avatar"
+msgstr ""
+
+#: inc/integrations/edd-product-reviews/widgets/class-widget-download-review-details.php:7
+msgid "Display average review information."
+msgstr ""
+
+#: inc/integrations/edd-product-reviews/widgets/class-widget-download-review-details.php:9
+msgid "Marketify - %1$s: Review Details"
+msgstr ""
+
+#: inc/integrations/edd-recommended-products/class-edd-recommended-products.php:47
+msgid "Recommended Products"
+msgstr ""
+
+#: inc/integrations/facetwp/class-facetwp.php:67
+msgid "Sales (Most)"
+msgstr ""
+
+#: inc/integrations/facetwp/class-facetwp.php:76
+msgid "Sales (Fewest)"
+msgstr ""
+
+#: inc/integrations/facetwp/class-facetwp.php:85
+msgid "Price (Highest)"
+msgstr ""
+
+#: inc/integrations/facetwp/class-facetwp.php:94
+msgid "Price (Lowest)"
+msgstr ""
+
+#: inc/integrations/love-it/class-love-it-archives.php:111
+msgid "%s's Likes"
+msgstr ""
+
+#: inc/integrations/multiple-post-thumbnails/class-multiple-post-thumbnails.php:32
+msgid "Grid Image"
+msgstr ""
+
+#: inc/integrations/multiple-post-thumbnails/class-multiple-post-thumbnails.php:74
+msgid "Use as Grid Thumbnail"
+msgstr ""
+
+#: inc/integrations/multiple-post-thumbnails/class-multiple-post-thumbnails.php:79
+msgid "Use this image as the grid thumbnail."
+msgstr ""
+
+#: inc/integrations/soliloquy/widgets/class-widget-slider-soliloquy.php:7
+msgid "Display \"Hero\" Soliloquy slider."
+msgstr ""
+
+#: inc/integrations/soliloquy/widgets/class-widget-slider-soliloquy.php:9
+msgid "Marketify - Home: Soliloquy Slider"
+msgstr ""
+
+#: inc/integrations/soliloquy/widgets/class-widget-slider-soliloquy.php:13
+msgid "Slider:"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:333
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:334
+#: inc/setup/steps/install-plugins.php:14
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:335
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:336
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:337
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:342
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:347
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:352
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:357
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:362
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:367
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:372
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:377
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:382
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:387
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:392
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:397
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:399
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3034
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:400
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2837
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:401
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:402
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:403
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:524
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:525
+msgid "Update Required"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:639
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:833
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3443
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:940
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:940
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:943
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:943
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2172
+msgid "Required"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2175
+msgid "Recommended"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2191
+msgid "WordPress Repository"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2194
+msgid "External Source"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2197
+msgid "Pre-Packaged"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2214
+msgid "Not Installed"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2218
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2220
+msgid "Active"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2226
+msgid "Required Update not Available"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2229
+msgid "Requires Update"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2232
+msgid "Update recommended"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2288
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2291
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2294
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2384
+msgid "Installed version:"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2392
+msgid "Minimum required version:"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2404
+msgid "Available version:"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2427
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2441
+msgid "Plugin"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2442
+msgid "Source"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2443
+msgid "Type"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2447
+msgid "Version"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2448
+msgid "Status"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2575
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2608
+msgid "Install"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2614
+msgid "Update"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2617
+msgid "Activate"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2648
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2650
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2686
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2688
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2793
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2819
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3033
+msgid "Plugin activation failed."
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3367
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3369
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3370
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3374
+msgid ""
+"The installation and activation process is starting. This process may take "
+"a while on some hosts, so please be patient."
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3375
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3375
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3381
+msgid "Show Details"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3375
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3381
+msgid "Hide Details"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3376
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3377
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3380
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3381
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3382
+msgid "All installations have been completed."
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:3383
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: inc/setup/class-setup.php:20
+msgid "Install Required &amp; Recommended Plugins"
+msgstr ""
+
+#: inc/setup/class-setup.php:30
+msgid "Import Demo Content"
+msgstr ""
+
+#: inc/setup/class-setup.php:40
+msgid "Import Widgets"
+msgstr ""
+
+#: inc/setup/class-setup.php:74
+msgid "Setup Menus"
+msgstr ""
+
+#: inc/setup/class-setup.php:83
+msgid "Setup Static Homepage"
+msgstr ""
+
+#: inc/setup/class-setup.php:102
+msgid "Setup Widgets"
+msgstr ""
+
+#: inc/setup/class-setup.php:108
+msgid "Customize"
+msgstr ""
+
+#: inc/setup/class-setup.php:118
+msgid "Get Involved"
+msgstr ""
+
+#: inc/setup/class-setup.php:132
+msgid "Marketify Setup"
+msgstr ""
+
+#: inc/setup/class-setup.php:132
+msgid "Setup Guide"
+msgstr ""
+
+#: inc/setup/class-setup.php:154
+msgid "Completed!"
+msgstr ""
+
+#: inc/setup/class-setup.php:156
+msgid "Incomplete"
+msgstr ""
+
+#: inc/setup/class-setup.php:163
+msgid "You can read more and watch helpful video tutorials below:"
+msgstr ""
+
+#: inc/setup/class-setup.php:190
+msgid "Welcome to %s"
+msgstr ""
+
+#: inc/setup/class-setup.php:191
+msgid ""
+"Creating a digital marketplace has never been easier with "
+"Marketify&mdash;Use the steps below to start setting up your new website. "
+"If you have more questions please <a href=\"%s\">review the "
+"documentation</a>."
+msgstr ""
+
+#: inc/setup/class-setup.php:199
+msgid "Search Documentation"
+msgstr ""
+
+#: inc/setup/class-setup.php:200
+msgid "Submit a Support Ticket"
+msgstr ""
+
+#: inc/setup/steps/import-content.php:5
+msgid ""
+"Installing the demo content is not required to use this theme. It is simply "
+"meant to provide a way to get a feel for the theme without having to "
+"manually set up all of your own content. <strong>If you choose not to "
+"import the demo content you need to make sure you manually create all "
+"necessary page templates for your website.</strong>"
+msgstr ""
+
+#: inc/setup/steps/import-content.php:7
+msgid ""
+"The Marketify theme package includes multiple demo content .XML files. This "
+"is what you will upload to the WordPress importer. Depending on the plugins "
+"you have activated or the intended use of your website you may not need to "
+"upload all the .XML files."
+msgstr ""
+
+#: inc/setup/steps/import-content.php:9
+msgid "Begin Importing Content"
+msgstr ""
+
+#: inc/setup/steps/import-widgets.php:5
+msgid ""
+"Importing the demo widgets is not required to use this theme. It simply "
+"allows you to quickly match the same settings found on our theme demo. If "
+"you do not import the widgets you can manually manage your widgets just "
+"like a standard WordPress widget area."
+msgstr ""
+
+#: inc/setup/steps/import-widgets.php:7
+msgid "Begin Importing Widgets"
+msgstr ""
+
+#: inc/setup/steps/install-plugins.php:5
+msgid ""
+"Before you can use Marketify you must first install Easy Digital Downloads "
+"at minimum. You can read about <a "
+"href=\"http://marketify.astoundify.com/article/711-why-does-this-theme-"
+"require-plugins-to-function\">why this theme requires plugins</a> in our "
+"documentation."
+msgstr ""
+
+#: inc/setup/steps/install-plugins.php:7
+msgid "Note:"
+msgstr ""
+
+#: inc/setup/steps/install-plugins.php:9
+msgid ""
+"Only free plugins/add-ons can be installed automatically. You will need to "
+"install any premium plugins/add-ons separately."
+msgstr ""
+
+#: inc/setup/steps/install-plugins.php:10
+msgid ""
+"It is recommended you install and activate any additional plugins you plan "
+"on using before importing any XML content."
+msgstr ""
+
+#: inc/setup/steps/install-plugins.php:11
+msgid ""
+"Once your plugins are installed and content is imported please review all "
+"plugin settings pages to make sure everything has been properly set up."
+msgstr ""
+
+#: inc/setup/steps/setup-edd.php:1
+msgid ""
+"When Easy Digital Downloads is activated it will automatically create pages "
+"for your store. You need to do a few things to complete this setup:"
+msgstr ""
+
+#: inc/setup/steps/setup-edd.php:4
+msgid "Add the Easy Digital Downloads pages to your Menu"
+msgstr ""
+
+#: inc/setup/steps/setup-edd.php:5
+msgid "Configure your Easy Digital Downloads settings"
+msgstr ""
+
+#: inc/setup/steps/setup-edd.php:6
+msgid "Add your first download"
+msgstr ""
+
+#: inc/setup/steps/setup-fes.php:1
+msgid ""
+"When Easy Digital Downloads - Frontend Submissions is activated it will "
+"automatically create pages for your store. You need to do a few things to "
+"complete this setup:"
+msgstr ""
+
+#: inc/setup/steps/setup-fes.php:4
+msgid "Add the Frontend Submissions pages to your Menu"
+msgstr ""
+
+#: inc/setup/steps/setup-fes.php:5
+msgid "Turn off the Frontend Submission&#39;s CSS"
+msgstr ""
+
+#: inc/setup/steps/setup-fes.php:6
+msgid "Configure your Submission form"
+msgstr ""
+
+#: inc/setup/steps/setup-fes.php:7
+msgid "Configure your Registration form"
+msgstr ""
+
+#: inc/setup/steps/setup-fes.php:8
+msgid "Configure your Profile form"
+msgstr ""
+
+#: inc/setup/steps/setup-homepage.php:5
+msgid ""
+"In order to display custom widgets on your homepage you must first assign "
+"your static page in the WordPress settings. You can also set which page "
+"will display your blog posts."
+msgstr ""
+
+#: inc/setup/steps/setup-homepage.php:7
+msgid "Reading Settings"
+msgstr ""
+
+#: inc/setup/steps/setup-menus.php:5
+msgid ""
+"Make sure you create and assign your menus to the menu locations found in "
+"the theme."
+msgstr ""
+
+#: inc/setup/steps/setup-menus.php:7
+msgid ""
+"<strong>Missing items in your menu?</strong> Make sure you have added pages "
+"that are automatically generated by Easy Digital Downloads and any "
+"applicable plugins."
+msgstr ""
+
+#: inc/setup/steps/setup-menus.php:9
+msgid "Manage Menus"
+msgstr ""
+
+#: inc/setup/steps/setup-widgets.php:1
+msgid ""
+"Manage your widgets to control what displays on your homepage, listing "
+"pages, standard pages, and more."
+msgstr ""
+
+#: inc/setup/steps/setup-widgets.php:4
+msgid ""
+"<strong>Note:</strong> Please make sure you have selected the relevant "
+"\"Customer Testimonials\" category for the <em>What People Are Saying</em> "
+"widget, and \"Companies We&#39;ve Helped\" category for the <em>Companies "
+"We&#39;ve Helped</em> widget. These settings can not be imported "
+"automatically."
+msgstr ""
+
+#: inc/setup/steps/setup-widgets.php:7
+msgid "Manage Widgets"
+msgstr ""
+
+#: inc/setup/steps/support-us.php:1
+msgid ""
+"Help improve Marketify by submitting a rating and helping to translate the "
+"theme to as many languages as possible!"
+msgstr ""
+
+#: inc/template/class-template-comments.php:22
+msgid "Purchased"
+msgstr ""
+
+#: inc/template/class-template-comments.php:55
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template/class-template-navigation.php:30
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/template/class-template-navigation.php:31
+msgid "Footer Social"
+msgstr ""
+
+#: inc/template/class-template-page-header-video.php:45
+msgid "Video Header URL"
+msgstr ""
+
+#: inc/template/class-template-page-header.php:30
+msgid "Blog"
+msgstr ""
+
+#: inc/template/class-template-page-header.php:88
+msgid "All %s"
+msgstr ""
+
+#: inc/template/class-template-page-header.php:120
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-blog-posts.php:7
+msgid "Display recent blog posts."
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-blog-posts.php:9
+msgid "Marketify - Home: Recent Posts"
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-blog-posts.php:32
+msgid "Classic"
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-blog-posts.php:33
+msgid "Grid"
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-blog-posts.php:35
+msgid "Display Style:"
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:13
+msgid "Display a full-width \"feature\" callout"
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:15
+msgid "Marketify - Home: Feature Callout"
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:23
+msgid "Text Align:"
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:25
+msgid "Left"
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:26
+msgid "Right"
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:27
+msgid "Center (cover only)"
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:33
+msgid "Image Style:"
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:35
+msgid "Cover"
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:36
+msgid "Pull Out"
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:42
+msgid "Image Position:"
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:44
+msgid "Left Top"
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:45
+msgid "Left Center"
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:46
+msgid "Left Bottom"
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:47
+msgid "Right Top"
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:48
+msgid "Right Center"
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:49
+msgid "Right Bottom"
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:50
+#: inc/widgets/_widgets/class-widget-feature-callout.php:53
+msgid "Center Top"
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:51
+msgid "Center Center"
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:52
+msgid "Center Bottom"
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:59
+msgid "Use transparent overlay"
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:64
+msgid "Add standard spacing above/below widget"
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:69
+msgid "Text Color:"
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:74
+#: inc/widgets/_widgets/class-widget-price-option.php:14
+msgid "Background Color:"
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:84
+msgid "Content:"
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-feature-callout.php:90
+msgid "Image:"
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-price-option.php:7
+msgid "Create a price option for the pricing table."
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-price-option.php:9
+msgid "Marketify - Home: Price Option"
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-price-option.php:24
+msgid ""
+"Use <code>h2</code> tags for large titles, and <code>h3</code> tags for "
+"subtitles. Unordered lists create a great look."
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-price-table.php:7
+msgid "Output the price table (based on the \"Price Table\" widget area)"
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-price-table.php:9
+msgid "Marketify - Home: Price Table"
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-price-table.php:22
+msgid ""
+"Drag \"Price Option\" widgets to the \"Price Table\" widget area to "
+"populate this widget."
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-slider.php:7
+msgid "Display any slider that supports shortcodes."
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-slider.php:9
+msgid "Marketify - Home: Slider"
+msgstr ""
+
+#: inc/widgets/_widgets/class-widget-slider.php:14
+msgid "Slider Shortcode"
+msgstr ""
+
+#: inc/widgets/class-widget.php:147
+msgid "Only for use in the <strong>%s</strong> widget area."
+msgstr ""
+
+#: inc/widgets/class-widget.php:249
+msgid "Choose Image"
+msgstr ""
+
+#: inc/widgets/class-widgets.php:32
+msgid "Sidebar"
+msgstr ""
+
+#: inc/widgets/class-widgets.php:42
+msgid "Widgets that appear on the \"Page: Home\" Page Template"
+msgstr ""
+
+#: inc/widgets/class-widgets.php:52
+msgid "Footer Left"
+msgstr ""
+
+#: inc/widgets/class-widgets.php:53
+msgid "The left footer widget area"
+msgstr ""
+
+#: inc/widgets/class-widgets.php:62
+msgid "Footer Center"
+msgstr ""
+
+#: inc/widgets/class-widgets.php:63
+msgid "The center footer widget area"
+msgstr ""
+
+#: inc/widgets/class-widgets.php:72
+msgid "Footer Right"
+msgstr ""
+
+#: inc/widgets/class-widgets.php:73
+msgid "The right footer widget area"
+msgstr ""
+
+#: inc/widgets/class-widgets.php:83
+msgid "Price Table"
+msgstr ""
+
+#: inc/widgets/class-widgets.php:85
+msgid ""
+"Drag multiple \"Price Option\" widgets here. Then drag the \"Pricing "
+"Table\" widget to the \"Homepage\" Widget Area."
+msgstr ""
+
+#: modal-download-purchase.php:12
+msgid "Buying Options"
+msgstr ""
+
+#: no-results.php:15
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: no-results.php:19
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: no-results.php:27
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: page-templates/wishlist.php:47
+msgid "Love"
+msgid_plural "Loves"
+msgstr[0] ""
+msgstr[1] ""
+
+#: searchform-header.php:15
+msgid "Close"
+msgstr ""
+
+#: searchform.php:24
+msgid "Submit"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Marketify"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://astoundify.com/themes/marketify"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Your beautiful handcrafted digital marketplace."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Astoundify"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://astoundify.com"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Layout: Full Width"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Page: Home (with Search)"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Page: Home"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Layout: Minimal"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Page: Popular Items"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Page: Pricing Table"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Page: Shop"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Layout: Single Column"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Page: Meet the Team"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Account: Vendor Profile"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Account: Loves"
+msgstr ""
+
+#: bbpress/form-search.php:14 searchform-header.php:10 searchform.php:26
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: inc/integrations/edd/class-edd-popular.php:6
+msgctxt "URL slug to determine category sorting"
+msgid "popular"
+msgstr ""
+
+#: inc/integrations/edd/class-edd-popular.php:84
+msgctxt "popular search results"
+msgid "Popular in \"%s\""
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:1121
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2833
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:1886
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2240
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2285
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2376
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2496
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2500
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr ""
+
+#: inc/integrations/tgmpa/class-tgm-plugin-activation.php:2505
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+#: inc/template/class-template-assets.php:57
+#. Translators: If there are characters in your language that are not
+#. * supported by Source Sans Pro, translate this to 'off'. Do not
+#. translate
+#. * into your own language.
+msgctxt "Source Sans Pro font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/template/class-template-assets.php:63
+#. Translators: If there are characters in your language that are not
+#. * supported by Montserrat, translate this to 'off'. Do not
+#. translate into your
+#. * own language.
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/template/class-template-comments.php:37
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/template/class-template-navigation.php:53
+msgctxt "noun"
+msgid "Menu"
+msgstr ""

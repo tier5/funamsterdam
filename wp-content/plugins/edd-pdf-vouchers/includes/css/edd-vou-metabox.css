@@ -1,0 +1,176 @@
+/********** CSS for Popup Starts ***********/
+.edd-vou-popup-content {
+    margin: 0 auto 10px;
+    min-height: 400px;
+    display: none;
+	position: absolute;
+	/*position: fixed;*/
+	border: 1px solid #555555;
+	top: 60px;
+	/*top:10%;*/
+	text-align: left;
+	left: 10%;
+	width: 800px;
+	padding: 20px 35px;
+	background: none repeat scroll 0 0 #FFFFFF;
+	z-index:1002;
+	overflow: auto;
+	font: 12px "Lucida Grande",Verdana,Arial,sans-serif;
+	box-shadow: 0 4px 30px #000000;
+	color: #000000;	
+}
+.edd-vou-import-content {
+	position:fixed !important;
+	top: 10% !important;
+	left:17% !important;
+}
+.edd-vou-purchased-codes-content {
+	position:fixed !important;
+	top: 10% !important;
+	left:17% !important;
+}
+.edd-vou-used-codes-content {
+	position:fixed !important;
+	top: 10% !important;
+	left:17% !important;
+}
+.edd-vou-popup-content .description {
+	margin-left: 0px !important
+}
+.edd-vou-popup-content .description small {
+	margin-left: 5px;
+}
+.edd-vou-popup-overlay {
+	display: none;
+	background-color: #000000;
+    height: 100%;
+    left: 0;
+    opacity: 0.75;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1001;
+}
+.edd-vou-header-title {
+    float: left;
+    padding: 6px 10px 0;
+}
+.edd-vou-popup-close {
+ 	float: right;
+    padding: 6px 10px 0;
+    text-align: right;
+}
+.edd-vou-header {
+    background-color: #222222;
+    color: #CFCFCF;
+    height: 27px;
+    left: -37px;
+    position: relative;
+    top: -20px;
+    width: 109%;
+}
+.edd-vou-popup table.form-table th {
+	font-weight:bold;
+	padding:7px !important;
+	font-family:verdana !important;
+	font-size:13px !important;
+}
+.edd-vou-popup table.form-table td {
+	padding: 3px 10px !important;
+}
+.edd-vou-popup table.form-table {
+	margin-bottom: 10px;
+}	
+.edd-vou-popup.used-codes table.form-table td,
+.edd-vou-popup.used-codes table.form-table th {
+	padding:3px 10px !important;
+	border:1px solid #000000 !important;
+}
+.edd-vou-popup.used-codes table.form-table {
+	border:1px solid #000000;
+}
+.edd-vou-popup table.form-table {
+	/*margin : 15px !important;*/
+	width: 100% !important;
+	font-family:verdana !important;
+}
+.edd-vou-popup table.form-table input[type="text"], .edd-vou-popup table.form-table select {
+	width: 100px;
+}
+.edd-vou-field-title {
+	vertical-align: top;
+}
+.edd-vou-prefix-span {
+	margin-right: 63px;
+}
+.edd-vou-seperator-span {
+	margin-right: 20px;
+}
+.edd-vou-code-seperator {
+	width: 50px !important;
+	margin-right: 35px;
+}
+.edd-vou-loader {
+	display: none;
+}
+table.edd-vou-import-table th{
+	text-align:left !important;
+	width:30% !important;
+}
+.edd-vou-file-errors{
+	display:none;
+	background-color: #FFEBE8;
+    border-color: #CC0000;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+    padding:5px;
+}
+#edd-vou-pdf-btn {
+	float: right;
+	margin-bottom: 5px;
+}
+#edd-vou-export-csv-btn {
+	float: right;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+.edd-vou-used-code-title {
+	float: left;
+	margin-top: 5px;
+}
+/***************** CSS for Popup Ends******************/
+.edd-vou-display-none {
+	display: none;
+}
+.edd-vou-codes-error {
+	color: #FF0000;
+}
+.edd-vou-error {
+	color: #FF0000;
+}
+.edd-vou-codes-red-border {
+	border: 1px solid #FF0000 !important;
+}
+.edd-gen-pdf{
+	margin-right: 5px !important;
+}
+/***************** Customize Chosen CSS Start *******************/
+.tablenav .actions {
+	overflow: visible;
+}
+.alignleft.actions .chzn-container-single {
+    display: inline-block;
+    vertical-align: middle;
+}
+.chzn-search input {
+	width: 100% !important;
+}
+._edd_vou_custom_days .custom-days-text{
+	width: 70px;
+}
+}
+/***************** Customize Chosen CSS End ********************/
+.edd_vou_recipient_name {
+	width: 90% !important;
+}

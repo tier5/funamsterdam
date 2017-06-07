@@ -1,0 +1,238 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Top Bar\n"
+"POT-Creation-Date: 2015-08-20 22:43+0800\n"
+"PO-Revision-Date: 2015-08-20 22:44+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/darko_updater/darko_updater.php:177
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a>."
+msgstr ""
+"Une nouvelle version de %1$s est disponible. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">Voir les %3$s infos</a>."
+
+#: inc/darko_updater/darko_updater.php:184
+#, php-format
+msgid ""
+"There is a new version of %1$s available. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">View version %3$s details</a> or <a href=\"%4$s"
+"\">update now</a>."
+msgstr ""
+"Une nouvelle version de %1$s est disponible. <a target=\"_blank\" class="
+"\"thickbox\" href=\"%2$s\">Voir les %3$s infos</a> or <a href=\"%4$s"
+"\">mettre &agrave; jour</a>."
+
+#: inc/darko_updater/darko_updater.php:324
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+"Vous n&#x27;&ecirc;tes pas autoris&eacute; &agrave; mettre ce plugin "
+"&Agrave; jour"
+
+#: inc/darko_updater/darko_updater.php:324
+msgid "Error"
+msgstr "Erreur"
+
+#: topbar_pro.php:47
+msgid "Top Bar license"
+msgstr "Licence Top Bar"
+
+#: topbar_pro.php:58
+msgid "License activation"
+msgstr "Activer licence"
+
+#: topbar_pro.php:59
+msgid ""
+"Activating your license allows you to receive automatic updates for a year."
+"<br/>This is <strong>NOT</strong> required for the plugin to work correctly."
+msgstr ""
+"Activer votre licence vous permettra de recevoir des mises &agrave; jour "
+"automatiques pendant un an.<br/>Vous n&#x27;avez <strong>pas besoin</strong> "
+"de l&#x27;activation pour que le plugin fonctionne."
+
+#: topbar_pro.php:68
+msgid "License key"
+msgstr "Licence"
+
+#: topbar_pro.php:78 topbar_pro.php:87
+msgid "Activate license"
+msgstr "Activer"
+
+#: topbar_pro.php:82
+msgid "Activated"
+msgstr "Activ&eacute;e"
+
+#: topbar_pro.php:84
+msgid "Deactivate license"
+msgstr "D&eacute;sactiver licence"
+
+#: topbar_pro.php:277
+msgid "options"
+msgstr "options"
+
+#: topbar_pro.php:283
+msgid "Top Bar status"
+msgstr "État de la Top Bar"
+
+#: topbar_pro.php:284
+msgid "You can activate/deactivate your topbar at anytime."
+msgstr "Vous pouvez activer/désactiver votre Top Bar à tout moment."
+
+#: topbar_pro.php:288 topbar_pro.php:292 topbar_pro.php:295
+msgid "Active"
+msgstr "Activé"
+
+#: topbar_pro.php:289 topbar_pro.php:291 topbar_pro.php:294
+msgid "Inactive"
+msgstr "Désactivé"
+
+#: topbar_pro.php:306
+msgid "Always visible?"
+msgstr "Toujours visible ?"
+
+#: topbar_pro.php:307
+msgid ""
+"If this is set to 'Yes' the top bar will stick to the top of the screen."
+msgstr "Si vous choisissez ‘Oui’ la Top Bar sera toujours visible à l’écran."
+
+#: topbar_pro.php:311 topbar_pro.php:315 topbar_pro.php:318 topbar_pro.php:329
+#: topbar_pro.php:333 topbar_pro.php:336 topbar_pro.php:353 topbar_pro.php:357
+#: topbar_pro.php:360 topbar_pro.php:377 topbar_pro.php:381 topbar_pro.php:384
+msgid "Yes"
+msgstr "Oui"
+
+#: topbar_pro.php:312 topbar_pro.php:314 topbar_pro.php:317 topbar_pro.php:330
+#: topbar_pro.php:332 topbar_pro.php:335 topbar_pro.php:354 topbar_pro.php:356
+#: topbar_pro.php:359 topbar_pro.php:378 topbar_pro.php:380 topbar_pro.php:383
+msgid "No"
+msgstr "Non"
+
+#: topbar_pro.php:322
+msgid "Message"
+msgstr "Message"
+
+#: topbar_pro.php:323
+msgid "eg. Check out our new product right now!"
+msgstr "ex. Découvrez notre nouveau produit !"
+
+#: topbar_pro.php:325
+msgid "Button"
+msgstr "Bouton"
+
+#: topbar_pro.php:340
+msgid "Button text"
+msgstr "Texte du bouton"
+
+#: topbar_pro.php:341
+msgid "eg. See product"
+msgstr "ex. Voir le produit"
+
+#: topbar_pro.php:343
+msgid "Button URL"
+msgstr "URL du bouton"
+
+#: topbar_pro.php:344
+msgid "eg. http://wpdarko.com"
+msgstr "ex. http://wpdarko.com"
+
+#: topbar_pro.php:348
+msgid "Add a bottom border"
+msgstr "Ajouter une bordure"
+
+#: topbar_pro.php:349
+msgid "Set this to 'Yes' to add a subtle border below the top bar."
+msgstr "Choisissez ‘Oui’ pour ajouter une bordure sous la Top Bar."
+
+#: topbar_pro.php:364
+msgid "Time before showing"
+msgstr "Temps avant apparition"
+
+#: topbar_pro.php:365
+msgid ""
+"Time in ms before the topbar appears (default is 0). 1000 would be 1 second."
+msgstr ""
+"Temps (en ms) avant que la Top Bar apparaisse (0 par défaut). 1000 = 1 "
+"seconde."
+
+#: topbar_pro.php:366
+msgid "eg. 1000"
+msgstr "ex. 1000"
+
+#: topbar_pro.php:368
+msgid "Font-size"
+msgstr "Taille du texte"
+
+#: topbar_pro.php:369
+msgid "Font-size in pixels, recommended between 13 and 18 (default is 15)."
+msgstr ""
+"Taille du texte en pixels, nous recommandons entre 13 et 18px (15 par "
+"défaut)."
+
+#: topbar_pro.php:370
+msgid "eg. 15"
+msgstr "ex. 15"
+
+#: topbar_pro.php:372
+msgid "Allow closing top bar"
+msgstr "Autoriser la fermeture de la Top Bar"
+
+#: topbar_pro.php:373
+msgid ""
+"Set this to 'Yes' to allow your visitors to close the top bar. This creates "
+"a cookie and will disable the top bar for the user until cookies/cache are "
+"cleared."
+msgstr "Choisissez ‘Oui’ pour autoriser la fermeture (et réouverture)."
+
+#: topbar_pro.php:388
+msgid "Initial state"
+msgstr "État inital"
+
+#: topbar_pro.php:389
+msgid "Should the top bar be displayed or hidden."
+msgstr "État initial de la Top Bar"
+
+#: topbar_pro.php:393 topbar_pro.php:397 topbar_pro.php:399
+msgid "Open"
+msgstr "Ouvert"
+
+#: topbar_pro.php:394 topbar_pro.php:396 topbar_pro.php:400
+msgid "Close"
+msgstr "Fermé"
+
+#: topbar_pro.php:404
+msgid "Who can see the top bar?"
+msgstr "Qui peut voir la Top Bar?"
+
+#: topbar_pro.php:405
+msgid "Select an option for when the top bar should show. Default is 'All'."
+msgstr ""
+"Choisissez qui peut voir la Top Bar. Par défaut, tout le monde peut la voir."
+
+#: topbar_pro.php:409 topbar_pro.php:413 topbar_pro.php:417 topbar_pro.php:421
+msgid "All"
+msgstr "Tous"
+
+#: topbar_pro.php:410 topbar_pro.php:414 topbar_pro.php:418 topbar_pro.php:422
+msgid "Guests"
+msgstr "Visiteurs"
+
+#: topbar_pro.php:411 topbar_pro.php:415 topbar_pro.php:419 topbar_pro.php:423
+msgid "Registered users"
+msgstr "Utilisateurs"
+
+#: topbar_pro.php:435
+msgid "Top Bar color"
+msgstr "Couleur de la Top Bar"

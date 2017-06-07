@@ -1,0 +1,15 @@
+.page-title {
+    @include montserrat(700, 22px);
+    color: #fff;
+    letter-spacing: 3px;
+    max-width: 80%;
+    margin: 0 auto;
+
+    @include bp(md) {
+        font-size: 32px;
+    }
+
+    @include bp(lg) {
+        font-size: 36px;
+    }
+}

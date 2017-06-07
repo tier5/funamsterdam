@@ -1,0 +1,160 @@
+.gform_wrapper .quote-form ul li.gfield {
+	clear:none;
+}
+.gform_wrapper .quote-form .datepicker {
+	width:100% !important;
+}
+.gform_wrapper .quote-form .gfield_error .ginput_complex .ginput_right input[type=email],.gform_wrapper .quote-form .gfield_error .ginput_complex .ginput_right input[type=number],.gform_wrapper .quote-form .gfield_error .ginput_complex .ginput_right input[type=password],.gform_wrapper .quote-form .gfield_error .ginput_complex .ginput_right input[type=tel],.gform_wrapper .quote-form .gfield_error .ginput_complex .ginput_right input[type=text],.gform_wrapper .quote-form .gfield_error .ginput_complex .ginput_right input[type=url],.gform_wrapper .quote-form .ginput_complex input[type=email],.gform_wrapper .quote-form .ginput_complex input[type=number],.gform_wrapper .quote-form .ginput_complex input[type=password],.gform_wrapper .quote-form .ginput_complex input[type=tel],.gform_wrapper .quote-form .ginput_complex input[type=text],.gform_wrapper .quote-form .ginput_complex input[type=url],.gform_wrapper .quote-form .hidden_label input.large,.gform_wrapper .quote-form .hidden_label select.large,.gform_wrapper .quote-form .top_label input.large,.gform_wrapper .quote-form .top_label select.large,.gform_wrapper .quote-form textarea.small,.gform_wrapper .quote-form textarea.medium,.gform_wrapper .quote-form textarea.large,.gform_wrapper .quote-form .top_label .gsection_description,.gform_wrapper .quote-form .gfield_description,.gform_wrapper .quote-form li.gfield.gfield_error.gfield_contains_required div.ginput_container,.gform_wrapper .quote-form li.gfield_html,.gform_wrapper .quote-form .top_label .gfield_error input.large,.gform_wrapper .quote-form .top_label .gfield_error select.large,.gform_wrapper .quote-form .top_label .gfield_error textarea.textarea,.gform_wrapper .quote-form li.gfield.gfield_error.gfield_contains_required div.gfield_description,.gform_wrapper .quote-form div.validation_error,.gform_wrapper .quote-form ol.validation_list,.gform_wrapper .quote-form .ginput_complex .ginput_full input[type=email],.gform_wrapper .quote-form .ginput_complex .ginput_full input[type=number],.gform_wrapper .quote-form .ginput_complex .ginput_full input[type=password],.gform_wrapper .quote-form .ginput_complex .ginput_full input[type=tel],.gform_wrapper .quote-form .ginput_complex .ginput_full input[type=text],.gform_wrapper .quote-form .ginput_complex .ginput_full input[type=url],body .gform_wrapper .quote-form ul li.gfield.gfield_html img,.gform_wrapper .quote-form .top_label .gfield_list,.gform_wrapper .quote-form .gfield_list td.gfield_list_cell input {
+	width:100%;
+	max-width:100%;
+	margin-left:0;
+	margin-right:0;
+}
+.gform_wrapper .quote-form .img-select ul.gfield_checkbox:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.gform_wrapper .quote-form .img-select ul.gfield_checkbox li {
+	width:25%;
+	float:left;
+}
+@media (max-width: 767px) {
+	.gform_wrapper .quote-form .img-select ul.gfield_checkbox li {
+		width:50%;
+	}
+}
+@media (max-width: 479px) {
+	.gform_wrapper .quote-form .img-select ul.gfield_checkbox li {
+		width:100%;
+	}
+}
+.gform_wrapper .quote-form .img-select ul.gfield_checkbox li input[type=checkbox] {
+	position:absolute;
+	left:-30px;
+}
+.gform_wrapper .quote-form .img-select ul.gfield_checkbox li label{
+	margin:5px 10px;
+	position:relative;
+	line-height:0;
+}
+.gform_wrapper .quote-form .img-select ul.gfield_checkbox li label img{
+	width:100%;
+	height:auto;
+}
+.gform_wrapper .quote-form .img-select ul.gfield_checkbox li .checked-mask{
+	display:none;
+	content: "";
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #fec459;
+}
+.gform_wrapper .quote-form .img-select ul.gfield_checkbox li .checked-mask .fa-check {
+	font-size: 60px;
+	color: white;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	margin-top: -30px;
+	margin-left: -30px;
+}
+.gform_wrapper .quote-form .img-select ul.gfield_checkbox li.checked .checked-mask{
+	display:block;
+}
+.gform_wrapper .quote-form .img-select ul.gfield_checkbox li  a {
+	position:absolute;
+	top:5px;
+	right:5px;
+	color:#fff;
+}
+.gform_wrapper .quote-form .img-select ul.gfield_checkbox li .title,
+.gform_wrapper .quote-form .img-select ul.gfield_checkbox li .price{
+	position: absolute;
+	left: 0;
+	bottom: 5px;
+	border-left: 5px solid #fec459;
+	background-color: #333;
+	color: white;
+	font-weight: normal;
+	font-size: 12px;
+	padding: 2px 5px;
+	line-height: 1em;
+}
+.gform_wrapper .quote-form .img-select ul.gfield_checkbox li .title {
+	bottom:21px;
+}
+.gform_wrapper .quote-form .quote-arrival {
+	clear:left !important;
+}
+.gform_wrapper .quote-form .quote-size .instruction  {
+	display:none;
+}
+.gform_wrapper .quote-form input[type=email], .gform_wrapper .quote-form input[type=number], 
+.gform_wrapper .quote-form input[type=password], .gform_wrapper .quote-form input[type=tel], 
+.gform_wrapper .quote-form input[type=text], .gform_wrapper .quote-form input[type=url] {
+	line-height:25px !important;
+	border: 1px solid #bdc3c7;
+}
+.gform_wrapper .quote-form ul li.gfield.col-md-12 {
+	clear:both;
+}
+.gform_wrapper .quote-form ul li.gfield.col-md-4 {
+	width:33.33333333333333% !important;
+}
+@media (max-width:767px) {
+	.gform_wrapper .quote-form ul li.gfield.col-md-4 {
+		width:100% !important;
+	}
+}
+.gform_wrapper .quote-form .gform_footer {
+	text-align:center;
+}
+.gform_wrapper .quote-form .gform_footer input.button  {
+	padding:14px 28px;
+}
+.gform_wrapper .quote-form div.validation_error{
+	color:#f04124;
+}
+.gform_wrapper .quote-form div.validation_error,
+.gform_wrapper .quote-form li.gfield.gfield_error {
+	background: none !important;
+	border: 0 none !important;
+	margin:0 0 0 0;
+	padding: 0 15px;
+	width: 100%;
+}
+.gform_wrapper .quote-form .gfield_error .gfield_label{
+	color:#f04124;
+}
+.gform_wrapper .quote-form li.gfield.gfield_error.gfield_contains_required div.gfield_description{
+	margin-left:0;
+	display: block;
+	margin-top: -1px;
+	margin-bottom: 1rem;
+	font-weight: normal;
+	font-style: italic;
+	background: #f04124;
+	padding: 6px 9px !important;
+	color: white;
+	background-color: red;
+}
+.gform_wrapper .quote-form.gf_browser_chrome .gfield_error input[type=email], 
+.gform_wrapper .quote-form.gf_browser_chrome .gfield_error input[type=number], 
+.gform_wrapper .quote-form.gf_browser_chrome .gfield_error input[type=password], 
+.gform_wrapper .quote-form.gf_browser_chrome .gfield_error input[type=tel], 
+.gform_wrapper .quote-form.gf_browser_chrome .gfield_error input[type=text], 
+.gform_wrapper .quote-form.gf_browser_chrome .gfield_error input[type=url], 
+.gform_wrapper .quote-form.gf_browser_chrome .gfield_error select, 
+.gform_wrapper .quote-form.gf_browser_chrome .gfield_error textarea, 
+.gform_wrapper .quote-form.gf_browser_chrome li.gfield_error.field_sublabel_above .ginput_complex input[type=text] {
+	margin-bottom:0;
+}
+.gform_wrapper .quote-form li.gfield.gfield_error.gfield_contains_required label.gfield_label{
+	margin:0 0 0 0;
+}
+
+.mfp-wrap {position:absolute;  overflow: initial !important;}
+.quote-popup {width: 80%;max-width: 68.75rem;padding:30px;}
