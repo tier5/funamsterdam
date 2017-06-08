@@ -76,17 +76,21 @@ class Marketify_Template_Footer {
 
     public function site_info() {
     ?>
+
+                
+
         <div class="<?php echo $this->get_column_class(); ?>">
             <h3 class="site-title site-title--footer"><a href="<?php echo esc_url( home_url( '/' ) ); ?>">
-                <?php if ( esc_attr( marketify_theme_mod( 'footer-copyright-logo' ) ) ) : ?>
+                <?php //if ( esc_attr( marketify_theme_mod( 'footer-copyright-logo' ) ) ) : ?>
                     <!--<img src="<?php //echo esc_attr( marketify_theme_mod( 'footer-copyright-logo' ) ); ?>" />-->
 					<img src="<?php echo site_url()."/wp-content/uploads/edd/2016/01/cropped-fun-amsterdam-activities.png";?>" />
-                <?php else : ?>
-                    <?php bloginfo( 'name' ); ?>
-                <?php endif; ?>
+                <?php //else : ?>
+                    <?php //bloginfo( 'name' ); ?>
+                <?php //endif; ?>
             </a></h3>
-
-            <?php echo wp_kses_post( marketify_theme_mod( 'footer-copyright-text' ) ); ?>
+            Made with <i class="fa fa-heart"></i>&nbsp; By Fun Amsterdam in Amsterdam.
+<img src="<?php echo site_url();?>/wp-content/uploads/2016/11/payment-methods-small.png" alt="some_text">
+            <?php //echo wp_kses_post( marketify_theme_mod( 'footer-copyright-text' ) ); ?>
         </div>
     <?php
     }

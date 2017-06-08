@@ -23,6 +23,7 @@ get_header(); ?>
                 the_widget( 'Marketify_Widget_Recent_Downloads', array( 'title' => 'Recent Downloads' ), $args );
             endif;
         ?>
+        
 
     </div><!-- #content -->
 
