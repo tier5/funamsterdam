@@ -16,3 +16,16 @@
 @media screen and (min-width: 992px){
 .site-header{padding: 0px 0 2em 0 !important;}
 }
+
+.cart-customlocation{
+	color:#fff !important;
+}
+.woocommerce-product-gallery__wrapper{
+	display: none;
+}
+.product_title{
+	display: none;
+}
+.price{
+	display: none;
+}

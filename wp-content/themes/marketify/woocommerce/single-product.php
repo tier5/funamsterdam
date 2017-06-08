@@ -19,8 +19,7 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
-
-get_header( 'shop' ); ?>
+get_header( 'product' ); ?>
 
 	<?php
 		/**
@@ -35,6 +34,8 @@ get_header( 'shop' ); ?>
 		<?php while ( have_posts() ) : the_post(); ?>
 
 			<?php wc_get_template_part( 'content', 'single-product' ); ?>
+			<?php //the_excerpt();?>
+			
 
 		<?php endwhile; // end of the loop. ?>
 

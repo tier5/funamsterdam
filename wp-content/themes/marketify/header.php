@@ -55,6 +55,10 @@
                         <h2 class="site-description screen-reader-text"><?php bloginfo( 'description' ); ?></h2>
                     </div>
 
+                    <a class="cart-customlocation" href="<?php echo wc_get_cart_url(); ?>" title="<?php _e( 'View your shopping cart' ); ?>"><i class="fa fa-shopping-cart" aria-hidden="true"></i><?php echo WC()->cart->get_cart_contents_count();?></a>
+
+
+                    
                     <button class="js-toggle-nav-menu--primary nav-menu--primary-toggle"><span class="screen-reader-text"><?php _e( 'Menu', 'marketify' ); ?></span></button>
 
                     <?php

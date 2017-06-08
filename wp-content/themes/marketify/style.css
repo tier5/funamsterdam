@@ -39,3 +39,44 @@ color: #fff;
 .button:hover{
 color: #dd760f !important;
 }
+
+
+
+
+
+
+.header-outer, .minimal, .custom-background.minimal, .wp-playlist .mejs-controls .mejs-time-rail .mejs-time-current
+{background-color: #fff !important;}
+
+.site-header{background: #515A63}
+
+.home .site-header{background: none;}
+
+.woocommerce-breadcrumb{padding: 15px 0 !important; display: none;}
+
+/*.woocommerce div.product{width: 90%; margin: 0 auto;}*/
+
+/*#content{width: 90%; margin: 0 auto;*/}
+
+.product-template-default .woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary
+{width: auto; float: none;}
+
+ul.products li a img{max-height: 120px;}
+
+
+
+
+
+
+.product-template-default.woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images
+{width: auto; float: none;}
+
+
+.woocommerce-product-gallery{max-height: 500px; overflow: hidden;}
+
+
+.woocommerce #content div.product div.summary, .woocommerce div.product div.summary, .woocommerce-page #content div.product div.summary, .woocommerce-page div.product div.summary
+{width: 90%; margin: 0 auto; float: none;}
+
+
+.tax-product_cat #container{width: 90%; margin: 0 auto;}
