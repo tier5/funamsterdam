@@ -8,7 +8,7 @@
     position: absolute;
     top: 0;
     left: 0;
-	display:block!important;
+    display:block!important;
 } */
 .single-download .header-outer::before{display:none !important;}
 .custom_language_select .lang_sel_list_horizontal{border-color:transparent;text-align:right;max-width: 1170px;margin:auto;}
@@ -18,16 +18,16 @@
 }
 
 .cart-customlocation{
-	color:#fff !important;
+    color:#fff !important;
 }
 .single-product .woocommerce-product-gallery__wrapper{
-	display: none;
+    display: none;
 }
 .single-product .product_title{
-	display: none;
+    display: none;
 }
 .single-product p.price{
-	display: none;
+    
 }
 .product_meta{
     display: none;

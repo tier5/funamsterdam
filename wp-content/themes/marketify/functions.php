@@ -155,7 +155,13 @@ function custom_woocommerce_product_add_to_cart_text() {
     }
     
 }
-
+add_filter( 'woocommerce_product_single_add_to_cart_text', 'woo_custom_cart_button_text' );    // 2.1 +
+ 
+function woo_custom_cart_button_text() {
+ 
+        return __( 'ADD TO BOOKING', 'woocommerce' );
+ 
+}
 
 
 add_filter( 'woocommerce_add_to_cart_fragments', 'woocommerce_header_add_to_cart_fragment' );
