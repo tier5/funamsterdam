@@ -48,7 +48,7 @@ color: #dd760f !important;
 .header-outer, .minimal, .custom-background.minimal, .wp-playlist .mejs-controls .mejs-time-rail .mejs-time-current
 {background-color: #fff !important;}
 
-.site-header{background: #515A63}
+.site-header{background: #DD760F}  /*#515A63*/
 
 .home .site-header{background: none;}
 
@@ -85,7 +85,7 @@ ul.products li a img{max-height: 120px;}
 h2{font-size: 37px !important;}
 
 .product-header{ text-align: center; position: relative;}
-.product-header .card-image{width: 100%; max-height: 450px;}
+.product-header .card-image{width: 100%; }
 
 .productpage .site-header{background: transparent; position: absolute; width: 100%;
 top: 50px; z-index: 9999;}
@@ -117,4 +117,21 @@ padding: 15px !important;}
 
 .woocommerce-Price-amount{position: relative;}
 .woocommerce-Price-amount:after{clear: both; content: '';}
+
+.custom_language_select{background: #DD760F;}
+.woocommerce-products-header{background: #DD760F; padding-bottom: 50px;}
+
+
+.edd_download_inner a.button{background: none; border: 1px solid #fff; color: #fff;}
+.edd_download_inner a.button:hover{background: #fff;}
+
+.edd_download_inner .ajax.quick-btn{background: none !important; border: 1px solid #fff; color: #fff;}
+
+.edd_download_inner .ajax.quick-btn:hover{background: #fff !important;}
+
+
+.p-ban{height: 	450px; overflow: hidden;}
+
+
+
 

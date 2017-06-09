@@ -78,8 +78,10 @@
     <div class="product-header" <?php //echo apply_filters( 'marketify_page_header', array() ); ?>>
     <?php if ( has_post_thumbnail( $product->id ) ) {
                         $attachment_ids[0] = get_post_thumbnail_id( $product->id );
-                         $attachment = wp_get_attachment_image_src($attachment_ids[0], 'full' ); ?>    
+                         $attachment = wp_get_attachment_image_src($attachment_ids[0], 'full' ); ?> 
+                         <div class="p-ban">   
                         <img src="<?php echo $attachment[0] ; ?>" class="card-image"  />
+                        </div>
                     <?php } ?>
                     <div class="product-banner-txt">
                     <h2><?php echo get_the_title($product->id);?></h2>
