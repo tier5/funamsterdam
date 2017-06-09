@@ -170,6 +170,20 @@ add_filter( 'woocommerce_add_to_cart_fragments', 'woocommerce_header_add_to_cart
                         
                         return $fragments;
                     }
+
+
+
+ 
+
+remove_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart');
+// Remove the sorting dropdown from Woocommerce
+remove_action( 'woocommerce_before_shop_loop' , 'woocommerce_catalog_ordering', 30 );
+// Remove the result count from WooCommerce
+remove_action( 'woocommerce_before_shop_loop' , 'woocommerce_result_count', 20 );
+
+
+
+                   
                     
 
 

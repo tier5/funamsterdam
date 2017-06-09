@@ -16,4 +16,5 @@
  * @version     2.0.0
  */
 ?>
-<ul class="products">
+<!-- <ul class="products">
+ -->
