@@ -31,21 +31,8 @@
 </head>
 <body <?php body_class(); ?>>
 <?php global $product;?>
-<div id="page" class="hfeed site">
-
-    <div <?php //echo apply_filters( 'marketify_page_header', array() ); ?>>
-    <?php if ( has_post_thumbnail( $product->id ) ) {
-                        $attachment_ids[0] = get_post_thumbnail_id( $product->id );
-                         $attachment = wp_get_attachment_image_src($attachment_ids[0], 'full' ); ?>    
-                        <img src="<?php echo $attachment[0] ; ?>" class="card-image"  />
-                    <?php } ?>
-
-                    <h2><?php echo get_the_title($product->id);?></h2>
-                    <?php echo do_shortcode('[add_to_cart id="'.$product->id.'"]');?>
-                    <?php //echo $currency = get_woocommerce_currency_symbol();?>
-                    <?php  //echo $product->get_price();?>
-	<div class="custom_language_select"><?php do_action('icl_language_selector');?></div>
-        <header id="masthead" class="site-header" role="banner">
+<div id="page" class="hfeed site productpage">
+     <header id="masthead" class="site-header" role="banner">
             <div class="container">
 
                 <div class="site-header-inner">
@@ -55,10 +42,10 @@
                         <?php if ( ! empty( $header_image ) ) : ?>
                             <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home" class="custom-header"><img src="<?php echo esc_url( $header_image ); ?>" alt=""></a>
                         <?php endif;*/ ?>
-						<?php $header_image = get_header_image(); ?>
+                        <?php $header_image = get_header_image(); ?>
                         <?php //if ( ! empty( $header_image ) ) : ?>
                             <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home" class="custom-header"><img src="<?php echo site_url()."/wp-content/uploads/edd/2016/01/cropped-fun-amsterdam-activities.png"; ?>" alt=""></a>
-							<?php /* echo site_url()."<<<>>>".home_url(); */?>
+                            <?php /* echo site_url()."<<<>>>".home_url(); */?>
                         <?php //endif; ?>
 
                        <!--  <h1 class="site-title"><a href="<?php //echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php //bloginfo( 'name' ); ?></a></h1> -->
@@ -88,6 +75,20 @@
 
             </div>
         </header><!-- #masthead -->
+    <div class="product-header" <?php //echo apply_filters( 'marketify_page_header', array() ); ?>>
+    <?php if ( has_post_thumbnail( $product->id ) ) {
+                        $attachment_ids[0] = get_post_thumbnail_id( $product->id );
+                         $attachment = wp_get_attachment_image_src($attachment_ids[0], 'full' ); ?>    
+                        <img src="<?php echo $attachment[0] ; ?>" class="card-image"  />
+                    <?php } ?>
+                    <div class="product-banner-txt">
+                    <h2><?php echo get_the_title($product->id);?></h2>
+                    <?php echo do_shortcode('[add_to_cart id="'.$product->id.'"]');?>
+                    <?php //echo $currency = get_woocommerce_currency_symbol();?>
+                    <?php  //echo $product->get_price();?>
+                    </div>
+	<div class="custom_language_select"><?php do_action('icl_language_selector');?></div>
+       
 
         <div class="search-form-overlay">
             <?php
