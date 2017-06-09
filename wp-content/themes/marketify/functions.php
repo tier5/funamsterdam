@@ -181,6 +181,27 @@ remove_action( 'woocommerce_before_shop_loop' , 'woocommerce_catalog_ordering', 
 // Remove the result count from WooCommerce
 remove_action( 'woocommerce_before_shop_loop' , 'woocommerce_result_count', 20 );
 
+function wp_nav_menu_no_ul()
+{
+    $options = array(
+        'echo' => false,
+        'container' => false,
+        'theme_location' => 'primary',
+        'fallback_cb'=> 'default_page_menu',
+        'menu_class'=> false
+    );
+
+    $menu = wp_nav_menu($options);
+    echo preg_replace(array(
+        '#^<ul[^>]*>#',
+        '#</ul>$#'
+    ), '', $menu);
+
+}
+
+function default_page_menu() {
+   wp_list_pages('title_li=');
+} 
 
 
                    
