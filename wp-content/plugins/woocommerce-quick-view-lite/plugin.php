@@ -31,10 +31,10 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 	add_action( 'ph_wcqv_product_image', 'woocommerce_show_product_images', 20 );
 
 	// Summary
-	add_action( 'ph_wcqv_product_summary', 'woocommerce_template_single_title', 5 );
-	add_action( 'ph_wcqv_product_summary', 'woocommerce_template_single_rating', 10 );
-	add_action( 'ph_wcqv_product_summary', 'woocommerce_template_single_price', 15 );
-	add_action( 'ph_wcqv_product_summary', 'woocommerce_template_single_excerpt', 20 );
+	//add_action( 'ph_wcqv_product_summary', 'woocommerce_template_single_title', 5 );
+	//add_action( 'ph_wcqv_product_summary', 'woocommerce_template_single_rating', 10 );
+	//add_action( 'ph_wcqv_product_summary', 'woocommerce_template_single_price', 15 );
+	//add_action( 'ph_wcqv_product_summary', 'woocommerce_template_single_excerpt', 20 );
 	add_action( 'ph_wcqv_product_summary', 'woocommerce_template_single_add_to_cart', 25 );
 	add_action( 'ph_wcqv_product_summary', 'woocommerce_template_single_meta', 30 );
 	//AJAX

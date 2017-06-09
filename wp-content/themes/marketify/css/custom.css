@@ -20,12 +20,15 @@
 .cart-customlocation{
 	color:#fff !important;
 }
-.woocommerce-product-gallery__wrapper{
+.single-product .woocommerce-product-gallery__wrapper{
 	display: none;
 }
-.product_title{
+.single-product .product_title{
 	display: none;
 }
-.price{
+.single-product p.price{
 	display: none;
+}
+.product_meta{
+    display: none;
 }
