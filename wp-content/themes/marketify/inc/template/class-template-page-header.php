@@ -60,7 +60,7 @@ class Marketify_Template_Page_Header {
 
         the_post();
 ?>
-<div class="page-header page-header--singular container">
+<div class="page-header page-header--singular">
     <h2 class="page-title"><?php the_title(); ?></h2>
 <?php
         rewind_posts();
@@ -116,7 +116,7 @@ class Marketify_Template_Page_Header {
             return;
         }
 ?>
-<div class="page-header page-header--singular container">
+<div class="page-header page-header--singular">
     <h2 class="page-title"><?php _e( 'Oops! That page can&rsquo;t be found.', 'marketify' ); ?></h2>
 <?php
     }

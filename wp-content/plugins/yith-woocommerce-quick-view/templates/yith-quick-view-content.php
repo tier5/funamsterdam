@@ -17,6 +17,7 @@ while ( have_posts() ) : the_post(); ?>
 		<?php do_action( 'yith_wcqv_product_image' ); ?>
 
 		<div class="summary entry-summary">
+		<h3 class="section-title"><span>Buying Options</span></h3>
 			<div class="summary-content">
 				<?php do_action( 'yith_wcqv_product_summary' ); ?>
 			</div>

@@ -32,6 +32,8 @@
 <body <?php body_class(); ?>>
 <?php global $product;?>
 <div id="page" class="hfeed site productpage">
+<div class="custom-header-serach-function">
+
      <header id="masthead" class="site-header" role="banner">
             <div class="container">
 
@@ -57,6 +59,7 @@
 <div class="nav-menu nav-menu--primary">
 <ul id="menu-main-menu-final" class="menu">
     
+<li class="nav-menu-search"><a href="#" class="js-toggle-search"><span class="screen-reader-text">%s</span></a></li>
 
 <li class="current-cart menu-item menu-item-has-children">
     <a href="<?php echo wc_get_checkout_url(); ?>"><span class="edd-cart-quantity"><?php echo WC()->cart->get_cart_contents_count();?></span></a>
@@ -118,9 +121,19 @@
                     <?php } ?>
                     <div class="product-banner-txt">
                     <h2><?php echo get_the_title($product->id);?></h2>
-                    <?php echo do_shortcode('[add_to_cart id="'.$product->id.'"]');?>
-                    <?php //echo $currency = get_woocommerce_currency_symbol();?>
-                    <?php  //echo $product->get_price();?>
+                    <div class="download-header__info download-header__info--actions">
+
+                    <a href="javascript:void(0)" class="button yith-wcqv-button buy-now popup-trigger" data-product_id="<?php echo get_the_ID();?>">Add to Booking</a>
+                    </div>
+                    <div class="download-header__info">
+                        <span itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
+                            <span itemprop="price" class="edd_price">
+                            <span class="edd_price" id="edd_price_63030"><?php echo $currency = get_woocommerce_currency_symbol();?><?php  echo $product->get_price();?></span>    </span>
+                        </span>
+                    </div>
+                    <?php //echo do_shortcode('[add_to_cart id="'.$product->id.'"]');?>
+                    
+                    
                     </div>
     <div class="custom_language_select"><?php do_action('icl_language_selector');?></div>
        
@@ -132,3 +145,4 @@
                 remove_filter( 'get_search_form', array( marketify()->template->header, 'search_form' ) );
             ?>
         </div>
+</div>

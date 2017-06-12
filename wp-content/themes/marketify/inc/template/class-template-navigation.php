@@ -16,12 +16,12 @@ class Marketify_Template_Navigation {
         $searchform = get_search_form( false );
         remove_filter( 'get_search_form', array( marketify()->template->header, 'search_form' ) );
 
-        $link = sprintf( '<li class="nav-menu-search"><a href="#" class="js-toggle-search"><span class="screen-reader-text">%s</span></a>%s</li>', __( 'Search', 'marketify' ), $searchform );
+        $link = sprintf( '', __( 'Search', 'marketify' ), $searchform );
 
         if ( apply_filters( 'marketify_nav_menu_search_icon_left', true ) ) {
             return $link . $items;
         } else {
-            return $items . $link;
+            return $link . $items;
         }
     }
 

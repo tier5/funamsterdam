@@ -65,7 +65,7 @@
 <div class="nav-menu nav-menu--primary">
 <ul id="menu-main-menu-final" class="menu">
     
-
+<li class="nav-menu-search"><a href="#" class="js-toggle-search"><span class="screen-reader-text">%s</span></a></li>
 <li class="current-cart menu-item menu-item-has-children">
     <a href="<?php echo wc_get_checkout_url(); ?>"><span class="edd-cart-quantity"><?php echo WC()->cart->get_cart_contents_count();?></span></a>
    

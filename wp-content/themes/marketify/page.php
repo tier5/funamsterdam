@@ -19,6 +19,7 @@ get_header(); ?>
 
             <div role="main" class="content-area col-md-<?php echo is_active_sidebar( 'sidebar-1' ) ? '8' : '12'; ?> col-xs-12">
 
+
                 <?php if ( have_posts() ) : ?>
 
                     <?php while ( have_posts() ) : the_post(); ?>
@@ -33,6 +34,13 @@ get_header(); ?>
                     <?php get_template_part( 'no-results', 'index' ); ?>
 
                 <?php endif; ?>
+
+                 <?php
+
+if ( WC()->cart->get_cart_contents_count() == 0 && is_page('checkout')) {
+echo 'Your cart is empty.';
+}
+?>
 
             </div><!-- #primary -->
 
