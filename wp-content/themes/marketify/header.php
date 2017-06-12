@@ -34,7 +34,9 @@
 <div id="page" class="hfeed site">
 
     <div <?php echo apply_filters( 'marketify_page_header', array() ); ?>>
-	<div class="custom_language_select"><?php do_action('icl_language_selector');?></div>
+    <div class="custom-header-serach-function">
+        <div class="custom_language_select"><?php do_action('icl_language_selector');?></div>
+
         <header id="masthead" class="site-header" role="banner">
             <div class="container">
 
@@ -124,3 +126,15 @@
                 remove_filter( 'get_search_form', array( marketify()->template->header, 'search_form' ) );
             ?>
         </div>
+       <?php if(is_product_category()){ ?>                       
+
+    <div class="woocommerce-products-header">
+
+    <h1 class="woocommerce-products-header__title page-title"><?php woocommerce_page_title(); ?></h1> 
+    </div>
+<?php } ?>
+
+
+
+
+    </div>    

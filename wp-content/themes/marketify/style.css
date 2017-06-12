@@ -176,13 +176,34 @@ border: 1px solid #DD760F; color: #DD760F !important;}
 .quick-wcqv-main .woocommerce-variation-price{text-align: center;}
 
 
+.woocommerce-checkout .page-header--singular{background: #DD760F;}
+
+.header-outer .container{width: 100%; max-width: 100%;}
+
+
+.woocommerce-checkout .woocommerce-error, .woocommerce-info, .woocommerce-message
+{margin-bottom: 0;}
+
+.woocommerce-checkout .woocommerce-info {border-top-color: #fff;}
+
+
+.woocommerce-cart .page-header--singular{background: #DD760F;}
+
+.woocommerce-cart .woocommerce-info {border-top-color: #fff;}
+
+
+.woocommerce-cart .woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt
+
+{background: #fff; border: 1px solid #a46497; color: #a46497; font-weight: 300;}
 
 
 
+.woocommerce-checkout .woocommerce .col2-set .col-2, .woocommerce-page .col2-set .col-2{float: none; width: 100%;}
+
+.woocommerce-checkout .woocommerce .col2-set .col-1, .woocommerce-page .col2-set .col-1{float: none; width: 100%;}
 
 
-
-
+.input-text {border: 1px solid #bdc3c7; padding: 10px;}
 
 
 
