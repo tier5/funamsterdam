@@ -51,8 +51,9 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 		<?php do_action( 'woocommerce_checkout_after_customer_details' ); ?>
 
 	<?php endif; ?>
+<fieldset id="edd_checkout_user_info" class="cfm-form">
 
-	<h3 id="order_review_heading"><?php _e( 'Your order', 'woocommerce' ); ?></h3>
+	<legend><span><?php _e( 'Your order', 'woocommerce' ); ?></span></legend>
 
 	<?php do_action( 'woocommerce_checkout_before_order_review' ); ?>
 
@@ -61,7 +62,7 @@ if ( ! $checkout->is_registration_enabled() && $checkout->is_registration_requir
 	</div>
 
 	<?php do_action( 'woocommerce_checkout_after_order_review' ); ?>
-
+</fieldset>
 </form>
 
 <?php do_action( 'woocommerce_after_checkout_form', $checkout ); ?>

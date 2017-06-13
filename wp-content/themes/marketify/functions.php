@@ -210,9 +210,37 @@ function default_page_menu() {
 } 
 
 
-                   
-                    
+add_filter( 'body_class','my_body_classes' );
+function my_body_classes( $classes ) {
+if(is_page('contact-us')){
+$classes[] = 'contact-us';
+}elseif(is_page('jobs-2')){
+$classes[] = 'jobs';
+}elseif(is_page('my-account')){
+$classes[] = 'my-account';
+}elseif(is_page('become-a-host')){
+$classes[] = 'become-a-host';
+}elseif(is_page('terms-conditions')){
+$classes[] = 'terms-conditions';
+}elseif(is_page('about-us')){
+$classes[] = 'about-us';
+}elseif(is_page('pay')){
+$classes[] = 'pay';
+}elseif(is_page('quick-amsterdam-quote')){
+$classes[] = 'quick-amsterdam-quote';
+}else{
+$classes[] = "";
+}
 
 
+return $classes;
 
+}
+
+function my_custom_add_to_cart_redirect( $url ) {
+$url = WC()->cart->get_checkout_url();
+// $url = wc_get_checkout_url(); // since WC 2.5.0
+return $url;
+}
+add_filter( 'woocommerce_add_to_cart_redirect', 'my_custom_add_to_cart_redirect' );
 ?>

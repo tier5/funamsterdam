@@ -1,13 +1,13 @@
 <?php
 /**
- * Template Name: Layout: Full Width
+ * Template Name: Full Width width
  *
  * @package Marketify
  */
 
 get_header(); ?>
 
-	<?php //do_action( 'marketify_entry_before' ); ?>
+	<?php do_action( 'marketify_entry_before' ); ?>
 
 	<div class="container">
 		<div id="content" class="site-content row">

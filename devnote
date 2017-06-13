@@ -30,3 +30,14 @@
     2.containere class removed from checkout page.
     3.pagination issue fixed.
     4.cart empty message fixed.
+   Theme V2.9 Stable Released
+    1.Fix design and functionality for home. 
+    2.Fix design and functionality cart, checkout, order details.
+    3.Also take care of header and footer. 
+    4.Look at responsiveness.
+    5.Fixed the page title for some of inner pages.
+    6.Added some of static pages and fixed the design.
+    7.Fixed the image size issue (aspect ratio should be 1:1).
+    8.Make another page template for contact us page,give me a quote.
+    9.Fixed the search issue in single product page.
+   10.Fixed the Footer contact section issue.

@@ -64,8 +64,27 @@ class Marketify_Template_Footer {
     ?>
         <div class="<?php echo $this->get_column_class(); ?>">
             <h3 class="widget-title widget-title--site-footer"><?php echo esc_attr( marketify_theme_mod( 'footer-contact-us-title' ) ); ?></h3>
-
-            <?php echo wp_kses_post( marketify_theme_mod( 'footer-contact-us-address' ) ); ?>
+                    <p>
+                    Email: book@funamsterdam.com
+                    </p>
+                    <p>Whatsapp : +3165 8888 212</p>
+                    <p>UK Hotline:
+                    020 3868 4144</p>
+                    <p>Germany Hotline:
+                    0157 359 86 525</p>
+                    <p></p>
+                    <p>U.S Hotline:
+                    +1-888-840-8060</p>
+                    <p>
+                    The Netherlands:
+                    020 8100 285</p>
+                    <p>
+                    International:
+                    +31 20 8100 285</p>
+                    <p>
+                    Visit us:
+                    Spuistraat 74 Amsterdam</p>
+            <?php //echo wp_kses_post( marketify_theme_mod( 'footer-contact-us-address' ) ); ?>
         </div>
     <?php
     }

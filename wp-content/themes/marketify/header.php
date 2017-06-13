@@ -126,15 +126,21 @@
                 remove_filter( 'get_search_form', array( marketify()->template->header, 'search_form' ) );
             ?>
         </div>
-       <?php if(is_product_category()){ ?>                       
+      <?php if(is_product_category()){ ?>                       
 
     <div class="woocommerce-products-header">
 
     <h1 class="woocommerce-products-header__title page-title"><?php woocommerce_page_title(); ?></h1> 
     </div>
+<?php }else{?>
+<?php if (!is_front_page() && !is_page('contact-us') && !is_page('quick-amsterdam-quote') ) {?>
+    <div class="woocommerce-products-header">
+
+    <h1 class="woocommerce-products-header__title page-title"><?php the_title(); ?></h1>
+    </div>
 <?php } ?>
 
 
 
-
-    </div>    
+<?php } ?>
+    </div>

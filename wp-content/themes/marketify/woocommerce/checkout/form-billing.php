@@ -23,14 +23,16 @@ if ( ! defined( 'ABSPATH' ) ) {
 /** @global WC_Checkout $checkout */
 
 ?>
+<fieldset id="edd_checkout_user_info" class="cfm-form">
 <div class="woocommerce-billing-fields">
+	
 	<?php if ( wc_ship_to_billing_address_only() && WC()->cart->needs_shipping() ) : ?>
 
-		<h3><?php _e( 'Billing &amp; Shipping', 'woocommerce' ); ?></h3>
+		<legend><span><?php _e( 'Billing &amp; Shipping', 'woocommerce' ); ?></span></legend>
 
 	<?php else : ?>
 
-		<h3><?php _e( 'Billing details', 'woocommerce' ); ?></h3>
+		<legend><span><?php _e( 'Billing details', 'woocommerce' ); ?></span></legend>
 
 	<?php endif; ?>
 
@@ -44,7 +46,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 	<?php do_action( 'woocommerce_after_checkout_billing_form', $checkout ); ?>
 </div>
-
+</fieldset>
 <?php if ( ! is_user_logged_in() && $checkout->is_registration_enabled() ) : ?>
 	<div class="woocommerce-account-fields">
 		<?php if ( ! $checkout->is_registration_required() ) : ?>
