@@ -267,9 +267,9 @@ remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_singl
 
 // Add the "Check Availability" button
 
-add_action( 'woocommerce_single_product_summary', function() {
+/*add_action( 'woocommerce_single_product_summary', function() {
     echo '<div class="check-button-wrapper"><a href="#" class="btn btn-color-primary btn-availability">' . __('Check Availability & Price', 'basel-child') . '</a>';
-}, 8 );
+}, 8 );*/
 
 
 
