@@ -1,0 +1,19 @@
+*** WooCommerce Deposits Changelog ***
+
+2015.08.03 - version 1.0.2
+* Fix - Prevent planned orders from further reducing stock. Requires WC 2.4.0 for a needed filter, but works partially in 2.3 for most gateways.
+* Fix - Trigger admin emails for partially paid orders.
+* Fix - Handle forced deposits when creating orders manually.
+* Fix - When scheduling payments, use line item costs rather than product costs.
+
+2015.06.23 - version 1.0.1
+* Feature - Send an email after an order has been partially paid for.
+* Fix - Pass the order ID in to get_related_orders.
+* Fix - Error when trashing a Partially Paid order.
+* Fix - Fix the incorrect saving bug/data corruption that occurs when editing plans.
+* Fix - Schedule display when not 100%.
+* Fix - Don't calc tax when tax is disabled.
+* Tweak - woocommerce_deposits_create_order action when creating an order with deposit/payment plan settings.
+
+2015.06.10 - version 1.0.0
+ * First Release.

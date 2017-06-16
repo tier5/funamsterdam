@@ -123,7 +123,8 @@
                     <h2><?php echo get_the_title($product->id);?></h2>
                     <div class="download-header__info download-header__info--actions">
 
-                    <a href="javascript:void(0)" class="button yith-wcqv-button buy-now popup-trigger" data-product_id="<?php echo get_the_ID();?>">Add to Booking</a>
+                    <a href="javascript:void(0)" class="button yith-wcqv-button buy-now btn btn-color-primary btn-availability" data-product_id="<?php echo get_the_ID();?>">Add to Booking</a>
+                    <!-- <a href="#" class="btn btn-color-primary btn-availability">Check Availability</a> -->
                     </div>
                     <div class="download-header__info">
                         <span itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">

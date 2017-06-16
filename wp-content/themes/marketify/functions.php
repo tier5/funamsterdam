@@ -164,6 +164,11 @@ function woo_custom_cart_button_text() {
 }
 
 
+remove_action( 'woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart');
+
+
+
+
 add_filter( 'woocommerce_add_to_cart_fragments', 'woocommerce_header_add_to_cart_fragment' );
                     function woocommerce_header_add_to_cart_fragment( $fragments ) {
                         ob_start();
@@ -243,4 +248,29 @@ $url = WC()->cart->get_checkout_url();
 return $url;
 }
 add_filter( 'woocommerce_add_to_cart_redirect', 'my_custom_add_to_cart_redirect' );
+
+
+
+add_action( 'wp_enqueue_scripts', 'basel_child_enqueue_styles', 1000 );
+
+function basel_child_enqueue_styles() {
+    
+    
+    
+    wp_enqueue_script( 'basel-child', get_stylesheet_directory_uri() . '/js/child.js', array( 'jquery' ), '', true );
+}
+
+
+// Remove product tags and categories
+
+remove_action( 'woocommerce_single_product_summary', 'woocommerce_template_single_meta', 40 );
+
+// Add the "Check Availability" button
+
+add_action( 'woocommerce_single_product_summary', function() {
+    echo '<div class="check-button-wrapper"><a href="#" class="btn btn-color-primary btn-availability">' . __('Check Availability & Price', 'basel-child') . '</a>';
+}, 8 );
+
+
+
 ?>
