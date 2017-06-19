@@ -251,14 +251,15 @@ add_filter( 'woocommerce_add_to_cart_redirect', 'my_custom_add_to_cart_redirect'
 
 
 
-add_action( 'wp_enqueue_scripts', 'basel_child_enqueue_styles', 1000 );
+add_action( 'wp_enqueue_scripts', 'basel_child_enqueue_styles');
 
 function basel_child_enqueue_styles() {
-    
-    
-    
-    wp_enqueue_script( 'basel-child', get_stylesheet_directory_uri() . '/js/child.js', array( 'jquery' ), '', true );
-}
+        
+        if(is_product()){
+            wp_enqueue_script( 'basel-child', get_template_directory_uri() . '/js/child.js', array( 'jquery' ), '', true );    
+        }
+        
+    }
 
 
 // Remove product tags and categories
